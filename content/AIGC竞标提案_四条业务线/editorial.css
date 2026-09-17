@@ -532,3 +532,82 @@ body.editorial .section-body .gallery-small>.evidence-card>.evidence-button.phon
   body.editorial:not(.present) #career .section-body .offer{--offer-height:390px}
   body.editorial:not(.present) .section-body .gallery-small{--thumb-height:235px;--thumb-gaps:18px;--thumb-fit:1.1}
 }
+
+/* Interview fieldwork: one prominent feature, followed by open research evidence. */
+body.editorial #career .metrics .metric:nth-child(3) .display-number{font-size:76px;letter-spacing:-.065em}
+.editorial #career-research .chapter-label{margin-bottom:22px}
+.editorial .interview-feature{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:48px;padding:38px 42px;background:#075bcc;color:#fff;border-radius:7px;overflow:hidden}
+.editorial .feature-kicker{font-size:13px;letter-spacing:.04em;color:#d4e5ff;margin-bottom:15px}
+.editorial .interview-feature h2{font-size:clamp(27px,2.5vw,37px);line-height:1.4;letter-spacing:-.025em;color:#fff;margin:0}
+.editorial .interview-feature-copy>p{font-size:13px;line-height:1.9;max-width:640px;color:#d9e8ff;margin:17px 0 0}
+.editorial .interview-evidence{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;color:#d9e8ff;font-size:11px;margin:19px 0 0}
+.editorial .interview-evidence i{font-style:normal;opacity:.65}
+.editorial .interview-cta{display:inline-flex;align-items:center;gap:30px;background:#fff;color:#075bcc;padding:12px 18px;min-height:44px;border-radius:4px;font-size:13px;font-weight:600;margin-top:23px;text-decoration:none;transition:background .25s,transform .35s cubic-bezier(.2,.7,.2,1)}
+.editorial .interview-cta:hover{background:#eaf2ff;transform:translateY(-2px)}
+.editorial .interview-cta:focus-visible{outline:2px solid #fff;outline-offset:5px}
+.editorial .interview-feature-number{border-left:1px solid #ffffff40;padding-left:34px;align-self:center}
+.editorial .interview-feature-number>div:first-child{display:flex;align-items:baseline;gap:7px}
+.editorial .interview-feature-number .display-number{font-size:142px;line-height:1.08;color:#fff}
+.editorial .interview-feature-number>div:first-child>span{font-size:17px;color:#d9e8ff}
+.editorial .interview-feature-number>p{font-size:14px;color:#fff;margin:7px 0 21px}
+.editorial .question-composition{display:grid;gap:7px;font-size:12px;color:#d9e8ff}
+.editorial .question-composition b{font-size:18px;color:#fff;margin-right:9px;font-variant-numeric:tabular-nums}
+.editorial .interview-feature-number>small{display:block;margin-top:18px;font-size:10px;line-height:1.8;color:#bdd7ff}
+.editorial .job-research{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.45fr);gap:50px;margin-top:48px;padding-top:40px;border-top:1px solid var(--rule);align-items:start;scroll-margin-top:calc(var(--header-height) + 24px)}
+.editorial .job-research-copy .eyebrow{font-size:11px;letter-spacing:.04em;margin-bottom:12px}
+.editorial .job-research h3{font-size:27px;line-height:1.45;margin:0;color:var(--ink)}
+.editorial .job-sample{display:flex;align-items:center;gap:14px;margin:17px 0 11px}
+.editorial .job-sample .display-number{font-size:65px;color:var(--ink)}
+.editorial .job-sample>span{font-size:12px;line-height:1.8;color:var(--ink)}
+.editorial .job-sample small{font-size:10px;color:var(--muted)}
+.editorial .job-research-copy>p:not(.job-sample){font-size:12px;line-height:1.85;max-width:470px;color:var(--muted);margin-top:12px}
+.editorial .job-model-findings{border-left:2px solid #b5c8bd;padding-left:16px;margin:22px 0 20px}
+.editorial .job-model-findings>span{font-size:10px;color:var(--muted);display:block;margin-bottom:9px}
+.editorial .job-model-findings p{font-size:12px;color:var(--ink);margin:5px 0;line-height:1.6}
+.editorial .job-model-findings b{display:inline-block;min-width:57px;font-size:15px;font-variant-numeric:tabular-nums;color:var(--ink)}
+.editorial .job-research-copy>p.job-teaching-takeaway{color:var(--ink)}
+.editorial .job-evidence-pair{container-type:inline-size;--job-evidence-height:min(435px,calc((100cqw - 28px)/1.41));display:flex;justify-content:space-between;align-items:flex-start;gap:28px}
+.editorial .job-evidence-pair .evidence-card{width:calc(var(--job-evidence-height)*var(--image-ratio));max-width:100%;margin:0;flex:none}
+body.editorial .job-evidence-pair .evidence-button{display:block;width:100%;height:auto;aspect-ratio:auto;border:1px solid var(--rule);border-radius:4px;background:#fff}
+body.editorial .job-evidence-pair .evidence-button img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+.editorial .job-evidence-pair figcaption{padding-top:12px}
+.editorial .job-evidence-pair h4{font-size:12px;line-height:1.65}
+.editorial .job-evidence-pair p{font-size:10px;margin-top:5px;line-height:1.8}
+.editorial .job-scope{max-width:100%;padding-top:19px;border-top:1px solid var(--rule)}
+.editorial .hangzhou-summary{max-width:920px;font-size:13px;line-height:1.9}
+.editorial .hangzhou-summary>p+p{margin-top:13px}
+.editorial.present .interview-feature{padding:26px 32px;gap:34px;grid-template-columns:1fr 240px}
+.editorial.present .interview-feature h2{font-size:32px}
+.editorial.present .interview-feature-copy>p{font-size:12px;margin-top:12px}
+.editorial.present .interview-feature-number .display-number{font-size:124px}
+.editorial.present .interview-evidence{margin-top:12px}
+.editorial.present .interview-cta{margin-top:17px}
+.editorial.present .job-research{margin-top:30px;padding-top:27px;gap:40px}
+.editorial.present .job-research h3{font-size:24px}
+.editorial.present .job-evidence-pair{--job-evidence-height:365px}
+@media(max-width:950px){
+ .editorial:not(.present) .interview-feature{grid-template-columns:1fr 210px;padding:30px;gap:28px}
+ .editorial:not(.present) .interview-feature-number{padding-left:25px}
+ .editorial:not(.present) .interview-feature-number .display-number{font-size:113px}
+ .editorial:not(.present) .job-research{grid-template-columns:1fr;gap:26px}
+ .editorial:not(.present) .job-research-copy{max-width:650px}
+ .editorial:not(.present) .job-research-copy>p:not(.job-sample){max-width:none}
+ .editorial:not(.present) .job-evidence-pair{justify-content:space-evenly}
+}
+@media(max-width:620px){
+ .editorial:not(.present) .interview-feature{grid-template-columns:1fr;gap:24px;padding:25px 23px}
+ .editorial:not(.present) .interview-feature h2{font-size:28px}
+ .editorial:not(.present) .interview-feature-number{border-left:0;border-top:1px solid #ffffff40;padding:18px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:5px 12px;align-items:center}
+ .editorial:not(.present) .interview-feature-number>p{margin:0;font-size:12px}
+ .editorial:not(.present) .interview-feature-number .display-number{font-size:98px}
+ .editorial:not(.present) .interview-feature-number>small{margin:0}
+ .editorial:not(.present) .question-composition{font-size:11px}
+ .editorial:not(.present) .interview-cta{width:100%;justify-content:space-between}
+ .editorial:not(.present) .job-research{margin-top:34px;padding-top:29px}
+ .editorial:not(.present) .job-evidence-pair{gap:18px;--job-evidence-height:min(435px,calc((100cqw - 18px)/1.41));justify-content:space-between}
+ body.editorial:not(.present) #career .metrics .metric:nth-child(3) .display-number{font-size:60px}
+}
+@media print{
+ .editorial .interview-feature{-webkit-print-color-adjust:exact;print-color-adjust:exact;break-inside:avoid}
+ .editorial .job-research{break-inside:avoid}
+}
