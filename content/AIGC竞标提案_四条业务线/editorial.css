@@ -536,7 +536,7 @@ body.editorial .section-body .gallery-small>.evidence-card>.evidence-button.phon
 /* Interview fieldwork: one prominent feature, followed by open research evidence. */
 body.editorial #career .metrics .metric:nth-child(3) .display-number{font-size:76px;letter-spacing:-.065em}
 .editorial #career-research .chapter-label{margin-bottom:22px}
-.editorial .interview-feature{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:48px;padding:38px 42px;background:#075bcc;color:#fff;border-radius:7px;overflow:hidden}
+.editorial .interview-feature{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:48px;padding:38px 42px;background:#111111;color:#fff;border-radius:7px;overflow:hidden}
 .editorial .feature-kicker{font-size:13px;letter-spacing:.04em;color:#d4e5ff;margin-bottom:15px}
 .editorial .interview-feature h2{font-size:clamp(27px,2.5vw,37px);line-height:1.4;letter-spacing:-.025em;color:#fff;margin:0}
 .editorial .interview-feature-copy>p{font-size:13px;line-height:1.9;max-width:640px;color:#d9e8ff;margin:17px 0 0}
