@@ -819,3 +819,22 @@ body.editorial.present #course-extraction .group-carousel .evidence-card{--proof
  .editorial .group-carousel.carousel-ready .group-slide{margin-bottom:25px}
  .editorial .group-controls{display:none}
 }
+
+/* Production canvases use the same directional slide transition as the other floors. */
+.editorial #production .group-carousel{margin-left:-30px;margin-right:-30px}
+.editorial #production .group-controls{margin-top:0;padding:12px 30px 0;border-top:0;flex-wrap:nowrap;gap:24px}
+.editorial #production .group-tabs{flex:1 1 0;overflow-x:auto;gap:18px;scrollbar-width:thin}
+.editorial #production .group-tabs button{flex:none;white-space:nowrap;font-size:11px}
+.editorial #production .group-arrows{flex:none}
+.editorial #production .group-viewport{background:#111}
+.editorial #production .group-slide .showcase{height:100%;margin:0}
+@media(max-width:620px){
+ .editorial:not(.present) #production .group-carousel{margin-left:-24px;margin-right:-24px}
+ .editorial:not(.present) #production .group-controls{padding:9px 24px 0;gap:13px}
+ .editorial:not(.present) #production .group-tabs button{font-size:10px}
+}
+
+/* Center the icons independently of inherited button padding and font baselines. */
+body.editorial .group-arrows button{padding:0;line-height:1;box-sizing:border-box;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+body.editorial .group-arrows button svg{display:block;width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+body.editorial .group-arrows>span{display:flex;align-items:center;justify-content:center;line-height:1;align-self:center}
