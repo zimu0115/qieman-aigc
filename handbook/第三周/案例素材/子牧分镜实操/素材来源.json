@@ -1,0 +1,4364 @@
+{
+  "items": [
+    {
+      "id": "7515a43dd2b4",
+      "file": "01-静态分镜/7515a43dd2-分镜01-libTV提示词对比-v1.png",
+      "name": "分镜01-libTV提示词对比-v1",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v1.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-4c3d7368-3fb4-4d3e-80fd-25a95d43278b.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2068348,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "c3bc2f63680d",
+      "file": "01-静态分镜/c3bc2f6368-分镜01-libTV提示词对比-v2.png",
+      "name": "分镜01-libTV提示词对比-v2",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v2.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-9bd867be-966a-4712-a127-87ab8758f142.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2498911,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "46f7bcf9fe9c",
+      "file": "01-静态分镜/46f7bcf9fe-分镜01-libTV提示词对比-v3.png",
+      "name": "分镜01-libTV提示词对比-v3",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v3.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-32805e41-76a6-4a44-83ee-4ef42cbc1bc9.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2235073,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "4be3bc3224a9",
+      "file": "01-静态分镜/4be3bc3224-分镜01-libTV提示词对比-v4.png",
+      "name": "分镜01-libTV提示词对比-v4",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v4.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-5fa4da7e-6420-493d-98f5-33762e772859.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2079957,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "e3eefea17a1d",
+      "file": "01-静态分镜/e3eefea17a-分镜01-libTV提示词对比-v5.png",
+      "name": "分镜01-libTV提示词对比-v5",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v5.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-b44c2aa3-cb3a-4e9e-a419-ff75b247e4a0.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2001531,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "71c5955c6911",
+      "file": "01-静态分镜/71c5955c69-分镜01-libTV提示词对比-v6.png",
+      "name": "分镜01-libTV提示词对比-v6",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v6.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-4686a636-d45c-415d-94ac-839c76feea72.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1990576,
+      "status": "对应效果获明确认可",
+      "note": "见实操复盘的对应回合；仅表示该次设计或位置选择。"
+    },
+    {
+      "id": "3b83807113ef",
+      "file": "01-静态分镜/3b83807113-分镜02-人物资产组成部分-v1.png",
+      "name": "分镜02-人物资产组成部分-v1",
+      "category": "01-静态分镜",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v1.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-360775f6-1352-42ab-b649-d2161839d64f.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1955528,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "465492a342a6",
+      "file": "01-静态分镜/465492a342-分镜02-人物资产组成部分-v2-纯文字竖标签.png",
+      "name": "分镜02-人物资产组成部分-v2-纯文字竖标签",
+      "category": "01-静态分镜",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v2-纯文字竖标签.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-c50b78a4-41d1-4a29-87e2-937ec13e7f23.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2676792,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "f472841ba331",
+      "file": "01-静态分镜/f472841ba3-分镜02-人物资产组成部分-v3-黑色精简竖标签.png",
+      "name": "分镜02-人物资产组成部分-v3-黑色精简竖标签",
+      "category": "01-静态分镜",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v3-黑色精简竖标签.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-8568a777-922c-4bca-901e-2dc881281b60.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2094600,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "2646e19bb890",
+      "file": "01-静态分镜/2646e19bb8-分镜02-人物资产组成部分-v4-加宽做旧边缘.png",
+      "name": "分镜02-人物资产组成部分-v4-加宽做旧边缘",
+      "category": "01-静态分镜",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v4-加宽做旧边缘.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-2e2495ae-e841-4401-8a8b-36d13b8b0e79.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1937325,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "41b1de78e997",
+      "file": "01-静态分镜/41b1de78e9-分镜02-人物资产组成部分-v5-缩小卡内文字与图标.png",
+      "name": "分镜02-人物资产组成部分-v5-缩小卡内文字与图标",
+      "category": "01-静态分镜",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v5-缩小卡内文字与图标.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-ecfdaea6-e228-4c07-a7d9-f7191b3bc5b0.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1663883,
+      "status": "对应效果获明确认可",
+      "note": "见实操复盘的对应回合；仅表示该次设计或位置选择。"
+    },
+    {
+      "id": "4a6592216404",
+      "file": "05-制作字样/4a65922164-分镜02-人物资产组成部分-字体字样参考.png",
+      "name": "分镜02-人物资产组成部分-字体字样参考",
+      "category": "05-制作字样",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-字体字样参考.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 750,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 56816,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "1369b2f63fa3",
+      "file": "05-制作字样/1369b2f63f-分镜02-纯文字目录-中英字体字样参考.png",
+      "name": "分镜02-纯文字目录-中英字体字样参考",
+      "category": "05-制作字样",
+      "group": "分镜02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-纯文字目录-中英字体字样参考.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 1100,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 67573,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "11090afd823c",
+      "file": "01-静态分镜/11090afd82-分镜03-人物资产制作章节标题-v1.png",
+      "name": "分镜03-人物资产制作章节标题-v1",
+      "category": "01-静态分镜",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v1.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-19fe103d-d53f-417a-b6c2-d9766cc0033d.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2197791,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "85164fcc2681",
+      "file": "01-静态分镜/85164fcc26-分镜03-人物资产制作章节标题-v2-黑圆反白.png",
+      "name": "分镜03-人物资产制作章节标题-v2-黑圆反白",
+      "category": "01-静态分镜",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v2-黑圆反白.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a793e26e-f1e1-486b-9368-8186637a8829.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1891620,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "9c2c326b6dac",
+      "file": "01-静态分镜/9c2c326b6d-分镜03-人物资产制作章节标题-v3-黑石古纹.png",
+      "name": "分镜03-人物资产制作章节标题-v3-黑石古纹",
+      "category": "01-静态分镜",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v3-黑石古纹.png",
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-确认版.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-v07-黑石纹理参考.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a751515b-f9ef-4c92-b891-f0068b8eb129.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2888001,
+      "status": "对应效果获明确认可",
+      "note": "见实操复盘的对应回合；仅表示该次设计或位置选择。"
+    },
+    {
+      "id": "74356695120c",
+      "file": "01-静态分镜/7435669512-分镜03-人物资产制作章节标题-v4-精细古纹.png",
+      "name": "分镜03-人物资产制作章节标题-v4-精细古纹",
+      "category": "01-静态分镜",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v4-精细古纹.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-976ff4f7-a3ce-4530-a45e-675f5838264a.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2576949,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "57f42f24bdde",
+      "file": "01-静态分镜/57f42f24bd-分镜03-人物资产制作章节标题-v5-断续云纹.png",
+      "name": "分镜03-人物资产制作章节标题-v5-断续云纹",
+      "category": "01-静态分镜",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v5-断续云纹.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-2f7cec20-0b12-424b-b1f6-db489a320ac0.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2416315,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "3721e0ecba53",
+      "file": "01-静态分镜/3721e0ecba-分镜03-人物资产制作章节标题-v6-石刻弧纹.png",
+      "name": "分镜03-人物资产制作章节标题-v6-石刻弧纹",
+      "category": "01-静态分镜",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v6-石刻弧纹.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-de9145fe-e820-4135-a5b3-6de2c4f7869b.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2430553,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "a1ddcd77c05d",
+      "file": "05-制作字样/a1ddcd77c0-分镜03-章节标题-喜鹊古字典体字样参考.png",
+      "name": "分镜03-章节标题-喜鹊古字典体字样参考",
+      "category": "05-制作字样",
+      "group": "分镜03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-章节标题-喜鹊古字典体字样参考.png"
+      ],
+      "image": {
+        "width": 1800,
+        "height": 850,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 71502,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "9ba0593a0a7d",
+      "file": "05-制作字样/9ba0593a0a-分镜04-v3-文楷标签字样.png",
+      "name": "分镜04-v3-文楷标签字样",
+      "category": "05-制作字样",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-v3-文楷标签字样.png"
+      ],
+      "image": {
+        "width": 720,
+        "height": 543,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 25443,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "8062214f7623",
+      "file": "05-制作字样/8062214f76-分镜04-v4-寒蝉活仿楷标签字样.png",
+      "name": "分镜04-v4-寒蝉活仿楷标签字样",
+      "category": "05-制作字样",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-v4-寒蝉活仿楷标签字样.png"
+      ],
+      "image": {
+        "width": 620,
+        "height": 474,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 21723,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "eb3e6e509bdf",
+      "file": "05-制作字样/eb3e6e509b-分镜04-人物小传-喜鹊古字典体字样参考.png",
+      "name": "分镜04-人物小传-喜鹊古字典体字样参考",
+      "category": "05-制作字样",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传-喜鹊古字典体字样参考.png"
+      ],
+      "image": {
+        "width": 1200,
+        "height": 900,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 43092,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "5e797589ad41",
+      "file": "01-静态分镜/5e797589ad-分镜04-人物小传与提示词-v1.png",
+      "name": "分镜04-人物小传与提示词-v1",
+      "category": "01-静态分镜",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v1.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-0106c652-4022-41e2-aac8-0d22a7dc7795.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2011961,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "ed8a247e54df",
+      "file": "01-静态分镜/ed8a247e54-分镜04-人物小传与提示词-v2-通屏左对齐.png",
+      "name": "分镜04-人物小传与提示词-v2-通屏左对齐",
+      "category": "01-静态分镜",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v2-通屏左对齐.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-60cd1597-5af0-4b93-92f6-2f09342d790f.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1936992,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "3e593e416618",
+      "file": "01-静态分镜/3e593e4166-分镜04-人物小传与提示词-v3-文楷标签.png",
+      "name": "分镜04-人物小传与提示词-v3-文楷标签",
+      "category": "01-静态分镜",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v3-文楷标签.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-95ceaee9-9a17-43f1-b81e-f17a58636003.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1841111,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "afc2659984d5",
+      "file": "01-静态分镜/afc2659984-分镜04-人物小传与提示词-v4-寒蝉小标题.png",
+      "name": "分镜04-人物小传与提示词-v4-寒蝉小标题",
+      "category": "01-静态分镜",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v4-寒蝉小标题.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-4bfd2ed2-01da-4941-9952-71b859ae5cd0.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1807140,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "8a6ee4d2240c",
+      "file": "01-静态分镜/8a6ee4d224-分镜04-人物小传与提示词-v5-标签再缩小.png",
+      "name": "分镜04-人物小传与提示词-v5-标签再缩小",
+      "category": "01-静态分镜",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v5-标签再缩小.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v08-0a2223/.制作参考/S02-v08-寒蝉标签字号参考.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-8dab75d2-f0c5-4247-bf0c-6eabaa687844.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1736554,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "713ccd1f24de",
+      "file": "01-静态分镜/713ccd1f24-分镜04-人物小传与提示词-v6-标签等宽居中.png",
+      "name": "分镜04-人物小传与提示词-v6-标签等宽居中",
+      "category": "01-静态分镜",
+      "group": "分镜04",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v6-标签等宽居中.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-1db489a6-89e4-4807-9791-cdd933396cd1.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1679015,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "f75859e95967",
+      "file": "01-静态分镜/f75859e959-分镜05-表格样式-v1-浅色黑框.png",
+      "name": "分镜05-表格样式-v1-浅色黑框",
+      "category": "01-静态分镜",
+      "group": "分镜05",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v1-浅色黑框.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-ffb2eab4-137e-4def-9dfe-ee26f75043e3.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1275300,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "1477bff9f465",
+      "file": "01-静态分镜/1477bff9f4-分镜05-表格样式-v1-黑石白框.png",
+      "name": "分镜05-表格样式-v1-黑石白框",
+      "category": "01-静态分镜",
+      "group": "分镜05",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v1-黑石白框.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-6e837eab-20f8-49be-b5dd-2db1dab4b727.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2153982,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "a76dfd0f3574",
+      "file": "01-静态分镜/a76dfd0f35-分镜05-表格样式-v2-浅色紧凑版.png",
+      "name": "分镜05-表格样式-v2-浅色紧凑版",
+      "category": "01-静态分镜",
+      "group": "分镜05",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v2-浅色紧凑版.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-37c7ddf0-3bf8-4582-bfb6-5329b4f690cd.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1457538,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "4ee4b93c9ccc",
+      "file": "01-静态分镜/4ee4b93c9c-分镜05-表格样式-v2-黑石紧凑版.png",
+      "name": "分镜05-表格样式-v2-黑石紧凑版",
+      "category": "01-静态分镜",
+      "group": "分镜05",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v2-黑石紧凑版.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-d1b09f0f-5efa-4d87-b6e3-7279fd7422ff.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2762213,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "3d34f198c1ce",
+      "file": "05-制作字样/3d34f198c1-分镜05-表格页-标题与正文真字体参考.png",
+      "name": "分镜05-表格页-标题与正文真字体参考",
+      "category": "05-制作字样",
+      "group": "分镜05",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格页-标题与正文真字体参考.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 850,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 20524,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "c6a6971d6f15",
+      "file": "05-制作字样/c6a6971d6f-分镜06-AI视频生成方式-v1-字样.png",
+      "name": "分镜06-AI视频生成方式-v1-字样",
+      "category": "05-制作字样",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v1-字样.png"
+      ],
+      "image": {
+        "width": 1400,
+        "height": 430,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 28835,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "4b7285cb5992",
+      "file": "01-静态分镜/4b7285cb59-分镜06-AI视频生成方式-v1-黑白排线.png",
+      "name": "分镜06-AI视频生成方式-v1-黑白排线",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v1-黑白排线.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a1d370e4-4822-4569-8203-9d30932c92f5.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2380161,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "8725bcc54f6a",
+      "file": "01-静态分镜/8725bcc54f-分镜06-AI视频生成方式-v10-精细复古版画.png",
+      "name": "分镜06-AI视频生成方式-v10-精细复古版画",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v10-精细复古版画.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-5ee3d9c7-4423-441c-90aa-21d77d802c7d.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2253271,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "65d141b21e5e",
+      "file": "01-静态分镜/65d141b21e-分镜06-AI视频生成方式-v12-全新油画配图.png",
+      "name": "分镜06-AI视频生成方式-v12-全新油画配图",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v12-全新油画配图.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-dca993f8-3ff3-409c-af79-3ffd98254e15.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2258344,
+      "status": "对应效果获明确认可",
+      "note": "见实操复盘的对应回合；仅表示该次设计或位置选择。"
+    },
+    {
+      "id": "14f1f18204c3",
+      "file": "01-静态分镜/14f1f18204-分镜06-AI视频生成方式-v2-上下相连竖卡.png",
+      "name": "分镜06-AI视频生成方式-v2-上下相连竖卡",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v2-上下相连竖卡.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-87332513-b0ee-4cb8-96fe-9ff7f965884e.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2272407,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "6968f1bac3dc",
+      "file": "01-静态分镜/6968f1bac3-分镜06-AI视频生成方式-v3-完整场景与缺墨边框.png",
+      "name": "分镜06-AI视频生成方式-v3-完整场景与缺墨边框",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v3-完整场景与缺墨边框.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-13ade2c9-3eef-4c9c-a429-653f14911962.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2693128,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "8d2a664c50c6",
+      "file": "01-静态分镜/8d2a664c50-分镜06-AI视频生成方式-v4-缩小与轻微不规则边缘.png",
+      "name": "分镜06-AI视频生成方式-v4-缩小与轻微不规则边缘",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v4-缩小与轻微不规则边缘.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-2ddd9373-0ef3-43f7-afa4-32048dcd6e60.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2327696,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "5e93d8917034",
+      "file": "01-静态分镜/5e93d89170-分镜06-AI视频生成方式-v5-整体上移留字幕区.png",
+      "name": "分镜06-AI视频生成方式-v5-整体上移留字幕区",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v5-整体上移留字幕区.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-98082372-7fd7-46f8-afdd-1d4d64926f0f.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2178272,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "d7bfff9725e5",
+      "file": "01-静态分镜/d7bfff9725-分镜06-AI视频生成方式-v6-位置折中.png",
+      "name": "分镜06-AI视频生成方式-v6-位置折中",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v6-位置折中.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a4a8d6af-6c41-4323-a635-3e86a11db98b.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2175799,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "c13e7e14cb31",
+      "file": "01-静态分镜/c13e7e14cb-分镜06-AI视频生成方式-v7-原版整体上移.png",
+      "name": "分镜06-AI视频生成方式-v7-原版整体上移",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v7-原版整体上移.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-dcbd08b3-cff0-47ff-8d06-286b7c4219a4.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2188352,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "e58882f61aba",
+      "file": "01-静态分镜/e58882f61a-分镜06-AI视频生成方式-v8-原图平移折中.png",
+      "name": "分镜06-AI视频生成方式-v8-原图平移折中",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v8-原图平移折中.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2390417,
+      "status": "对应效果获明确认可",
+      "note": "见实操复盘的对应回合；仅表示该次设计或位置选择。"
+    },
+    {
+      "id": "fa2d501bb7d9",
+      "file": "01-静态分镜/fa2d501bb7-分镜06-AI视频生成方式-v9-简化抽象排线.png",
+      "name": "分镜06-AI视频生成方式-v9-简化抽象排线",
+      "category": "01-静态分镜",
+      "group": "分镜06",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v9-简化抽象排线.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-32fbcc56-7962-47f8-b760-ed94d17509c5.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2070558,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "da1856fecd1c",
+      "file": "02-动效版本/da1856fecd-S02-v01-资产分离.mp4",
+      "name": "S02-v01-资产分离",
+      "category": "02-动效版本",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v01-492bfe/S02-v01-资产分离.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 1158286,
+      "status": "历史视频版本",
+      "note": "保留原输出作过程比较；不推定每版都经用户采用。",
+      "poster": "09-视频预览帧/da1856fecd1c.jpg",
+      "poster_time": "1.5"
+    },
+    {
+      "id": "6711d352ac85",
+      "file": "02-动效版本/6711d352ac-S02-v02-资产融合.mp4",
+      "name": "S02-v02-资产融合",
+      "category": "02-动效版本",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v02-47db75/S02-v02-资产融合.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 4168549,
+      "status": "运动获认可／播放时机后续修改",
+      "note": "肯定文字动作后，要求视频从淡入开始播放。",
+      "poster": "09-视频预览帧/6711d352ac85.jpg",
+      "poster_time": "2.5"
+    },
+    {
+      "id": "1712a0375d9f",
+      "file": "02-动效版本/1712a0375d-S02-v03-资产融合.mp4",
+      "name": "S02-v03-资产融合",
+      "category": "02-动效版本",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v03-ffad1f/S02-v03-资产融合.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 3930912,
+      "status": "历史视频版本",
+      "note": "保留原输出作过程比较；不推定每版都经用户采用。",
+      "poster": "09-视频预览帧/1712a0375d9f.jpg",
+      "poster_time": "2.5"
+    },
+    {
+      "id": "71c3d9f9d6a7",
+      "file": "01-静态分镜/71c3d9f9d6-喜鹊古字典体-prompt与紧行距参考.png",
+      "name": "喜鹊古字典体-prompt与紧行距参考",
+      "category": "01-静态分镜",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/喜鹊古字典体-prompt与紧行距参考.png"
+      ],
+      "image": {
+        "width": 1000,
+        "height": 600,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 45646,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "96403cebe3c8",
+      "file": "05-制作字样/96403cebe3-喜鹊古字典体-本镜字样参考.png",
+      "name": "喜鹊古字典体-本镜字样参考",
+      "category": "05-制作字样",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/喜鹊古字典体-本镜字样参考.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 1000,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 83167,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "af89785404c7",
+      "file": "01-静态分镜/af89785404-01-人物资产组成部分-胶囊卡片.png",
+      "name": "01-人物资产组成部分-胶囊卡片",
+      "category": "01-静态分镜",
+      "group": "圆角形状试样-v1",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圆角形状试样-v1/01-人物资产组成部分-胶囊卡片.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-f8ccfc7f-5da6-4bf9-9fa3-f9ebd5fd3caa.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1507484,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "47b206ab2371",
+      "file": "01-静态分镜/47b206ab23-02-人物小传-右上圆角标签.png",
+      "name": "02-人物小传-右上圆角标签",
+      "category": "01-静态分镜",
+      "group": "圆角形状试样-v1",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圆角形状试样-v1/02-人物小传-右上圆角标签.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-8455f778-3b44-4e7f-802d-e2d957521a51.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1667229,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "55a8372f63d1",
+      "file": "01-静态分镜/55a8372f63-03-AI视频生成方式-3比4拱形卡片.png",
+      "name": "03-AI视频生成方式-3比4拱形卡片",
+      "category": "01-静态分镜",
+      "group": "圆角形状试样-v1",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圆角形状试样-v1/03-AI视频生成方式-3比4拱形卡片.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-24ceabdd-41f7-4bc9-960c-38cd6d6adb6d.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1999863,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "38eeb573d76e",
+      "file": "02-动效版本/38eeb573d7-圈线与双箭头生长-1秒-v1.mp4",
+      "name": "圈线与双箭头生长-1秒-v1",
+      "category": "02-动效版本",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与双箭头生长-1秒-v1.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 276333,
+      "status": "历史视频版本",
+      "note": "保留原输出作过程比较；不推定每版都经用户采用。",
+      "poster": "09-视频预览帧/38eeb573d76e.jpg",
+      "poster_time": "0.75"
+    },
+    {
+      "id": "a60c455a3cc1",
+      "file": "02-动效版本/a60c455a3c-圈线与双箭头生长-3秒-v2.mp4",
+      "name": "圈线与双箭头生长-3秒-v2",
+      "category": "02-动效版本",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与双箭头生长-3秒-v2.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 321717,
+      "status": "历史视频版本",
+      "note": "保留原输出作过程比较；不推定每版都经用户采用。",
+      "poster": "09-视频预览帧/a60c455a3cc1.jpg",
+      "poster_time": "0.75"
+    },
+    {
+      "id": "6e936161f759",
+      "file": "02-动效版本/6e936161f7-圈线与双箭头生长-3秒-v3-慢快慢.mp4",
+      "name": "圈线与双箭头生长-3秒-v3-慢快慢",
+      "category": "02-动效版本",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与双箭头生长-3秒-v3-慢快慢.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 321365,
+      "status": "历史视频版本",
+      "note": "保留原输出作过程比较；不推定每版都经用户采用。",
+      "poster": "09-视频预览帧/6e936161f759.jpg",
+      "poster_time": "0.75"
+    },
+    {
+      "id": "b5b6cbabd7e8",
+      "file": "02-动效版本/b5b6cbabd7-圈线与箭头生长-2秒-v4-错开3帧.mp4",
+      "name": "圈线与箭头生长-2秒-v4-错开3帧",
+      "category": "02-动效版本",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与箭头生长-2秒-v4-错开3帧.mp4"
+      ],
+      "image": null,
+      "origin": "原项目文件",
+      "bytes": 299319,
+      "status": "历史视频版本",
+      "note": "保留原输出作过程比较；不推定每版都经用户采用。",
+      "poster": "09-视频预览帧/b5b6cbabd7e8.jpg",
+      "poster_time": "0.75"
+    },
+    {
+      "id": "ce714fdea4d3",
+      "file": "01-静态分镜/ce714fdea4-分镜01-人物对比-纸质相框-v1.png",
+      "name": "分镜01-人物对比-纸质相框-v1",
+      "category": "01-静态分镜",
+      "group": "分镜01",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/相框样式试样-v1/分镜01-人物对比-纸质相框-v1.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-1543ce25-b1b3-46da-a3c0-6d60f90aca80.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1953458,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "2038437cf3a6",
+      "file": "05-制作字样/2038437cf3-汇文明朝体-相框文字字样.png",
+      "name": "汇文明朝体-相框文字字样",
+      "category": "05-制作字样",
+      "group": "相框样式试样-v1",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/相框样式试样-v1/汇文明朝体-相框文字字样.png"
+      ],
+      "image": {
+        "width": 960,
+        "height": 300,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 42470,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "a2276b8edfe4",
+      "file": "01-静态分镜/a2276b8edf-配图06-图生图-v12-全新油画.png",
+      "name": "配图06-图生图-v12-全新油画",
+      "category": "01-静态分镜",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/配图06-图生图-v12-全新油画.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-67ee8246-4ac8-4b25-aa66-33a1747d2f93.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2626390,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "0e5e3445397f",
+      "file": "01-静态分镜/0e5e344539-配图06-文生图-v12-全新油画.png",
+      "name": "配图06-文生图-v12-全新油画",
+      "category": "01-静态分镜",
+      "group": "output",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/配图06-文生图-v12-全新油画.png",
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-3e0b2e1b-e998-4a9c-8d00-2a02280e2234.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2560038,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "044459916ae0",
+      "file": "01-静态分镜/044459916a-Group-143-复古纸张正色版-v2.png",
+      "name": "Group-143-复古纸张正色版-v2",
+      "category": "01-静态分镜",
+      "group": "纸张配图",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/Group-143-复古纸张正色版-v2.png",
+        "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-7ea1ede5-2bd6-46bc-9cc2-98ffd2934a60.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2047977,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "44a44c435d04",
+      "file": "01-静态分镜/44a44c435d-可灵AI-复古纸张版.png",
+      "name": "可灵AI-复古纸张版",
+      "category": "01-静态分镜",
+      "group": "纸张配图",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/可灵AI-复古纸张版.png",
+        "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-3190cdcc-4694-48c7-8507-a3878ee1dc10.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 3015574,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "71b560fd4190",
+      "file": "01-静态分镜/71b560fd41-Group-143-复古纸张版.png",
+      "name": "Group-143-复古纸张版",
+      "category": "01-静态分镜",
+      "group": "纸张配图",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/Group-143-复古纸张版.png",
+        "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-1b512ec8-2665-47c4-ac50-eababae0581e.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2452033,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "0ab8121a14a9",
+      "file": "01-静态分镜/0ab8121a14-即梦AI-复古纸张版.png",
+      "name": "即梦AI-复古纸张版",
+      "category": "01-静态分镜",
+      "group": "纸张配图",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/即梦AI-复古纸张版.png",
+        "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-f22439b3-1897-4afc-907a-f48aa486c49f.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2954025,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "dc2706d4c207",
+      "file": "01-静态分镜/dc2706d4c2-即梦AI-复古纸张正色版-v2.png",
+      "name": "即梦AI-复古纸张正色版-v2",
+      "category": "01-静态分镜",
+      "group": "纸张配图",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/即梦AI-复古纸张正色版-v2.png",
+        "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-094c325f-8f33-4cf1-ad5a-0c1e5ff5e45d.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2636220,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "0e670476bb79",
+      "file": "01-静态分镜/0e670476bb-Group-141-复古纸张版.png",
+      "name": "Group-141-复古纸张版",
+      "category": "01-静态分镜",
+      "group": "纸张配图",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/Group-141-复古纸张版.png",
+        "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-70cfe56d-d515-4931-8958-eb3890fa2d6a.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2786858,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "5922df048789",
+      "file": "03-拆分素材/5922df0487-S01-v01-E02-左侧截图-可见区域.png",
+      "name": "S01-v01-E02-左侧截图-可见区域",
+      "category": "03-拆分素材",
+      "group": "S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E02-左侧截图-可见区域.png"
+      ],
+      "image": {
+        "width": 928,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 1101122,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "480704a3d8fd",
+      "file": "03-拆分素材/480704a3d8-S01-v01-E03-人物小传主标题.png",
+      "name": "S01-v01-E03-人物小传主标题",
+      "category": "03-拆分素材",
+      "group": "S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E03-人物小传主标题.png"
+      ],
+      "image": {
+        "width": 348,
+        "height": 86,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 45153,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "297818af7650",
+      "file": "03-拆分素材/297818af76-S01-v01-E04-身份标签-整体.png",
+      "name": "S01-v01-E04-身份标签-整体",
+      "category": "03-拆分素材",
+      "group": "S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E04-身份标签-整体.png"
+      ],
+      "image": {
+        "width": 348,
+        "height": 100,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 40342,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "4391efb24d0d",
+      "file": "03-拆分素材/4391efb24d-S01-v01-E05-经历标签-整体.png",
+      "name": "S01-v01-E05-经历标签-整体",
+      "category": "03-拆分素材",
+      "group": "S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E05-经历标签-整体.png"
+      ],
+      "image": {
+        "width": 348,
+        "height": 98,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 40162,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "873f9fa15486",
+      "file": "03-拆分素材/873f9fa154-S01-v01-E06-职业标签-整体.png",
+      "name": "S01-v01-E06-职业标签-整体",
+      "category": "03-拆分素材",
+      "group": "S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E06-职业标签-整体.png"
+      ],
+      "image": {
+        "width": 348,
+        "height": 101,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 39607,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "db1726a9f04b",
+      "file": "03-拆分素材/db1726a9f0-S01-v01-E07-现在状态标签-整体.png",
+      "name": "S01-v01-E07-现在状态标签-整体",
+      "category": "03-拆分素材",
+      "group": "S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E07-现在状态标签-整体.png"
+      ],
+      "image": {
+        "width": 348,
+        "height": 102,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 44742,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "32042dbed318",
+      "file": "03-拆分素材/32042dbed3-S03-v01-E02-主标题-AI视频生成方式.png",
+      "name": "S03-v01-E02-主标题-AI视频生成方式",
+      "category": "03-拆分素材",
+      "group": "S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561/02-elements/S03-v01-E02-主标题-AI视频生成方式.png"
+      ],
+      "image": {
+        "width": 550,
+        "height": 75,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 76140,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "17716c7117fb",
+      "file": "03-拆分素材/17716c7117-S03-v01-E03-左侧文生图卡片-整体.png",
+      "name": "S03-v01-E03-左侧文生图卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561/02-elements/S03-v01-E03-左侧文生图卡片-整体.png"
+      ],
+      "image": {
+        "width": 371,
+        "height": 693,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 442815,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "2bf514bd24fc",
+      "file": "03-拆分素材/2bf514bd24-S03-v01-E04-右侧图生图卡片-整体.png",
+      "name": "S03-v01-E04-右侧图生图卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561/02-elements/S03-v01-E04-右侧图生图卡片-整体.png"
+      ],
+      "image": {
+        "width": 373,
+        "height": 693,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 439262,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "5ce212650ce9",
+      "file": "03-拆分素材/5ce212650c-S04-v01-E01-主标题-人物资产组成部分.png",
+      "name": "S04-v01-E01-主标题-人物资产组成部分",
+      "category": "03-拆分素材",
+      "group": "S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E01-主标题-人物资产组成部分.png"
+      ],
+      "image": {
+        "width": 543,
+        "height": 69,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 65083,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "71f319f601c0",
+      "file": "03-拆分素材/71f319f601-S04-v01-E02-人脸胶囊卡片-整体.png",
+      "name": "S04-v01-E02-人脸胶囊卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E02-人脸胶囊卡片-整体.png"
+      ],
+      "image": {
+        "width": 274,
+        "height": 579,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 173185,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "d3b946c91dfa",
+      "file": "03-拆分素材/d3b946c91d-S04-v01-E03-发型胶囊卡片-整体.png",
+      "name": "S04-v01-E03-发型胶囊卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E03-发型胶囊卡片-整体.png"
+      ],
+      "image": {
+        "width": 275,
+        "height": 580,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 179369,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "59c2cbe91e21",
+      "file": "03-拆分素材/59c2cbe91e-S04-v01-E04-衣着胶囊卡片-整体.png",
+      "name": "S04-v01-E04-衣着胶囊卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E04-衣着胶囊卡片-整体.png"
+      ],
+      "image": {
+        "width": 273,
+        "height": 581,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 179354,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "da2b3d3b5682",
+      "file": "03-拆分素材/da2b3d3b56-S04-v01-E05-记忆点胶囊卡片-整体.png",
+      "name": "S04-v01-E05-记忆点胶囊卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E05-记忆点胶囊卡片-整体.png"
+      ],
+      "image": {
+        "width": 275,
+        "height": 580,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 183633,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "d9248ab3a741",
+      "file": "01-静态分镜/d9248ab3a7-S01-场景资产-v02.png",
+      "name": "S01-场景资产-v02",
+      "category": "01-静态分镜",
+      "group": "测试-S01-我需要做一个标题页：主标题是02.场景资产 副标",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S01-我需要做一个标题页：主标题是02.场景资产 副标/v02-aa1f58/S01-场景资产-v02.png",
+        "/Users/zimu/.codex/generated_images/01a0959d-8e10-7442-8309-5da6158dc24b/exec-0047d1fe-08de-476b-a1cc-b6dcad765bbe.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2623171,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "74db7e61a06e",
+      "file": "01-静态分镜/74db7e61a0-S02-匠心系列·课程目录-v01.png",
+      "name": "S02-匠心系列·课程目录-v01",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v01-ccc67b/S02-匠心系列·课程目录-v01.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-813ff357-64b4-4dd7-aaf0-b3a1db10e048.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2220505,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "c3649f51a64d",
+      "file": "05-制作字样/c3649f51a6-S02-匠心系列·课程目录-v02-字体字样.png",
+      "name": "S02-匠心系列·课程目录-v02-字体字样",
+      "category": "05-制作字样",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v02-eb9e32/S02-匠心系列·课程目录-v02-字体字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 1032,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 253576,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "02bba44263fd",
+      "file": "01-静态分镜/02bba44263-S02-匠心系列·课程目录-v02.png",
+      "name": "S02-匠心系列·课程目录-v02",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v02-eb9e32/S02-匠心系列·课程目录-v02.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-cae58654-8539-4aff-88ee-f2107af4e141.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2540066,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "5bea1accca3c",
+      "file": "05-制作字样/5bea1accca-S02-匠心系列·课程目录-v03-字体字样.png",
+      "name": "S02-匠心系列·课程目录-v03-字体字样",
+      "category": "05-制作字样",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v03-209512/.制作参考/S02-匠心系列·课程目录-v03-字体字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 859,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 200089,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "7cba03501a60",
+      "file": "01-静态分镜/7cba03501a-S02-匠心系列·课程目录-v03.png",
+      "name": "S02-匠心系列·课程目录-v03",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v03-209512/S02-匠心系列·课程目录-v03.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-cc7aeb2e-26f8-4c24-80c8-2f2674152be4.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2360569,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "fd94a63c9476",
+      "file": "05-制作字样/fd94a63c94-S02-匠心系列·课程目录-v04-字体字样.png",
+      "name": "S02-匠心系列·课程目录-v04-字体字样",
+      "category": "05-制作字样",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v04-cd8fba/.制作参考/S02-匠心系列·课程目录-v04-字体字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 739,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 144313,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "238195f15c2a",
+      "file": "01-静态分镜/238195f15c-S02-匠心系列·课程目录-v04.png",
+      "name": "S02-匠心系列·课程目录-v04",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v04-cd8fba/S02-匠心系列·课程目录-v04.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-11056cd5-01bf-417e-8482-08345eeba9b9.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2179452,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "274cc7af4f76",
+      "file": "05-制作字样/274cc7af4f-S02-人物标签·OUT印章-v05-字体字样.png",
+      "name": "S02-人物标签·OUT印章-v05-字体字样",
+      "category": "05-制作字样",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v05-3123fc/.制作参考/S02-人物标签·OUT印章-v05-字体字样.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v06-db466e/.制作参考/S02-横向标签·OUT印章-v06-字体字样.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-单角纹样标签·OUT印章-v07-字体字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 935,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 63448,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "4ed4f5c2140b",
+      "file": "01-静态分镜/4ed4f5c214-S02-人物标签·OUT印章-v05.png",
+      "name": "S02-人物标签·OUT印章-v05",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v05-3123fc/S02-人物标签·OUT印章-v05.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-b0293bff-628c-40f1-a638-2440c67f5ef2.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1355836,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "6753e84b8f6b",
+      "file": "01-静态分镜/6753e84b8f-S02-横向标签·OUT印章-v06.png",
+      "name": "S02-横向标签·OUT印章-v06",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v06-db466e/S02-横向标签·OUT印章-v06.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-3782d2c8-07ff-4677-9004-fa4450f13032.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1249708,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "2869b8f57fe6",
+      "file": "01-静态分镜/2869b8f57f-S02-v07-复古纹样参考.jpg",
+      "name": "S02-v07-复古纹样参考",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-v07-复古纹样参考.jpg"
+      ],
+      "image": {
+        "width": 1200,
+        "height": 1800,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 190363,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "a84ba0c8a3b4",
+      "file": "01-静态分镜/a84ba0c8a3-S02-v07-黑标签右上单角参考.png",
+      "name": "S02-v07-黑标签右上单角参考",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-v07-黑标签右上单角参考.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v09-b2f919/.制作参考/S02-v09-右上R角参考.png"
+      ],
+      "image": {
+        "width": 1516,
+        "height": 676,
+        "mode": "RGBA"
+      },
+      "origin": "原项目文件",
+      "bytes": 7485,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "0b41d175f0d8",
+      "file": "01-静态分镜/0b41d175f0-S02-单角纹样标签·OUT印章-v07.png",
+      "name": "S02-单角纹样标签·OUT印章-v07",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/S02-单角纹样标签·OUT印章-v07.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-c8729fc8-f864-40ec-963a-f915a9c3dd6a.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1484371,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "0ab95efa6674",
+      "file": "05-制作字样/0ab95efa66-S02-人物特征标签-v08-字体字样.png",
+      "name": "S02-人物特征标签-v08-字体字样",
+      "category": "05-制作字样",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v08-0a2223/.制作参考/S02-人物特征标签-v08-字体字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 847,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 39877,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "cce3fbdd0494",
+      "file": "01-静态分镜/cce3fbdd04-S02-人物特征标签-v08.png",
+      "name": "S02-人物特征标签-v08",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v08-0a2223/S02-人物特征标签-v08.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-dcfbec8a-6632-480b-8e04-40e35077a2cc.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1635748,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "7ec8c349ee6f",
+      "file": "05-制作字样/7ec8c349ee-S02-人物特征·双语标签-v09-字体字样.png",
+      "name": "S02-人物特征·双语标签-v09-字体字样",
+      "category": "05-制作字样",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v09-b2f919/.制作参考/S02-人物特征·双语标签-v09-字体字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 927,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 51899,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "de033658f12e",
+      "file": "01-静态分镜/de033658f1-S02-人物特征·双语标签-v09.png",
+      "name": "S02-人物特征·双语标签-v09",
+      "category": "01-静态分镜",
+      "group": "测试-S02",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v09-b2f919/S02-人物特征·双语标签-v09.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-4009e03a-c4dc-4df1-9271-ad24ab663acd.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1659914,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "5aa5c1b98634",
+      "file": "01-静态分镜/5aa5c1b986-S03-AI视频资产主类-v01-人物资产油画原图.png",
+      "name": "S03-AI视频资产主类-v01-人物资产油画原图",
+      "category": "01-静态分镜",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-人物资产油画原图.png",
+        "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-7c7f9bab-fdde-4dc6-91bc-3cfe1de65e38.png"
+      ],
+      "image": {
+        "width": 1086,
+        "height": 1448,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2343029,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "13e45e9bc3e5",
+      "file": "01-静态分镜/13e45e9bc3-S03-AI视频资产主类-v01-场景资产油画原图.png",
+      "name": "S03-AI视频资产主类-v01-场景资产油画原图",
+      "category": "01-静态分镜",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-场景资产油画原图.png",
+        "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-c522928f-d883-4b0c-b9d4-7810092cda19.png"
+      ],
+      "image": {
+        "width": 1086,
+        "height": 1448,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2578984,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "8078a73a6fc9",
+      "file": "01-静态分镜/8078a73a6f-S03-AI视频资产主类-v01-整页组装参考.png",
+      "name": "S03-AI视频资产主类-v01-整页组装参考",
+      "category": "01-静态分镜",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-整页组装参考.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 1200,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1225381,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "a580f11ad993",
+      "file": "05-制作字样/a580f11ad9-S03-AI视频资产主类-v01-标签字样.png",
+      "name": "S03-AI视频资产主类-v01-标签字样",
+      "category": "05-制作字样",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-标签字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 361,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 19867,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "168f24d217cb",
+      "file": "05-制作字样/168f24d217-S03-AI视频资产主类-v01-标题字样.png",
+      "name": "S03-AI视频资产主类-v01-标题字样",
+      "category": "05-制作字样",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-标题字样.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 227,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 22598,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "a61cc3e3ed10",
+      "file": "01-静态分镜/a61cc3e3ed-S03-AI视频资产主类-v01-生图原文件.png",
+      "name": "S03-AI视频资产主类-v01-生图原文件",
+      "category": "01-静态分镜",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-生图原文件.png",
+        "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-05aa8ca4-8b54-49c9-8888-1383b62fac1c.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1534593,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "b5dec5085303",
+      "file": "01-静态分镜/b5dec50853-S03-AI视频资产主类-v01-道具资产油画原图.png",
+      "name": "S03-AI视频资产主类-v01-道具资产油画原图",
+      "category": "01-静态分镜",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-道具资产油画原图.png",
+        "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-de95c826-ee7e-489b-883f-83db01f15cee.png"
+      ],
+      "image": {
+        "width": 1086,
+        "height": 1448,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 2561087,
+      "status": "历史生成／未逐项确认",
+      "note": "按原文件保留；用于对照与选例，不等于已全部通过。"
+    },
+    {
+      "id": "b8136dae29d9",
+      "file": "01-静态分镜/b8136dae29-S03-AI视频资产主类-v01.png",
+      "name": "S03-AI视频资产主类-v01",
+      "category": "01-静态分镜",
+      "group": "测试-S03",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/S03-AI视频资产主类-v01.png"
+      ],
+      "image": {
+        "width": 1600,
+        "height": 1200,
+        "mode": "RGB"
+      },
+      "origin": "原项目文件",
+      "bytes": 1979815,
+      "status": "指定拆分来源",
+      "note": "用户指定此版本继续提取；不代表后续拆分已经验收。"
+    },
+    {
+      "id": "a4d8210208db",
+      "file": "03-拆分素材/a4d8210208-S01-v02-E01-黑石背景-生成原件.png",
+      "name": "S01-v02-E01-黑石背景-生成原件",
+      "category": "03-拆分素材",
+      "group": "S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/01-sources/S01-v02-E01-黑石背景-生成原件.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/02-elements/S01-v02-E01-黑石背景.png",
+        "/Users/zimu/.codex/generated_images/01a0959d-8e10-7442-8309-5da6158dc24b/exec-6ce5465f-3907-433c-afce-ce3c126b42e8.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 2535087,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "4b73c93fa44a",
+      "file": "03-拆分素材/4b73c93fa4-S01-v02-E02-主标题-透明.png",
+      "name": "S01-v02-E02-主标题-透明",
+      "category": "03-拆分素材",
+      "group": "S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/02-elements/S01-v02-E02-主标题-透明.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 30175,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "ad43ee4c2de2",
+      "file": "03-拆分素材/ad43ee4c2d-S01-v02-E03-系列标签-透明.png",
+      "name": "S01-v02-E03-系列标签-透明",
+      "category": "03-拆分素材",
+      "group": "S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/02-elements/S01-v02-E03-系列标签-透明.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 21157,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "4a6fc0645494",
+      "file": "03-拆分素材/4a6fc06454-S02-v09-E10-年龄标签.png",
+      "name": "S02-v09-E10-年龄标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E10-年龄标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 152,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 50828,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "24aa30c88609",
+      "file": "03-拆分素材/24aa30c886-S02-v09-E11-性别标签.png",
+      "name": "S02-v09-E11-性别标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E11-性别标签.png"
+      ],
+      "image": {
+        "width": 408,
+        "height": 152,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 44627,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "1c6fde602661",
+      "file": "03-拆分素材/1c6fde6026-S02-v09-E12-发型标签.png",
+      "name": "S02-v09-E12-发型标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E12-发型标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 152,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 44454,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "ccc684d7f4c2",
+      "file": "03-拆分素材/ccc684d7f4-S02-v09-E13-服装标签.png",
+      "name": "S02-v09-E13-服装标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E13-服装标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 47148,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "aa1fa81e56c6",
+      "file": "03-拆分素材/aa1fa81e56-S02-v09-E14-身材标签.png",
+      "name": "S02-v09-E14-身材标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E14-身材标签.png"
+      ],
+      "image": {
+        "width": 408,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 51215,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "6a1081d6f696",
+      "file": "03-拆分素材/6a1081d6f6-S02-v09-E15-泪痣标签.png",
+      "name": "S02-v09-E15-泪痣标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E15-泪痣标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 45460,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "c2ad405af266",
+      "file": "03-拆分素材/c2ad405af2-S02-v09-E16-卷毛标签.png",
+      "name": "S02-v09-E16-卷毛标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E16-卷毛标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 44595,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "d890d5c78d6a",
+      "file": "03-拆分素材/d890d5c78d-S02-v09-E17-断眉标签.png",
+      "name": "S02-v09-E17-断眉标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E17-断眉标签.png"
+      ],
+      "image": {
+        "width": 408,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 46845,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "9aee917fdaf1",
+      "file": "03-拆分素材/9aee917fda-S02-v09-E18-眉眼标签.png",
+      "name": "S02-v09-E18-眉眼标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E18-眉眼标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 51571,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "817b470232c0",
+      "file": "03-拆分素材/817b470232-S02-v09-E19-鼻子标签.png",
+      "name": "S02-v09-E19-鼻子标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E19-鼻子标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 151,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 43859,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "697f7b336275",
+      "file": "03-拆分素材/697f7b3362-S02-v09-E20-嘴巴标签.png",
+      "name": "S02-v09-E20-嘴巴标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E20-嘴巴标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 151,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 43562,
+      "status": "旧重建反例",
+      "note": "重新排字改变定稿；保留作反例，不能冒充原像素提取。"
+    },
+    {
+      "id": "14a042920f56",
+      "file": "03-拆分素材/14a042920f-S02-v09-E09-纯灰背景.png",
+      "name": "S02-v09-E09-纯灰背景",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E09-纯灰背景.png",
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E02-纯灰背景.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 7147,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "578e8d80cdeb",
+      "file": "03-拆分素材/578e8d80cd-S02-v09-E10-年龄标签.png",
+      "name": "S02-v09-E10-年龄标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E10-年龄标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 152,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 85415,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "b1b4bd0db68d",
+      "file": "03-拆分素材/b1b4bd0db6-S02-v09-E11-性别标签.png",
+      "name": "S02-v09-E11-性别标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E11-性别标签.png"
+      ],
+      "image": {
+        "width": 408,
+        "height": 152,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 85850,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "f9d7e05dfaae",
+      "file": "03-拆分素材/f9d7e05dfa-S02-v09-E12-发型标签.png",
+      "name": "S02-v09-E12-发型标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E12-发型标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 152,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 88428,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "ca5d5ea0d3cd",
+      "file": "03-拆分素材/ca5d5ea0d3-S02-v09-E13-服装标签.png",
+      "name": "S02-v09-E13-服装标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E13-服装标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 87183,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "f8145aacb0dd",
+      "file": "03-拆分素材/f8145aacb0-S02-v09-E14-身材标签.png",
+      "name": "S02-v09-E14-身材标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E14-身材标签.png"
+      ],
+      "image": {
+        "width": 408,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 86208,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "ff09704329f7",
+      "file": "03-拆分素材/ff09704329-S02-v09-E15-泪痣标签.png",
+      "name": "S02-v09-E15-泪痣标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E15-泪痣标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 85995,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "990651dd1fb7",
+      "file": "03-拆分素材/990651dd1f-S02-v09-E16-卷毛标签.png",
+      "name": "S02-v09-E16-卷毛标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E16-卷毛标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 87055,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "84cfbe887305",
+      "file": "03-拆分素材/84cfbe8873-S02-v09-E17-断眉标签.png",
+      "name": "S02-v09-E17-断眉标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E17-断眉标签.png"
+      ],
+      "image": {
+        "width": 408,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 85862,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "88fa899e546e",
+      "file": "03-拆分素材/88fa899e54-S02-v09-E18-眉眼标签.png",
+      "name": "S02-v09-E18-眉眼标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E18-眉眼标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 153,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 87068,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "befdbc97e3c0",
+      "file": "03-拆分素材/befdbc97e3-S02-v09-E19-鼻子标签.png",
+      "name": "S02-v09-E19-鼻子标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E19-鼻子标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 151,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 84302,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "eec6b7a0fb50",
+      "file": "03-拆分素材/eec6b7a0fb-S02-v09-E20-嘴巴标签.png",
+      "name": "S02-v09-E20-嘴巴标签",
+      "category": "03-拆分素材",
+      "group": "S02-人物特征·双语标签-v09-素材-e9ebf3",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E20-嘴巴标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 151,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 84309,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "68bab3f70bbe",
+      "file": "03-拆分素材/68bab3f70b-S02-v04-E01-黑石底板-重建原图.png",
+      "name": "S02-v04-E01-黑石底板-重建原图",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/01-sources/S02-v04-E01-黑石底板-重建原图.png",
+        "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-0296cea8-440d-4612-9603-1b7517ff3d92.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 2946317,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "d7017e6e2ad2",
+      "file": "03-拆分素材/d7017e6e2a-S02-v04-E02-主标题-子牧AI视频匠心系列.png",
+      "name": "S02-v04-E02-主标题-子牧AI视频匠心系列",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E02-主标题-子牧AI视频匠心系列.png"
+      ],
+      "image": {
+        "width": 489,
+        "height": 71,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 12344,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "ee04539c38b2",
+      "file": "03-拆分素材/ee04539c38-S02-v04-E03-模块一-分镜设计-卡片整体.png",
+      "name": "S02-v04-E03-模块一-分镜设计-卡片整体",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E03-模块一-分镜设计-卡片整体.png"
+      ],
+      "image": {
+        "width": 422,
+        "height": 329,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 35063,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "f9f362323808",
+      "file": "03-拆分素材/f9f3623238-S02-v04-E04-模块二-美术设定-卡片整体.png",
+      "name": "S02-v04-E04-模块二-美术设定-卡片整体",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E04-模块二-美术设定-卡片整体.png"
+      ],
+      "image": {
+        "width": 426,
+        "height": 329,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 35882,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "912d6c35b5ec",
+      "file": "03-拆分素材/912d6c35b5-S02-v04-E05-模块三-AI生图-卡片整体.png",
+      "name": "S02-v04-E05-模块三-AI生图-卡片整体",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E05-模块三-AI生图-卡片整体.png"
+      ],
+      "image": {
+        "width": 422,
+        "height": 329,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 35088,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "fd529dcbef16",
+      "file": "03-拆分素材/fd529dcbef-S02-v04-E06-模块四-AI视频生成-卡片整体.png",
+      "name": "S02-v04-E06-模块四-AI视频生成-卡片整体",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E06-模块四-AI视频生成-卡片整体.png"
+      ],
+      "image": {
+        "width": 422,
+        "height": 329,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 39238,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "9f53a2dcdcd4",
+      "file": "03-拆分素材/9f53a2dcdc-S02-v04-E07-模块五-配音与声音制作-卡片整体.png",
+      "name": "S02-v04-E07-模块五-配音与声音制作-卡片整体",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E07-模块五-配音与声音制作-卡片整体.png"
+      ],
+      "image": {
+        "width": 426,
+        "height": 329,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 30902,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "3f73e389046e",
+      "file": "03-拆分素材/3f73e38904-S02-v04-E08-模块六-剪辑与后期-卡片整体.png",
+      "name": "S02-v04-E08-模块六-剪辑与后期-卡片整体",
+      "category": "03-拆分素材",
+      "group": "S02-匠心系列·课程目录-v04-素材-b21d12",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E08-模块六-剪辑与后期-卡片整体.png"
+      ],
+      "image": {
+        "width": 422,
+        "height": 329,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 40519,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "268df04ebf3d",
+      "file": "03-拆分素材/268df04ebf-S02-v07-E03-人物不精致标签.png",
+      "name": "S02-v07-E03-人物不精致标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E03-人物不精致标签.png"
+      ],
+      "image": {
+        "width": 414,
+        "height": 179,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 129953,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "eac5486bac4d",
+      "file": "03-拆分素材/eac5486bac-S02-v07-E04-形式怎么选标签.png",
+      "name": "S02-v07-E04-形式怎么选标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E04-形式怎么选标签.png"
+      ],
+      "image": {
+        "width": 409,
+        "height": 178,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 123392,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "0c31f4e1450a",
+      "file": "03-拆分素材/0c31f4e145-S02-v07-E05-怎样避免侵权标签.png",
+      "name": "S02-v07-E05-怎样避免侵权标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E05-怎样避免侵权标签.png"
+      ],
+      "image": {
+        "width": 415,
+        "height": 179,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 129357,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "30c5df1e5a6c",
+      "file": "03-拆分素材/30c5df1e5a-S02-v07-E06-经历标签.png",
+      "name": "S02-v07-E06-经历标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E06-经历标签.png"
+      ],
+      "image": {
+        "width": 414,
+        "height": 178,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 122273,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "01e1d9c5caaa",
+      "file": "03-拆分素材/01e1d9c5ca-S02-v07-E07-身份标签.png",
+      "name": "S02-v07-E07-身份标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E07-身份标签.png"
+      ],
+      "image": {
+        "width": 410,
+        "height": 178,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 119884,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "eddd94027928",
+      "file": "03-拆分素材/eddd940279-S02-v07-E08-职业标签.png",
+      "name": "S02-v07-E08-职业标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E08-职业标签.png"
+      ],
+      "image": {
+        "width": 415,
+        "height": 178,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 119002,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "b35066606448",
+      "file": "03-拆分素材/b350666064-S02-v07-E09-现状标签.png",
+      "name": "S02-v07-E09-现状标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E09-现状标签.png"
+      ],
+      "image": {
+        "width": 413,
+        "height": 179,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 122914,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "1fe2c133f912",
+      "file": "03-拆分素材/1fe2c133f9-S02-v07-E10-OUT标签.png",
+      "name": "S02-v07-E10-OUT标签",
+      "category": "03-拆分素材",
+      "group": "S02-单角纹样标签·OUT印章-v07-素材-8ede50",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E10-OUT标签.png"
+      ],
+      "image": {
+        "width": 205,
+        "height": 185,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 61547,
+      "status": "历史拆分／按批次辨认",
+      "note": "保留历史批次与尺寸；透明、坐标和遮挡缺项按原说明判断。"
+    },
+    {
+      "id": "351f67bbb0b6",
+      "file": "03-拆分素材/351f67bbb0-S03-v01-E02-主标题-transparent.png",
+      "name": "S03-v01-E02-主标题-transparent",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-b4e39a",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E02-主标题-transparent.png"
+      ],
+      "image": {
+        "width": 505,
+        "height": 79,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 40415,
+      "status": "透明拆分／待人工审阅",
+      "note": "后续按轮廓透明要求制作；遮挡背景等缺项未据此判定已补齐。"
+    },
+    {
+      "id": "eccd8bb4fd0a",
+      "file": "03-拆分素材/eccd8bb4fd-S03-v01-E03-人物资产卡片-整体-transparent.png",
+      "name": "S03-v01-E03-人物资产卡片-整体-transparent",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-b4e39a",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E03-人物资产卡片-整体-transparent.png"
+      ],
+      "image": {
+        "width": 416,
+        "height": 630,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 379894,
+      "status": "透明拆分／待人工审阅",
+      "note": "后续按轮廓透明要求制作；遮挡背景等缺项未据此判定已补齐。"
+    },
+    {
+      "id": "4fc1431b92e5",
+      "file": "03-拆分素材/4fc1431b92-S03-v01-E04-场景资产卡片-整体-transparent.png",
+      "name": "S03-v01-E04-场景资产卡片-整体-transparent",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-b4e39a",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E04-场景资产卡片-整体-transparent.png"
+      ],
+      "image": {
+        "width": 416,
+        "height": 630,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 371152,
+      "status": "透明拆分／待人工审阅",
+      "note": "后续按轮廓透明要求制作；遮挡背景等缺项未据此判定已补齐。"
+    },
+    {
+      "id": "1269972c993a",
+      "file": "03-拆分素材/1269972c99-S03-v01-E05-道具资产卡片-整体-transparent.png",
+      "name": "S03-v01-E05-道具资产卡片-整体-transparent",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-b4e39a",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E05-道具资产卡片-整体-transparent.png"
+      ],
+      "image": {
+        "width": 415,
+        "height": 630,
+        "mode": "RGBA"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 377753,
+      "status": "透明拆分／待人工审阅",
+      "note": "后续按轮廓透明要求制作；遮挡背景等缺项未据此判定已补齐。"
+    },
+    {
+      "id": "d466fb82ec80",
+      "file": "03-拆分素材/d466fb82ec-S03-v01-E02-主标题.png",
+      "name": "S03-v01-E02-主标题",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-fe5991",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E02-主标题.png"
+      ],
+      "image": {
+        "width": 493,
+        "height": 67,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 50893,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "d7ac83161a04",
+      "file": "03-拆分素材/d7ac83161a-S03-v01-E03-人物资产卡片-整体.png",
+      "name": "S03-v01-E03-人物资产卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-fe5991",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E03-人物资产卡片-整体.png"
+      ],
+      "image": {
+        "width": 402,
+        "height": 616,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 341566,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "7e6dc3821a89",
+      "file": "03-拆分素材/7e6dc3821a-S03-v01-E04-场景资产卡片-整体.png",
+      "name": "S03-v01-E04-场景资产卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-fe5991",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E04-场景资产卡片-整体.png"
+      ],
+      "image": {
+        "width": 402,
+        "height": 616,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 333071,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "c2cf3ee8dd5d",
+      "file": "03-拆分素材/c2cf3ee8dd-S03-v01-E05-道具资产卡片-整体.png",
+      "name": "S03-v01-E05-道具资产卡片-整体",
+      "category": "03-拆分素材",
+      "group": "S03-AI视频资产主类-v01-素材-fe5991",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E05-道具资产卡片-整体.png"
+      ],
+      "image": {
+        "width": 401,
+        "height": 616,
+        "mode": "RGB"
+      },
+      "origin": "历史拆分产物；按该批次说明区分透明、重建及待补",
+      "bytes": 338319,
+      "status": "矩形裁切／有待补项",
+      "note": "原文件含轮廓外背景或透明处理未完成，作为输入问题反例。"
+    },
+    {
+      "id": "22ffac9b7360",
+      "file": "04-生图原文件/22ffac9b73-exec-513846a3-dbcf-4c2d-ab24-98652447aa81.png",
+      "name": "exec-513846a3-dbcf-4c2d-ab24-98652447aa81",
+      "category": "04-生图原文件",
+      "group": "分镜设计SKill",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-513846a3-dbcf-4c2d-ab24-98652447aa81.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "01a090e4-a83e-7fd0-9c27-8dacbd4deb71",
+      "bytes": 2072369,
+      "status": "保留的生图原件",
+      "note": "与命名输出不同的原始文件；保留其实际尺寸与内容。"
+    },
+    {
+      "id": "f8c02a186361",
+      "file": "04-生图原文件/f8c02a1863-exec-e6082a97-5d39-4329-a5cd-3d05a0926dd9.png",
+      "name": "exec-e6082a97-5d39-4329-a5cd-3d05a0926dd9",
+      "category": "04-生图原文件",
+      "group": "分镜设计SKill",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-e6082a97-5d39-4329-a5cd-3d05a0926dd9.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "01a090e4-a83e-7fd0-9c27-8dacbd4deb71",
+      "bytes": 1906023,
+      "status": "保留的生图原件",
+      "note": "与命名输出不同的原始文件；保留其实际尺寸与内容。"
+    },
+    {
+      "id": "6f781cd83c2e",
+      "file": "04-生图原文件/6f781cd83c-exec-ec40e34c-3b03-44e6-87b3-4b145e28689f.png",
+      "name": "exec-ec40e34c-3b03-44e6-87b3-4b145e28689f",
+      "category": "04-生图原文件",
+      "group": "Remotion子牧动效Skill",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a09393-18b2-7183-ba35-ca4f7e868cbd/exec-ec40e34c-3b03-44e6-87b3-4b145e28689f.png",
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/handdrawn-annotation/public/clean-background.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "01a09393-18b2-7183-ba35-ca4f7e868cbd",
+      "bytes": 1643270,
+      "status": "保留的生图原件",
+      "note": "与命名输出不同的原始文件；保留其实际尺寸与内容。"
+    },
+    {
+      "id": "5715417dff3d",
+      "file": "06-演示输入/5715417dff-Frame 156.png",
+      "name": "Frame 156",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/Frame 156.png"
+      ],
+      "image": {
+        "width": 1440,
+        "height": 1080,
+        "mode": "RGBA"
+      },
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 2294277,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "c4d911162835",
+      "file": "06-演示输入/c4d9111628-Frame 157.png",
+      "name": "Frame 157",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/Frame 157.png"
+      ],
+      "image": {
+        "width": 1440,
+        "height": 1080,
+        "mode": "RGBA"
+      },
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 924510,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "984682aca953",
+      "file": "06-演示输入/984682aca9-资.png",
+      "name": "资",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/资.png"
+      ],
+      "image": {
+        "width": 591,
+        "height": 1296,
+        "mode": "RGBA"
+      },
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 83432,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "825f426a06ec",
+      "file": "06-演示输入/825f426a06-产.png",
+      "name": "产",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/产.png"
+      ],
+      "image": {
+        "width": 535,
+        "height": 1350,
+        "mode": "RGBA"
+      },
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 53273,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "737ef1282fdb",
+      "file": "06-演示输入/737ef1282f-Assets..png",
+      "name": "Assets.",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/Assets..png"
+      ],
+      "image": {
+        "width": 257,
+        "height": 98,
+        "mode": "RGBA"
+      },
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 8181,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "36f59c7c2b9b",
+      "file": "06-演示输入/36f59c7c2b-image.png",
+      "name": "image",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/image.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 2478114,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "6b4b9fbb1faa",
+      "file": "06-演示输入/6b4b9fbb1f-视频背景素材-有条纹2.mp4",
+      "name": "视频背景素材-有条纹2",
+      "category": "06-演示输入",
+      "group": "资产首尾帧",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/视频背景素材-有条纹2.mp4"
+      ],
+      "image": null,
+      "origin": "讲师当时提供的输入素材，不计作本轮生成视频",
+      "bytes": 3955246,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "18f3b1ebb7c2",
+      "file": "06-演示输入/18f3b1ebb7-reference.png",
+      "name": "reference",
+      "category": "06-演示输入",
+      "group": "圈线演示",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/handdrawn-annotation/public/reference.png"
+      ],
+      "image": {
+        "width": 1448,
+        "height": 1086,
+        "mode": "RGB"
+      },
+      "origin": "已有工程参考整图",
+      "bytes": 1866744,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "88020b944ca4",
+      "file": "06-演示输入/88020b944c-light-v1.png",
+      "name": "light-v1",
+      "category": "06-演示输入",
+      "group": "指定底板",
+      "sources": [
+        "/Users/zimu/.codex/skills/zimu-storyboard-4x3/assets/backgrounds/light-v1.png"
+      ],
+      "image": {
+        "width": 2160,
+        "height": 1620,
+        "mode": "RGBA"
+      },
+      "origin": "当前分镜skill内置背景原件",
+      "bytes": 255536,
+      "status": "输入或参考",
+      "note": "既有工程使用的输入素材，与本次汇总的生成结果分别记录。"
+    },
+    {
+      "id": "ff74a4b66318",
+      "file": "01-静态分镜/ff74a4b663-exec-f55dfc22-bacd-413b-9e6a-79ade07f0387.png",
+      "name": "首版：偏暖纸张与清晰人物",
+      "category": "01-静态分镜",
+      "group": "乔布斯与库克｜静态五版",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-f55dfc22-bacd-413b-9e6a-79ade07f0387.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2731869,
+      "status": "历史首版",
+      "note": "随后要求人物模糊，并继续调整明暗与底色。"
+    },
+    {
+      "id": "8692f6e10501",
+      "file": "01-静态分镜/8692f6e105-exec-e83eb80d-b49c-43c7-9042-3dbc355a55ab.png",
+      "name": "第二版：人物增加模糊",
+      "category": "01-静态分镜",
+      "group": "乔布斯与库克｜静态五版",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-e83eb80d-b49c-43c7-9042-3dbc355a55ab.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2525983,
+      "status": "历史修改版",
+      "note": "先弱化人物；后续仍继续调整人物大小、底色和纹理。"
+    },
+    {
+      "id": "7f056c88385d",
+      "file": "01-静态分镜/7f056c8838-exec-79918e78-231b-4141-9a08-f6141bcaa341.png",
+      "name": "第三版：暗角与噪点过重",
+      "category": "01-静态分镜",
+      "group": "乔布斯与库克｜静态五版",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-79918e78-231b-4141-9a08-f6141bcaa341.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 3135726,
+      "status": "用户要求继续修改",
+      "note": "用户指出画面太黑、暗角和噪点太重；中性底色也不代表人物必须去色。"
+    },
+    {
+      "id": "06f29778103c",
+      "file": "01-静态分镜/06f2977810-exec-6a4afd01-38e4-4f19-867d-0307211e02ed.png",
+      "name": "第四版：提亮并恢复人物颜色",
+      "category": "01-静态分镜",
+      "group": "乔布斯与库克｜静态五版",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-6a4afd01-38e4-4f19-867d-0307211e02ed.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2041166,
+      "status": "用户要求继续修改",
+      "note": "恢复色彩与明暗层次；下一轮要求去掉文档硬描边，改用材质与柔和阴影分层。"
+    },
+    {
+      "id": "e38a36e8d772",
+      "file": "01-静态分镜/e38a36e8d7-exec-77baf961-0a5c-4f0e-950e-775db76178fc.png",
+      "name": "第五版：采用的材质与层级",
+      "category": "01-静态分镜",
+      "group": "乔布斯与库克｜静态五版",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-77baf961-0a5c-4f0e-950e-775db76178fc.png",
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/00-reference-storyboard.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2342823,
+      "status": "用户明确认可",
+      "note": "「测试1-制作单一分镜」T007明确认可本版。文献只作构图与材质示例，不用于证明人物相关事实。"
+    },
+    {
+      "id": "2feeb3a2e855",
+      "file": "01-静态分镜/2feeb3a2e8-exec-17de66d5-4825-4ec6-beaf-acbb18d86d1f.png",
+      "name": "构图原型：细节过多",
+      "category": "01-静态分镜",
+      "group": "构图原型｜抽象程度",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032d1-ef5f-79f1-bd65-027b36f57fd6/exec-17de66d5-4825-4ec6-beaf-acbb18d86d1f.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1094535,
+      "status": "历史原型图",
+      "note": "早期原型；后续要求删掉具体图表和文字细节，避免锁死内容。"
+    },
+    {
+      "id": "f12dd104dd92",
+      "file": "01-静态分镜/f12dd104dd-exec-a653e255-398d-43c7-b955-4a5681355e4c.png",
+      "name": "构图原型：抽象内容区域",
+      "category": "01-静态分镜",
+      "group": "构图原型｜抽象程度",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032d1-ef5f-79f1-bd65-027b36f57fd6/exec-a653e255-398d-43c7-b955-4a5681355e4c.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 924099,
+      "status": "历史原型图",
+      "note": "改为内容区、主体、标签与字幕区；后续进一步明确人物占位方式。"
+    },
+    {
+      "id": "beabc391dc24",
+      "file": "01-静态分镜/beabc391dc-exec-d4638c89-9363-434b-acf3-e05e57deea9e.png",
+      "name": "构图原型：保留头肩语义",
+      "category": "01-静态分镜",
+      "group": "构图原型｜抽象程度",
+      "sources": [
+        "/Users/zimu/.codex/generated_images/01a032d1-ef5f-79f1-bd65-027b36f57fd6/exec-d4638c89-9363-434b-acf3-e05e57deea9e.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 945705,
+      "status": "历史原型图",
+      "note": "按每侧一个头肩轮廓表达人物位置，保留尺寸关系与字幕区；可换内容，不照搬具体人物。"
+    },
+    {
+      "id": "97167cab0ff0",
+      "file": "03-拆分素材/97167cab0f-01-background.png",
+      "name": "01-background",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/01-background.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-c254f108-1f2f-4087-bdbc-663293ce8b70.png"
+      ],
+      "image": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2225377,
+      "status": "历史输入／保留过程",
+      "note": "已有背景素材；与前景分别保存。"
+    },
+    {
+      "id": "a792bc44444f",
+      "file": "03-拆分素材/a792bc4444-02-document-left.png",
+      "name": "02-document-left",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/02-document-left.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-b04ae2b4-732e-4928-9523-e3cfc35b29b7.png"
+      ],
+      "image": {
+        "width": 1055,
+        "height": 1491,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2000474,
+      "status": "历史输入／保留过程",
+      "note": "当时生成的独立素材；不能当作从采用图逐像素裁出的原件。带棋盘格的文件须先辨认是否真实透明。"
+    },
+    {
+      "id": "10731f9b322f",
+      "file": "03-拆分素材/10731f9b32-03-document-right.png",
+      "name": "03-document-right",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/03-document-right.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-4deaa49a-0722-4c9d-9e26-4929a1d1dc9b.png"
+      ],
+      "image": {
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1846114,
+      "status": "历史输入／保留过程",
+      "note": "当时生成的独立素材；不能当作从采用图逐像素裁出的原件。带棋盘格的文件须先辨认是否真实透明。"
+    },
+    {
+      "id": "7047eef7a6c2",
+      "file": "03-拆分素材/7047eef7a6-04-steve-jobs.png",
+      "name": "04-steve-jobs",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/04-steve-jobs.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-96b66660-6779-41ed-a6c1-9c25af400e4c.png"
+      ],
+      "image": {
+        "width": 1126,
+        "height": 1397,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1245305,
+      "status": "历史输入／保留过程",
+      "note": "历史预模糊人物，后来改为清晰人物先去底，再在动效里模糊。"
+    },
+    {
+      "id": "83618582d524",
+      "file": "03-拆分素材/83618582d5-05-tim-cook.png",
+      "name": "05-tim-cook",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/05-tim-cook.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-2af01179-8077-445f-acdf-0403e403cc4d.png"
+      ],
+      "image": {
+        "width": 1175,
+        "height": 1339,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1196761,
+      "status": "历史输入／保留过程",
+      "note": "历史预模糊人物，后来改为清晰人物先去底，再在动效里模糊。"
+    },
+    {
+      "id": "b7dfdeda8c14",
+      "file": "03-拆分素材/b7dfdeda8c-06-label-steve-jobs.png",
+      "name": "06-label-steve-jobs",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/06-label-steve-jobs.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-b1fcdd5c-d2da-4420-8e0e-8a736d738377.png"
+      ],
+      "image": {
+        "width": 1797,
+        "height": 875,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1619547,
+      "status": "历史输入／保留过程",
+      "note": "当时生成的独立素材；不能当作从采用图逐像素裁出的原件。带棋盘格的文件须先辨认是否真实透明。"
+    },
+    {
+      "id": "7256de56a084",
+      "file": "03-拆分素材/7256de56a0-07-label-tim-cook.png",
+      "name": "07-label-tim-cook",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/07-label-tim-cook.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-d03211c8-f804-4568-a757-af48b0ba2c12.png"
+      ],
+      "image": {
+        "width": 1721,
+        "height": 914,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1270889,
+      "status": "历史输入／保留过程",
+      "note": "当时生成的独立素材；不能当作从采用图逐像素裁出的原件。带棋盘格的文件须先辨认是否真实透明。"
+    },
+    {
+      "id": "5c8def9353bb",
+      "file": "03-拆分素材/5c8def9353-08-steve-jobs-sharp.png",
+      "name": "08-steve-jobs-sharp",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/08-steve-jobs-sharp.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-da8a4246-0457-4941-add3-5b9b94538811.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1666579,
+      "status": "历史输入／保留过程",
+      "note": "当时生成的独立素材；不能当作从采用图逐像素裁出的原件。带棋盘格的文件须先辨认是否真实透明。"
+    },
+    {
+      "id": "f44f2bf88dd3",
+      "file": "03-拆分素材/f44f2bf88d-09-tim-cook-sharp.png",
+      "name": "09-tim-cook-sharp",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜旧素材与输入",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/09-tim-cook-sharp.png",
+        "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-cdaa8375-0fe9-4f88-acb5-5b97004c5c22.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1692640,
+      "status": "历史输入／保留过程",
+      "note": "当时生成的独立素材；不能当作从采用图逐像素裁出的原件。带棋盘格的文件须先辨认是否真实透明。"
+    },
+    {
+      "id": "a9a14559e424",
+      "file": "03-拆分素材/a9a14559e4-02-document-left-transparent.png",
+      "name": "02-document-left-transparent",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜透明素材",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/02-document-left-transparent.png"
+      ],
+      "image": {
+        "width": 1055,
+        "height": 1491,
+        "mode": "RGBA"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2020528,
+      "status": "已有透明处理",
+      "note": "已有透明处理文件；用实际深浅背景观察边缘。T012认可当时处理流程，不将每处边缘说成绝对完美。"
+    },
+    {
+      "id": "c675244aadf8",
+      "file": "03-拆分素材/c675244aad-03-document-right-transparent.png",
+      "name": "03-document-right-transparent",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜透明素材",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/03-document-right-transparent.png"
+      ],
+      "image": {
+        "width": 1023,
+        "height": 1537,
+        "mode": "RGBA"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1954808,
+      "status": "已有透明处理",
+      "note": "已有透明处理文件；用实际深浅背景观察边缘。T012认可当时处理流程，不将每处边缘说成绝对完美。"
+    },
+    {
+      "id": "241c0324dd95",
+      "file": "03-拆分素材/241c0324dd-06-label-steve-jobs-transparent.png",
+      "name": "06-label-steve-jobs-transparent",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜透明素材",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/06-label-steve-jobs-transparent.png"
+      ],
+      "image": {
+        "width": 1797,
+        "height": 875,
+        "mode": "RGBA"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1353173,
+      "status": "已有透明处理",
+      "note": "已有透明处理文件；用实际深浅背景观察边缘。T012认可当时处理流程，不将每处边缘说成绝对完美。"
+    },
+    {
+      "id": "dcad157d780d",
+      "file": "03-拆分素材/dcad157d78-07-label-tim-cook-transparent.png",
+      "name": "07-label-tim-cook-transparent",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜透明素材",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/07-label-tim-cook-transparent.png"
+      ],
+      "image": {
+        "width": 1721,
+        "height": 914,
+        "mode": "RGBA"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 876916,
+      "status": "已有透明处理",
+      "note": "已有透明处理文件；用实际深浅背景观察边缘。T012认可当时处理流程，不将每处边缘说成绝对完美。"
+    },
+    {
+      "id": "6aad36079982",
+      "file": "03-拆分素材/6aad360799-08-steve-jobs-sharp-transparent.png",
+      "name": "08-steve-jobs-sharp-transparent",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜透明素材",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/08-steve-jobs-sharp-transparent.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1610460,
+      "status": "已有透明处理",
+      "note": "已有透明处理文件；用实际深浅背景观察边缘。T012认可当时处理流程，不将每处边缘说成绝对完美。"
+    },
+    {
+      "id": "b80ac5bcecbe",
+      "file": "03-拆分素材/b80ac5bcec-09-tim-cook-sharp-transparent.png",
+      "name": "09-tim-cook-sharp-transparent",
+      "category": "03-拆分素材",
+      "group": "乔布斯与库克｜透明素材",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/09-tim-cook-sharp-transparent.png"
+      ],
+      "image": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA"
+      },
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 1489686,
+      "status": "已有透明处理",
+      "note": "已有透明处理文件；用实际深浅背景观察边缘。T012认可当时处理流程，不将每处边缘说成绝对完美。"
+    },
+    {
+      "id": "52dda0a036af",
+      "file": "02-动效版本/52dda0a036-jobs-cook-document-comparison.mp4",
+      "name": "v1｜5秒首版",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2738080,
+      "status": "历史首版",
+      "note": "首次输出后，用户指出整体入场太长、人物仍露出棋盘底。",
+      "poster_time": 3,
+      "poster": "09-视频预览帧/52dda0a036af.jpg"
+    },
+    {
+      "id": "e1436acda1e1",
+      "file": "02-动效版本/e1436acda1-jobs-cook-document-comparison-2s.mp4",
+      "name": "v2｜压缩至2秒",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-2s.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 2188513,
+      "status": "继续修改",
+      "note": "先压缩节奏，随后又要求放慢到3秒并调整曲线。",
+      "poster_time": 1.5,
+      "poster": "09-视频预览帧/e1436acda1e1.jpg"
+    },
+    {
+      "id": "0d14bbb890d3",
+      "file": "02-动效版本/0d14bbb890-jobs-cook-document-comparison-3s-motion-principles.mp4",
+      "name": "v3｜3秒与速度变化",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-motion-principles.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 4470326,
+      "status": "继续修改",
+      "note": "随后反馈预模糊人物不好抠，要求统一向上入场并直接使用已有姓名牌。",
+      "poster_time": 2.5,
+      "poster": "09-视频预览帧/0d14bbb890d3.jpg"
+    },
+    {
+      "id": "3bc93c07c37a",
+      "file": "02-动效版本/3bc93c07c3-jobs-cook-document-comparison-3s-upward-easeout.mp4",
+      "name": "v4｜统一向上、先快后慢",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-upward-easeout.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 4546110,
+      "status": "继续修改",
+      "note": "改用清晰人物再模糊；下一步仍需还原位置大小，并将六个元素分别错开。",
+      "poster_time": 2.5,
+      "poster": "09-视频预览帧/3bc93c07c37a.jpg"
+    },
+    {
+      "id": "b6b8771bc176",
+      "file": "02-动效版本/b6b8771bc1-jobs-cook-document-comparison-3s-six-stagger.mp4",
+      "name": "v5｜六个元素独立错开",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-six-stagger.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 3963843,
+      "status": "继续修改",
+      "note": "下一轮要求库克左移，去掉透明度变化，并让入场从画面外开始。",
+      "poster_time": 2.5,
+      "poster": "09-视频预览帧/b6b8771bc176.jpg"
+    },
+    {
+      "id": "855b9d0cc8f4",
+      "file": "02-动效版本/855b9d0cc8-jobs-cook-document-comparison-3s-position-only.mp4",
+      "name": "v6｜仅位移、从画外开始",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-position-only.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 4609315,
+      "status": "继续修改",
+      "note": "随后只再调整库克左移80像素、人物模糊从28降为19；其他条件沿用。",
+      "poster_time": 2.5,
+      "poster": "09-视频预览帧/855b9d0cc8f4.jpg"
+    },
+    {
+      "id": "09da02ce9813",
+      "file": "02-动效版本/09da02ce98-jobs-cook-document-comparison-3s-cook-left-blur19.mp4",
+      "name": "v7｜位置与模糊调整后",
+      "category": "02-动效版本",
+      "group": "乔布斯与库克｜七版入场动效",
+      "sources": [
+        "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-cook-left-blur19.mp4"
+      ],
+      "image": null,
+      "origin": "B-roll分镜 skill原有文件",
+      "bytes": 4629124,
+      "status": "用户明确认可",
+      "note": "「测试2-Remotion视频」T010明确满意。1920×1080、30fps、3秒，约2秒完成全部入场，末尾停留1秒。",
+      "poster_time": 2.5,
+      "poster": "09-视频预览帧/09da02ce9813.jpg"
+    }
+  ],
+  "aliases": {
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v1.png": "01-静态分镜/7515a43dd2-分镜01-libTV提示词对比-v1.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v2.png": "01-静态分镜/c3bc2f6368-分镜01-libTV提示词对比-v2.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v3.png": "01-静态分镜/46f7bcf9fe-分镜01-libTV提示词对比-v3.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v4.png": "01-静态分镜/4be3bc3224-分镜01-libTV提示词对比-v4.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v5.png": "01-静态分镜/e3eefea17a-分镜01-libTV提示词对比-v5.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜01-libTV提示词对比-v6.png": "01-静态分镜/71c5955c69-分镜01-libTV提示词对比-v6.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v1.png": "01-静态分镜/3b83807113-分镜02-人物资产组成部分-v1.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v2-纯文字竖标签.png": "01-静态分镜/465492a342-分镜02-人物资产组成部分-v2-纯文字竖标签.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v3-黑色精简竖标签.png": "01-静态分镜/f472841ba3-分镜02-人物资产组成部分-v3-黑色精简竖标签.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v4-加宽做旧边缘.png": "01-静态分镜/2646e19bb8-分镜02-人物资产组成部分-v4-加宽做旧边缘.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-v5-缩小卡内文字与图标.png": "01-静态分镜/41b1de78e9-分镜02-人物资产组成部分-v5-缩小卡内文字与图标.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-人物资产组成部分-字体字样参考.png": "05-制作字样/4a65922164-分镜02-人物资产组成部分-字体字样参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜02-纯文字目录-中英字体字样参考.png": "05-制作字样/1369b2f63f-分镜02-纯文字目录-中英字体字样参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v1.png": "01-静态分镜/11090afd82-分镜03-人物资产制作章节标题-v1.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v2-黑圆反白.png": "01-静态分镜/85164fcc26-分镜03-人物资产制作章节标题-v2-黑圆反白.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v3-黑石古纹.png": "01-静态分镜/9c2c326b6d-分镜03-人物资产制作章节标题-v3-黑石古纹.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v4-精细古纹.png": "01-静态分镜/7435669512-分镜03-人物资产制作章节标题-v4-精细古纹.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v5-断续云纹.png": "01-静态分镜/57f42f24bd-分镜03-人物资产制作章节标题-v5-断续云纹.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-v6-石刻弧纹.png": "01-静态分镜/3721e0ecba-分镜03-人物资产制作章节标题-v6-石刻弧纹.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-人物资产制作章节标题-确认版.png": "01-静态分镜/9c2c326b6d-分镜03-人物资产制作章节标题-v3-黑石古纹.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜03-章节标题-喜鹊古字典体字样参考.png": "05-制作字样/a1ddcd77c0-分镜03-章节标题-喜鹊古字典体字样参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-v3-文楷标签字样.png": "05-制作字样/9ba0593a0a-分镜04-v3-文楷标签字样.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-v4-寒蝉活仿楷标签字样.png": "05-制作字样/8062214f76-分镜04-v4-寒蝉活仿楷标签字样.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传-喜鹊古字典体字样参考.png": "05-制作字样/eb3e6e509b-分镜04-人物小传-喜鹊古字典体字样参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v1.png": "01-静态分镜/5e797589ad-分镜04-人物小传与提示词-v1.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v2-通屏左对齐.png": "01-静态分镜/ed8a247e54-分镜04-人物小传与提示词-v2-通屏左对齐.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v3-文楷标签.png": "01-静态分镜/3e593e4166-分镜04-人物小传与提示词-v3-文楷标签.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v4-寒蝉小标题.png": "01-静态分镜/afc2659984-分镜04-人物小传与提示词-v4-寒蝉小标题.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v5-标签再缩小.png": "01-静态分镜/8a6ee4d224-分镜04-人物小传与提示词-v5-标签再缩小.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜04-人物小传与提示词-v6-标签等宽居中.png": "01-静态分镜/713ccd1f24-分镜04-人物小传与提示词-v6-标签等宽居中.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v1-浅色黑框.png": "01-静态分镜/f75859e959-分镜05-表格样式-v1-浅色黑框.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v1-黑石白框.png": "01-静态分镜/1477bff9f4-分镜05-表格样式-v1-黑石白框.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v2-浅色紧凑版.png": "01-静态分镜/a76dfd0f35-分镜05-表格样式-v2-浅色紧凑版.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格样式-v2-黑石紧凑版.png": "01-静态分镜/4ee4b93c9c-分镜05-表格样式-v2-黑石紧凑版.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜05-表格页-标题与正文真字体参考.png": "05-制作字样/3d34f198c1-分镜05-表格页-标题与正文真字体参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v1-字样.png": "05-制作字样/c6a6971d6f-分镜06-AI视频生成方式-v1-字样.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v1-黑白排线.png": "01-静态分镜/4b7285cb59-分镜06-AI视频生成方式-v1-黑白排线.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v10-精细复古版画.png": "01-静态分镜/8725bcc54f-分镜06-AI视频生成方式-v10-精细复古版画.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v12-全新油画配图.png": "01-静态分镜/65d141b21e-分镜06-AI视频生成方式-v12-全新油画配图.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v2-上下相连竖卡.png": "01-静态分镜/14f1f18204-分镜06-AI视频生成方式-v2-上下相连竖卡.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v3-完整场景与缺墨边框.png": "01-静态分镜/6968f1bac3-分镜06-AI视频生成方式-v3-完整场景与缺墨边框.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v4-缩小与轻微不规则边缘.png": "01-静态分镜/8d2a664c50-分镜06-AI视频生成方式-v4-缩小与轻微不规则边缘.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v5-整体上移留字幕区.png": "01-静态分镜/5e93d89170-分镜06-AI视频生成方式-v5-整体上移留字幕区.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v6-位置折中.png": "01-静态分镜/d7bfff9725-分镜06-AI视频生成方式-v6-位置折中.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v7-原版整体上移.png": "01-静态分镜/c13e7e14cb-分镜06-AI视频生成方式-v7-原版整体上移.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v8-原图平移折中.png": "01-静态分镜/e58882f61a-分镜06-AI视频生成方式-v8-原图平移折中.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜06-AI视频生成方式-v9-简化抽象排线.png": "01-静态分镜/fa2d501bb7-分镜06-AI视频生成方式-v9-简化抽象排线.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v01-492bfe/S02-v01-资产分离.mp4": "02-动效版本/da1856fecd-S02-v01-资产分离.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v02-47db75/S02-v02-资产融合.mp4": "02-动效版本/6711d352ac-S02-v02-资产融合.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v03-ffad1f/S02-v03-资产融合.mp4": "02-动效版本/1712a0375d-S02-v03-资产融合.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/喜鹊古字典体-prompt与紧行距参考.png": "01-静态分镜/71c3d9f9d6-喜鹊古字典体-prompt与紧行距参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/喜鹊古字典体-本镜字样参考.png": "05-制作字样/96403cebe3-喜鹊古字典体-本镜字样参考.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圆角形状试样-v1/01-人物资产组成部分-胶囊卡片.png": "01-静态分镜/af89785404-01-人物资产组成部分-胶囊卡片.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圆角形状试样-v1/02-人物小传-右上圆角标签.png": "01-静态分镜/47b206ab23-02-人物小传-右上圆角标签.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圆角形状试样-v1/03-AI视频生成方式-3比4拱形卡片.png": "01-静态分镜/55a8372f63-03-AI视频生成方式-3比4拱形卡片.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与双箭头生长-1秒-v1.mp4": "02-动效版本/38eeb573d7-圈线与双箭头生长-1秒-v1.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与双箭头生长-3秒-v2.mp4": "02-动效版本/a60c455a3c-圈线与双箭头生长-3秒-v2.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与双箭头生长-3秒-v3-慢快慢.mp4": "02-动效版本/6e936161f7-圈线与双箭头生长-3秒-v3-慢快慢.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/圈线与箭头生长-2秒-v4-错开3帧.mp4": "02-动效版本/b5b6cbabd7-圈线与箭头生长-2秒-v4-错开3帧.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/相框样式试样-v1/分镜01-人物对比-纸质相框-v1.png": "01-静态分镜/ce714fdea4-分镜01-人物对比-纸质相框-v1.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/相框样式试样-v1/汇文明朝体-相框文字字样.png": "05-制作字样/2038437cf3-汇文明朝体-相框文字字样.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/配图06-图生图-v12-全新油画.png": "01-静态分镜/a2276b8edf-配图06-图生图-v12-全新油画.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/配图06-文生图-v12-全新油画.png": "01-静态分镜/0e5e344539-配图06-文生图-v12-全新油画.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/Group-143-复古纸张正色版-v2.png": "01-静态分镜/044459916a-Group-143-复古纸张正色版-v2.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/可灵AI-复古纸张版.png": "01-静态分镜/44a44c435d-可灵AI-复古纸张版.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/Group-143-复古纸张版.png": "01-静态分镜/71b560fd41-Group-143-复古纸张版.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/即梦AI-复古纸张版.png": "01-静态分镜/0ab8121a14-即梦AI-复古纸张版.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/即梦AI-复古纸张正色版-v2.png": "01-静态分镜/dc2706d4c2-即梦AI-复古纸张正色版-v2.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/素材/复古纸张Logo/Group-141-复古纸张版.png": "01-静态分镜/0e670476bb-Group-141-复古纸张版.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E02-左侧截图-可见区域.png": "03-拆分素材/5922df0487-S01-v01-E02-左侧截图-可见区域.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E03-人物小传主标题.png": "03-拆分素材/480704a3d8-S01-v01-E03-人物小传主标题.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E04-身份标签-整体.png": "03-拆分素材/297818af76-S01-v01-E04-身份标签-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E05-经历标签-整体.png": "03-拆分素材/4391efb24d-S01-v01-E05-经历标签-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E06-职业标签-整体.png": "03-拆分素材/873f9fa154-S01-v01-E06-职业标签-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S01-02-人物小传-右上圆角标签.png-v01-素材-3392a7/02-elements/S01-v01-E07-现在状态标签-整体.png": "03-拆分素材/db1726a9f0-S01-v01-E07-现在状态标签-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561/02-elements/S03-v01-E02-主标题-AI视频生成方式.png": "03-拆分素材/32042dbed3-S03-v01-E02-主标题-AI视频生成方式.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561/02-elements/S03-v01-E03-左侧文生图卡片-整体.png": "03-拆分素材/17716c7117-S03-v01-E03-左侧文生图卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S03-03-AI视频生成方式-3比4拱形卡片.png-v01-素材-437561/02-elements/S03-v01-E04-右侧图生图卡片-整体.png": "03-拆分素材/2bf514bd24-S03-v01-E04-右侧图生图卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E01-主标题-人物资产组成部分.png": "03-拆分素材/5ce212650c-S04-v01-E01-主标题-人物资产组成部分.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E02-人脸胶囊卡片-整体.png": "03-拆分素材/71f319f601-S04-v01-E02-人脸胶囊卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E03-发型胶囊卡片-整体.png": "03-拆分素材/d3b946c91d-S04-v01-E03-发型胶囊卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E04-衣着胶囊卡片-整体.png": "03-拆分素材/59c2cbe91e-S04-v01-E04-衣着胶囊卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/remotion-assets/新视频风格-分镜skill炼制/S04-01-人物资产组成部分-胶囊卡片.png-v01-素材-13f50b/02-elements/S04-v01-E05-记忆点胶囊卡片-整体.png": "03-拆分素材/da2b3d3b56-S04-v01-E05-记忆点胶囊卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S01-我需要做一个标题页：主标题是02.场景资产 副标/v02-aa1f58/S01-场景资产-v02.png": "01-静态分镜/d9248ab3a7-S01-场景资产-v02.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v01-ccc67b/S02-匠心系列·课程目录-v01.png": "01-静态分镜/74db7e61a0-S02-匠心系列·课程目录-v01.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v02-eb9e32/S02-匠心系列·课程目录-v02-字体字样.png": "05-制作字样/c3649f51a6-S02-匠心系列·课程目录-v02-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v02-eb9e32/S02-匠心系列·课程目录-v02.png": "01-静态分镜/02bba44263-S02-匠心系列·课程目录-v02.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v03-209512/.制作参考/S02-匠心系列·课程目录-v03-字体字样.png": "05-制作字样/5bea1accca-S02-匠心系列·课程目录-v03-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v03-209512/S02-匠心系列·课程目录-v03.png": "01-静态分镜/7cba03501a-S02-匠心系列·课程目录-v03.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v04-cd8fba/.制作参考/S02-匠心系列·课程目录-v04-字体字样.png": "05-制作字样/fd94a63c94-S02-匠心系列·课程目录-v04-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v04-cd8fba/S02-匠心系列·课程目录-v04.png": "01-静态分镜/238195f15c-S02-匠心系列·课程目录-v04.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v05-3123fc/.制作参考/S02-人物标签·OUT印章-v05-字体字样.png": "05-制作字样/274cc7af4f-S02-人物标签·OUT印章-v05-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v05-3123fc/S02-人物标签·OUT印章-v05.png": "01-静态分镜/4ed4f5c214-S02-人物标签·OUT印章-v05.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v06-db466e/.制作参考/S02-横向标签·OUT印章-v06-字体字样.png": "05-制作字样/274cc7af4f-S02-人物标签·OUT印章-v05-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v06-db466e/S02-横向标签·OUT印章-v06.png": "01-静态分镜/6753e84b8f-S02-横向标签·OUT印章-v06.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-v07-复古纹样参考.jpg": "01-静态分镜/2869b8f57f-S02-v07-复古纹样参考.jpg",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-v07-黑标签右上单角参考.png": "01-静态分镜/a84ba0c8a3-S02-v07-黑标签右上单角参考.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-v07-黑石纹理参考.png": "01-静态分镜/9c2c326b6d-分镜03-人物资产制作章节标题-v3-黑石古纹.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/.制作参考/S02-单角纹样标签·OUT印章-v07-字体字样.png": "05-制作字样/274cc7af4f-S02-人物标签·OUT印章-v05-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v07-938676/S02-单角纹样标签·OUT印章-v07.png": "01-静态分镜/0b41d175f0-S02-单角纹样标签·OUT印章-v07.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v08-0a2223/.制作参考/S02-v08-寒蝉标签字号参考.png": "01-静态分镜/8a6ee4d224-分镜04-人物小传与提示词-v5-标签再缩小.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v08-0a2223/.制作参考/S02-人物特征标签-v08-字体字样.png": "05-制作字样/0ab95efa66-S02-人物特征标签-v08-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v08-0a2223/S02-人物特征标签-v08.png": "01-静态分镜/cce3fbdd04-S02-人物特征标签-v08.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v09-b2f919/.制作参考/S02-v09-右上R角参考.png": "01-静态分镜/a84ba0c8a3-S02-v07-黑标签右上单角参考.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v09-b2f919/.制作参考/S02-人物特征·双语标签-v09-字体字样.png": "05-制作字样/7ec8c349ee-S02-人物特征·双语标签-v09-字体字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S02/v09-b2f919/S02-人物特征·双语标签-v09.png": "01-静态分镜/de033658f1-S02-人物特征·双语标签-v09.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-人物资产油画原图.png": "01-静态分镜/5aa5c1b986-S03-AI视频资产主类-v01-人物资产油画原图.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-场景资产油画原图.png": "01-静态分镜/13e45e9bc3-S03-AI视频资产主类-v01-场景资产油画原图.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-整页组装参考.png": "01-静态分镜/8078a73a6f-S03-AI视频资产主类-v01-整页组装参考.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-标签字样.png": "05-制作字样/a580f11ad9-S03-AI视频资产主类-v01-标签字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-标题字样.png": "05-制作字样/168f24d217-S03-AI视频资产主类-v01-标题字样.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-生图原文件.png": "01-静态分镜/a61cc3e3ed-S03-AI视频资产主类-v01-生图原文件.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/.制作参考/S03-AI视频资产主类-v01-道具资产油画原图.png": "01-静态分镜/b5dec50853-S03-AI视频资产主类-v01-道具资产油画原图.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/output/分镜工作台/S03/v01-5364f8/S03-AI视频资产主类-v01.png": "01-静态分镜/b8136dae29-S03-AI视频资产主类-v01.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/01-sources/S01-v02-E01-黑石背景-生成原件.png": "03-拆分素材/a4d8210208-S01-v02-E01-黑石背景-生成原件.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/02-elements/S01-v02-E01-黑石背景.png": "03-拆分素材/a4d8210208-S01-v02-E01-黑石背景-生成原件.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/02-elements/S01-v02-E02-主标题-透明.png": "03-拆分素材/4b73c93fa4-S01-v02-E02-主标题-透明.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S01-我需要做一个标题页：主标题是02.场景资产 副标-v02-素材-a154ac/02-elements/S01-v02-E03-系列标签-透明.png": "03-拆分素材/ad43ee4c2d-S01-v02-E03-系列标签-透明.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E10-年龄标签.png": "03-拆分素材/4a6fc06454-S02-v09-E10-年龄标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E11-性别标签.png": "03-拆分素材/24aa30c886-S02-v09-E11-性别标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E12-发型标签.png": "03-拆分素材/1c6fde6026-S02-v09-E12-发型标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E13-服装标签.png": "03-拆分素材/ccc684d7f4-S02-v09-E13-服装标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E14-身材标签.png": "03-拆分素材/aa1fa81e56-S02-v09-E14-身材标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E15-泪痣标签.png": "03-拆分素材/6a1081d6f6-S02-v09-E15-泪痣标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E16-卷毛标签.png": "03-拆分素材/c2ad405af2-S02-v09-E16-卷毛标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E17-断眉标签.png": "03-拆分素材/d890d5c78d-S02-v09-E17-断眉标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E18-眉眼标签.png": "03-拆分素材/9aee917fda-S02-v09-E18-眉眼标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E19-鼻子标签.png": "03-拆分素材/817b470232-S02-v09-E19-鼻子标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/01-sources/旧重建版标签/S02-v09-E20-嘴巴标签.png": "03-拆分素材/697f7b3362-S02-v09-E20-嘴巴标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E09-纯灰背景.png": "03-拆分素材/14a042920f-S02-v09-E09-纯灰背景.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E10-年龄标签.png": "03-拆分素材/578e8d80cd-S02-v09-E10-年龄标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E11-性别标签.png": "03-拆分素材/b1b4bd0db6-S02-v09-E11-性别标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E12-发型标签.png": "03-拆分素材/f9d7e05dfa-S02-v09-E12-发型标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E13-服装标签.png": "03-拆分素材/ca5d5ea0d3-S02-v09-E13-服装标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E14-身材标签.png": "03-拆分素材/f8145aacb0-S02-v09-E14-身材标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E15-泪痣标签.png": "03-拆分素材/ff09704329-S02-v09-E15-泪痣标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E16-卷毛标签.png": "03-拆分素材/990651dd1f-S02-v09-E16-卷毛标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E17-断眉标签.png": "03-拆分素材/84cfbe8873-S02-v09-E17-断眉标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E18-眉眼标签.png": "03-拆分素材/88fa899e54-S02-v09-E18-眉眼标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E19-鼻子标签.png": "03-拆分素材/befdbc97e3-S02-v09-E19-鼻子标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-人物特征·双语标签-v09-素材-e9ebf3/02-elements/S02-v09-E20-嘴巴标签.png": "03-拆分素材/eec6b7a0fb-S02-v09-E20-嘴巴标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/01-sources/S02-v04-E01-黑石底板-重建原图.png": "03-拆分素材/68bab3f70b-S02-v04-E01-黑石底板-重建原图.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E02-主标题-子牧AI视频匠心系列.png": "03-拆分素材/d7017e6e2a-S02-v04-E02-主标题-子牧AI视频匠心系列.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E03-模块一-分镜设计-卡片整体.png": "03-拆分素材/ee04539c38-S02-v04-E03-模块一-分镜设计-卡片整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E04-模块二-美术设定-卡片整体.png": "03-拆分素材/f9f3623238-S02-v04-E04-模块二-美术设定-卡片整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E05-模块三-AI生图-卡片整体.png": "03-拆分素材/912d6c35b5-S02-v04-E05-模块三-AI生图-卡片整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E06-模块四-AI视频生成-卡片整体.png": "03-拆分素材/fd529dcbef-S02-v04-E06-模块四-AI视频生成-卡片整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E07-模块五-配音与声音制作-卡片整体.png": "03-拆分素材/9f53a2dcdc-S02-v04-E07-模块五-配音与声音制作-卡片整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-匠心系列·课程目录-v04-素材-b21d12/02-elements/S02-v04-E08-模块六-剪辑与后期-卡片整体.png": "03-拆分素材/3f73e38904-S02-v04-E08-模块六-剪辑与后期-卡片整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E02-纯灰背景.png": "03-拆分素材/14a042920f-S02-v09-E09-纯灰背景.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E03-人物不精致标签.png": "03-拆分素材/268df04ebf-S02-v07-E03-人物不精致标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E04-形式怎么选标签.png": "03-拆分素材/eac5486bac-S02-v07-E04-形式怎么选标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E05-怎样避免侵权标签.png": "03-拆分素材/0c31f4e145-S02-v07-E05-怎样避免侵权标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E06-经历标签.png": "03-拆分素材/30c5df1e5a-S02-v07-E06-经历标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E07-身份标签.png": "03-拆分素材/01e1d9c5ca-S02-v07-E07-身份标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E08-职业标签.png": "03-拆分素材/eddd940279-S02-v07-E08-职业标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E09-现状标签.png": "03-拆分素材/b350666064-S02-v07-E09-现状标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S02-单角纹样标签·OUT印章-v07-素材-8ede50/02-elements/S02-v07-E10-OUT标签.png": "03-拆分素材/1fe2c133f9-S02-v07-E10-OUT标签.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E02-主标题-transparent.png": "03-拆分素材/351f67bbb0-S03-v01-E02-主标题-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E03-人物资产卡片-整体-transparent.png": "03-拆分素材/eccd8bb4fd-S03-v01-E03-人物资产卡片-整体-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E04-场景资产卡片-整体-transparent.png": "03-拆分素材/4fc1431b92-S03-v01-E04-场景资产卡片-整体-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-b4e39a/02-elements/S03-v01-E05-道具资产卡片-整体-transparent.png": "03-拆分素材/1269972c99-S03-v01-E05-道具资产卡片-整体-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E02-主标题.png": "03-拆分素材/d466fb82ec-S03-v01-E02-主标题.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E03-人物资产卡片-整体.png": "03-拆分素材/d7ac83161a-S03-v01-E03-人物资产卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E04-场景资产卡片-整体.png": "03-拆分素材/7e6dc3821a-S03-v01-E04-场景资产卡片-整体.png",
+    "/Users/zimu/Documents/ChatGPT/分镜Skill测试/remotion-assets/分镜Skill测试/S03-AI视频资产主类-v01-素材-fe5991/02-elements/S03-v01-E05-道具资产卡片-整体.png": "03-拆分素材/c2cf3ee8dd-S03-v01-E05-道具资产卡片-整体.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-0106c652-4022-41e2-aac8-0d22a7dc7795.png": "01-静态分镜/5e797589ad-分镜04-人物小传与提示词-v1.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-13ade2c9-3eef-4c9c-a429-653f14911962.png": "01-静态分镜/6968f1bac3-分镜06-AI视频生成方式-v3-完整场景与缺墨边框.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-1543ce25-b1b3-46da-a3c0-6d60f90aca80.png": "01-静态分镜/ce714fdea4-分镜01-人物对比-纸质相框-v1.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-19fe103d-d53f-417a-b6c2-d9766cc0033d.png": "01-静态分镜/11090afd82-分镜03-人物资产制作章节标题-v1.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-1db489a6-89e4-4807-9791-cdd933396cd1.png": "01-静态分镜/713ccd1f24-分镜04-人物小传与提示词-v6-标签等宽居中.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-24ceabdd-41f7-4bc9-960c-38cd6d6adb6d.png": "01-静态分镜/55a8372f63-03-AI视频生成方式-3比4拱形卡片.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-2ddd9373-0ef3-43f7-afa4-32048dcd6e60.png": "01-静态分镜/8d2a664c50-分镜06-AI视频生成方式-v4-缩小与轻微不规则边缘.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-2e2495ae-e841-4401-8a8b-36d13b8b0e79.png": "01-静态分镜/2646e19bb8-分镜02-人物资产组成部分-v4-加宽做旧边缘.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-2f7cec20-0b12-424b-b1f6-db489a320ac0.png": "01-静态分镜/57f42f24bd-分镜03-人物资产制作章节标题-v5-断续云纹.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-32805e41-76a6-4a44-83ee-4ef42cbc1bc9.png": "01-静态分镜/46f7bcf9fe-分镜01-libTV提示词对比-v3.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-32fbcc56-7962-47f8-b760-ed94d17509c5.png": "01-静态分镜/fa2d501bb7-分镜06-AI视频生成方式-v9-简化抽象排线.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-360775f6-1352-42ab-b649-d2161839d64f.png": "01-静态分镜/3b83807113-分镜02-人物资产组成部分-v1.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-37c7ddf0-3bf8-4582-bfb6-5329b4f690cd.png": "01-静态分镜/a76dfd0f35-分镜05-表格样式-v2-浅色紧凑版.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-3e0b2e1b-e998-4a9c-8d00-2a02280e2234.png": "01-静态分镜/0e5e344539-配图06-文生图-v12-全新油画.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-4686a636-d45c-415d-94ac-839c76feea72.png": "01-静态分镜/71c5955c69-分镜01-libTV提示词对比-v6.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-4bfd2ed2-01da-4941-9952-71b859ae5cd0.png": "01-静态分镜/afc2659984-分镜04-人物小传与提示词-v4-寒蝉小标题.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-4c3d7368-3fb4-4d3e-80fd-25a95d43278b.png": "01-静态分镜/7515a43dd2-分镜01-libTV提示词对比-v1.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-513846a3-dbcf-4c2d-ab24-98652447aa81.png": "04-生图原文件/22ffac9b73-exec-513846a3-dbcf-4c2d-ab24-98652447aa81.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-5ee3d9c7-4423-441c-90aa-21d77d802c7d.png": "01-静态分镜/8725bcc54f-分镜06-AI视频生成方式-v10-精细复古版画.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-5fa4da7e-6420-493d-98f5-33762e772859.png": "01-静态分镜/4be3bc3224-分镜01-libTV提示词对比-v4.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-60cd1597-5af0-4b93-92f6-2f09342d790f.png": "01-静态分镜/ed8a247e54-分镜04-人物小传与提示词-v2-通屏左对齐.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-67ee8246-4ac8-4b25-aa66-33a1747d2f93.png": "01-静态分镜/a2276b8edf-配图06-图生图-v12-全新油画.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-6e837eab-20f8-49be-b5dd-2db1dab4b727.png": "01-静态分镜/1477bff9f4-分镜05-表格样式-v1-黑石白框.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-8455f778-3b44-4e7f-802d-e2d957521a51.png": "01-静态分镜/47b206ab23-02-人物小传-右上圆角标签.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-8568a777-922c-4bca-901e-2dc881281b60.png": "01-静态分镜/f472841ba3-分镜02-人物资产组成部分-v3-黑色精简竖标签.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-87332513-b0ee-4cb8-96fe-9ff7f965884e.png": "01-静态分镜/14f1f18204-分镜06-AI视频生成方式-v2-上下相连竖卡.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-8dab75d2-f0c5-4247-bf0c-6eabaa687844.png": "01-静态分镜/8a6ee4d224-分镜04-人物小传与提示词-v5-标签再缩小.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-95ceaee9-9a17-43f1-b81e-f17a58636003.png": "01-静态分镜/3e593e4166-分镜04-人物小传与提示词-v3-文楷标签.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-976ff4f7-a3ce-4530-a45e-675f5838264a.png": "01-静态分镜/7435669512-分镜03-人物资产制作章节标题-v4-精细古纹.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-98082372-7fd7-46f8-afdd-1d4d64926f0f.png": "01-静态分镜/5e93d89170-分镜06-AI视频生成方式-v5-整体上移留字幕区.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-9bd867be-966a-4712-a127-87ab8758f142.png": "01-静态分镜/c3bc2f6368-分镜01-libTV提示词对比-v2.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a1d370e4-4822-4569-8203-9d30932c92f5.png": "01-静态分镜/4b7285cb59-分镜06-AI视频生成方式-v1-黑白排线.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a4a8d6af-6c41-4323-a635-3e86a11db98b.png": "01-静态分镜/d7bfff9725-分镜06-AI视频生成方式-v6-位置折中.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a751515b-f9ef-4c92-b891-f0068b8eb129.png": "01-静态分镜/9c2c326b6d-分镜03-人物资产制作章节标题-v3-黑石古纹.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-a793e26e-f1e1-486b-9368-8186637a8829.png": "01-静态分镜/85164fcc26-分镜03-人物资产制作章节标题-v2-黑圆反白.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-b44c2aa3-cb3a-4e9e-a419-ff75b247e4a0.png": "01-静态分镜/e3eefea17a-分镜01-libTV提示词对比-v5.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-c50b78a4-41d1-4a29-87e2-937ec13e7f23.png": "01-静态分镜/465492a342-分镜02-人物资产组成部分-v2-纯文字竖标签.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-d1b09f0f-5efa-4d87-b6e3-7279fd7422ff.png": "01-静态分镜/4ee4b93c9c-分镜05-表格样式-v2-黑石紧凑版.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-dca993f8-3ff3-409c-af79-3ffd98254e15.png": "01-静态分镜/65d141b21e-分镜06-AI视频生成方式-v12-全新油画配图.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-dcbd08b3-cff0-47ff-8d06-286b7c4219a4.png": "01-静态分镜/c13e7e14cb-分镜06-AI视频生成方式-v7-原版整体上移.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-de9145fe-e820-4135-a5b3-6de2c4f7869b.png": "01-静态分镜/3721e0ecba-分镜03-人物资产制作章节标题-v6-石刻弧纹.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-e6082a97-5d39-4329-a5cd-3d05a0926dd9.png": "04-生图原文件/f8c02a1863-exec-e6082a97-5d39-4329-a5cd-3d05a0926dd9.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-ecfdaea6-e228-4c07-a7d9-f7191b3bc5b0.png": "01-静态分镜/41b1de78e9-分镜02-人物资产组成部分-v5-缩小卡内文字与图标.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-f8ccfc7f-5da6-4bf9-9fa3-f9ebd5fd3caa.png": "01-静态分镜/af89785404-01-人物资产组成部分-胶囊卡片.png",
+    "/Users/zimu/.codex/generated_images/01a090e4-a83e-7fd0-9c27-8dacbd4deb71/exec-ffb2eab4-137e-4def-9dfe-ee26f75043e3.png": "01-静态分镜/f75859e959-分镜05-表格样式-v1-浅色黑框.png",
+    "/Users/zimu/.codex/generated_images/01a09393-18b2-7183-ba35-ca4f7e868cbd/exec-ec40e34c-3b03-44e6-87b3-4b145e28689f.png": "04-生图原文件/6f781cd83c-exec-ec40e34c-3b03-44e6-87b3-4b145e28689f.png",
+    "/Users/zimu/.codex/generated_images/01a0959d-8e10-7442-8309-5da6158dc24b/exec-0047d1fe-08de-476b-a1cc-b6dcad765bbe.png": "01-静态分镜/d9248ab3a7-S01-场景资产-v02.png",
+    "/Users/zimu/.codex/generated_images/01a0959d-8e10-7442-8309-5da6158dc24b/exec-6ce5465f-3907-433c-afce-ce3c126b42e8.png": "03-拆分素材/a4d8210208-S01-v02-E01-黑石背景-生成原件.png",
+    "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-094c325f-8f33-4cf1-ad5a-0c1e5ff5e45d.png": "01-静态分镜/dc2706d4c2-即梦AI-复古纸张正色版-v2.png",
+    "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-1b512ec8-2665-47c4-ac50-eababae0581e.png": "01-静态分镜/71b560fd41-Group-143-复古纸张版.png",
+    "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-3190cdcc-4694-48c7-8507-a3878ee1dc10.png": "01-静态分镜/44a44c435d-可灵AI-复古纸张版.png",
+    "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-70cfe56d-d515-4931-8958-eb3890fa2d6a.png": "01-静态分镜/0e670476bb-Group-141-复古纸张版.png",
+    "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-7ea1ede5-2bd6-46bc-9cc2-98ffd2934a60.png": "01-静态分镜/044459916a-Group-143-复古纸张正色版-v2.png",
+    "/Users/zimu/.codex/generated_images/01a099c9-bc06-7f63-aeab-00786b566910/exec-f22439b3-1897-4afc-907a-f48aa486c49f.png": "01-静态分镜/0ab8121a14-即梦AI-复古纸张版.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-0296cea8-440d-4612-9603-1b7517ff3d92.png": "03-拆分素材/68bab3f70b-S02-v04-E01-黑石底板-重建原图.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-11056cd5-01bf-417e-8482-08345eeba9b9.png": "01-静态分镜/238195f15c-S02-匠心系列·课程目录-v04.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-3782d2c8-07ff-4677-9004-fa4450f13032.png": "01-静态分镜/6753e84b8f-S02-横向标签·OUT印章-v06.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-4009e03a-c4dc-4df1-9271-ad24ab663acd.png": "01-静态分镜/de033658f1-S02-人物特征·双语标签-v09.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-813ff357-64b4-4dd7-aaf0-b3a1db10e048.png": "01-静态分镜/74db7e61a0-S02-匠心系列·课程目录-v01.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-b0293bff-628c-40f1-a638-2440c67f5ef2.png": "01-静态分镜/4ed4f5c214-S02-人物标签·OUT印章-v05.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-c8729fc8-f864-40ec-963a-f915a9c3dd6a.png": "01-静态分镜/0b41d175f0-S02-单角纹样标签·OUT印章-v07.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-cae58654-8539-4aff-88ee-f2107af4e141.png": "01-静态分镜/02bba44263-S02-匠心系列·课程目录-v02.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-cc7aeb2e-26f8-4c24-80c8-2f2674152be4.png": "01-静态分镜/7cba03501a-S02-匠心系列·课程目录-v03.png",
+    "/Users/zimu/.codex/generated_images/01a099de-c284-79f1-880e-eff4ad216875/exec-dcfbec8a-6632-480b-8e04-40e35077a2cc.png": "01-静态分镜/cce3fbdd04-S02-人物特征标签-v08.png",
+    "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-05aa8ca4-8b54-49c9-8888-1383b62fac1c.png": "01-静态分镜/a61cc3e3ed-S03-AI视频资产主类-v01-生图原文件.png",
+    "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-7c7f9bab-fdde-4dc6-91bc-3cfe1de65e38.png": "01-静态分镜/5aa5c1b986-S03-AI视频资产主类-v01-人物资产油画原图.png",
+    "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-c522928f-d883-4b0c-b9d4-7810092cda19.png": "01-静态分镜/13e45e9bc3-S03-AI视频资产主类-v01-场景资产油画原图.png",
+    "/Users/zimu/.codex/generated_images/01a0a3eb-b773-7182-b396-61216e8fb763/exec-de95c826-ee7e-489b-883f-83db01f15cee.png": "01-静态分镜/b5dec50853-S03-AI视频资产主类-v01-道具资产油画原图.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/Frame 156.png": "06-演示输入/5715417dff-Frame 156.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/Frame 157.png": "06-演示输入/c4d9111628-Frame 157.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/资.png": "06-演示输入/984682aca9-资.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/产.png": "06-演示输入/825f426a06-产.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/Assets..png": "06-演示输入/737ef1282f-Assets..png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/image.png": "06-演示输入/36f59c7c2b-image.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/原始素材/工作台导入/视频背景素材-有条纹2.mp4": "06-演示输入/6b4b9fbb1f-视频背景素材-有条纹2.mp4",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/handdrawn-annotation/public/clean-background.png": "04-生图原文件/6f781cd83c-exec-ec40e34c-3b03-44e6-87b3-4b145e28689f.png",
+    "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/handdrawn-annotation/public/reference.png": "06-演示输入/18f3b1ebb7-reference.png",
+    "/Users/zimu/.codex/skills/zimu-storyboard-4x3/assets/backgrounds/light-v1.png": "06-演示输入/88020b944c-light-v1.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-f55dfc22-bacd-413b-9e6a-79ade07f0387.png": "01-静态分镜/ff74a4b663-exec-f55dfc22-bacd-413b-9e6a-79ade07f0387.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-e83eb80d-b49c-43c7-9042-3dbc355a55ab.png": "01-静态分镜/8692f6e105-exec-e83eb80d-b49c-43c7-9042-3dbc355a55ab.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-79918e78-231b-4141-9a08-f6141bcaa341.png": "01-静态分镜/7f056c8838-exec-79918e78-231b-4141-9a08-f6141bcaa341.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-6a4afd01-38e4-4f19-867d-0307211e02ed.png": "01-静态分镜/06f2977810-exec-6a4afd01-38e4-4f19-867d-0307211e02ed.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-77baf961-0a5c-4f0e-950e-775db76178fc.png": "01-静态分镜/e38a36e8d7-exec-77baf961-0a5c-4f0e-950e-775db76178fc.png",
+    "/Users/zimu/.codex/generated_images/01a032d1-ef5f-79f1-bd65-027b36f57fd6/exec-17de66d5-4825-4ec6-beaf-acbb18d86d1f.png": "01-静态分镜/2feeb3a2e8-exec-17de66d5-4825-4ec6-beaf-acbb18d86d1f.png",
+    "/Users/zimu/.codex/generated_images/01a032d1-ef5f-79f1-bd65-027b36f57fd6/exec-a653e255-398d-43c7-b955-4a5681355e4c.png": "01-静态分镜/f12dd104dd-exec-a653e255-398d-43c7-b955-4a5681355e4c.png",
+    "/Users/zimu/.codex/generated_images/01a032d1-ef5f-79f1-bd65-027b36f57fd6/exec-d4638c89-9363-434b-acf3-e05e57deea9e.png": "01-静态分镜/beabc391dc-exec-d4638c89-9363-434b-acf3-e05e57deea9e.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/00-reference-storyboard.png": "01-静态分镜/e38a36e8d7-exec-77baf961-0a5c-4f0e-950e-775db76178fc.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/01-background.png": "03-拆分素材/97167cab0f-01-background.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/02-document-left.png": "03-拆分素材/a792bc4444-02-document-left.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/03-document-right.png": "03-拆分素材/10731f9b32-03-document-right.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/04-steve-jobs.png": "03-拆分素材/7047eef7a6-04-steve-jobs.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/05-tim-cook.png": "03-拆分素材/83618582d5-05-tim-cook.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/06-label-steve-jobs.png": "03-拆分素材/b7dfdeda8c-06-label-steve-jobs.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/07-label-tim-cook.png": "03-拆分素材/7256de56a0-07-label-tim-cook.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/08-steve-jobs-sharp.png": "03-拆分素材/5c8def9353-08-steve-jobs-sharp.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/09-tim-cook-sharp.png": "03-拆分素材/f44f2bf88d-09-tim-cook-sharp.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/02-document-left-transparent.png": "03-拆分素材/a9a14559e4-02-document-left-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/03-document-right-transparent.png": "03-拆分素材/c675244aad-03-document-right-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/06-label-steve-jobs-transparent.png": "03-拆分素材/241c0324dd-06-label-steve-jobs-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/07-label-tim-cook-transparent.png": "03-拆分素材/dcad157d78-07-label-tim-cook-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/08-steve-jobs-sharp-transparent.png": "03-拆分素材/6aad360799-08-steve-jobs-sharp-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/remotion-assets/jobs-cook-document-comparison/visionkit-transparent/09-tim-cook-sharp-transparent.png": "03-拆分素材/b80ac5bcec-09-tim-cook-sharp-transparent.png",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison.mp4": "02-动效版本/52dda0a036-jobs-cook-document-comparison.mp4",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-2s.mp4": "02-动效版本/e1436acda1-jobs-cook-document-comparison-2s.mp4",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-motion-principles.mp4": "02-动效版本/0d14bbb890-jobs-cook-document-comparison-3s-motion-principles.mp4",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-upward-easeout.mp4": "02-动效版本/3bc93c07c3-jobs-cook-document-comparison-3s-upward-easeout.mp4",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-six-stagger.mp4": "02-动效版本/b6b8771bc1-jobs-cook-document-comparison-3s-six-stagger.mp4",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-position-only.mp4": "02-动效版本/855b9d0cc8-jobs-cook-document-comparison-3s-position-only.mp4",
+    "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video/out/jobs-cook-document-comparison-3s-cook-left-blur19.mp4": "02-动效版本/09da02ce98-jobs-cook-document-comparison-3s-cook-left-blur19.mp4",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-2af01179-8077-445f-acdf-0403e403cc4d.png": "03-拆分素材/83618582d5-05-tim-cook.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-4deaa49a-0722-4c9d-9e26-4929a1d1dc9b.png": "03-拆分素材/10731f9b32-03-document-right.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-96b66660-6779-41ed-a6c1-9c25af400e4c.png": "03-拆分素材/7047eef7a6-04-steve-jobs.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-b04ae2b4-732e-4928-9523-e3cfc35b29b7.png": "03-拆分素材/a792bc4444-02-document-left.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-b1fcdd5c-d2da-4420-8e0e-8a736d738377.png": "03-拆分素材/b7dfdeda8c-06-label-steve-jobs.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-c254f108-1f2f-4087-bdbc-663293ce8b70.png": "03-拆分素材/97167cab0f-01-background.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-cdaa8375-0fe9-4f88-acb5-5b97004c5c22.png": "03-拆分素材/f44f2bf88d-09-tim-cook-sharp.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-d03211c8-f804-4568-a757-af48b0ba2c12.png": "03-拆分素材/7256de56a0-07-label-tim-cook.png",
+    "/Users/zimu/.codex/generated_images/01a032fa-6c16-7312-87e9-e467ffbc52dc/exec-da8a4246-0457-4941-add3-5b9b94538811.png": "03-拆分素材/5c8def9353-08-steve-jobs-sharp.png"
+  },
+  "projects": [
+    {
+      "label": "圈线与箭头-v4",
+      "file": "07-已有工程/圈线与箭头-v4.zip",
+      "source": "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/handdrawn-annotation",
+      "files": [
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "tsconfig.json",
+        "remotion.config.ts",
+        "public/reference.png",
+        "public/clean-background.png",
+        "src/index.css",
+        "src/Composition.tsx",
+        "src/Root.tsx",
+        "src/Annotation.tsx",
+        "src/index.ts"
+      ]
+    },
+    {
+      "label": "资产运动-v01",
+      "file": "07-已有工程/资产运动-v01.zip",
+      "source": "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v01-492bfe/工程",
+      "files": [
+        "README.md",
+        "package.json",
+        "tsconfig.json",
+        "remotion.config.ts",
+        "src/Root.tsx",
+        "src/index.ts",
+        "src/S02AssetsMotion.tsx",
+        "public/assets/视频背景素材-有条纹2.mp4",
+        "public/assets/Assets..png",
+        "public/assets/资.png",
+        "public/assets/产.png",
+        "public/reference/Frame 157.png",
+        "public/reference/Frame 156.png"
+      ]
+    },
+    {
+      "label": "资产运动-v02",
+      "file": "07-已有工程/资产运动-v02.zip",
+      "source": "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v02-47db75/工程",
+      "files": [
+        "README.md",
+        "package.json",
+        "tsconfig.json",
+        "remotion.config.ts",
+        "src/Root.tsx",
+        "src/index.ts",
+        "src/S02AssetsMotion.tsx",
+        "public/assets/视频背景素材-有条纹2.mp4",
+        "public/assets/Assets..png",
+        "public/assets/资.png",
+        "public/assets/产.png",
+        "public/assets/image.png",
+        "public/reference/Frame 157.png",
+        "public/reference/Frame 156.png"
+      ]
+    },
+    {
+      "label": "资产运动-v03",
+      "file": "07-已有工程/资产运动-v03.zip",
+      "source": "/Users/zimu/Documents/ChatGPT/新视频风格-分镜skill炼制/output/分镜工作台/S02/视频/v03-ffad1f/工程",
+      "files": [
+        "README.md",
+        "package.json",
+        "tsconfig.json",
+        "remotion.config.ts",
+        "src/Root.tsx",
+        "src/index.ts",
+        "src/S02AssetsMotion.tsx",
+        "public/assets/视频背景素材-有条纹2.mp4",
+        "public/assets/Assets..png",
+        "public/assets/资.png",
+        "public/assets/产.png",
+        "public/assets/image.png",
+        "public/reference/Frame 157.png",
+        "public/reference/Frame 156.png"
+      ]
+    },
+    {
+      "label": "乔布斯与库克-采用版v7",
+      "file": "07-已有工程/乔布斯与库克-采用版v7.zip",
+      "source": "/Users/zimu/Documents/ChatGPT/B-roll分镜 skill/jobs-cook-document-comparison-video",
+      "files": [
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "tsconfig.json",
+        "remotion.config.ts",
+        "src/index.css",
+        "src/Composition.tsx",
+        "src/Root.tsx",
+        "src/index.ts",
+        "public/assets/02-document-left.png",
+        "public/assets/09-tim-cook-sharp.png",
+        "public/assets/09-tim-cook-sharp-transparent.png",
+        "public/assets/01-background.png",
+        "public/assets/06-label-steve-jobs.png",
+        "public/assets/07-label-tim-cook.png",
+        "public/assets/04-steve-jobs.png",
+        "public/assets/08-steve-jobs-sharp-transparent.png",
+        "public/assets/05-tim-cook.png",
+        "public/assets/03-document-right.png",
+        "public/assets/08-steve-jobs-sharp.png",
+        "src/effects/remove-checkerboard-background.ts",
+        "课程使用说明.md"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "id": "01a090e4-a83e-7fd0-9c27-8dacbd4deb71",
+      "title": "分镜设计SKill",
+      "turns": 119,
+      "messages": 408
+    },
+    {
+      "id": "01a09393-18b2-7183-ba35-ca4f7e868cbd",
+      "title": "Remotion子牧动效Skill",
+      "turns": 49,
+      "messages": 177
+    },
+    {
+      "id": "01a0959d-8e10-7442-8309-5da6158dc24b",
+      "title": "牧老板通过本地分镜工作台提交任务。请调用$zimu-storyboard-4x3。\n每次任务重新读取当前Skill：/Users/zimu/.code",
+      "turns": 6,
+      "messages": 13
+    },
+    {
+      "id": "01a099c9-bc06-7f63-aeab-00786b566910",
+      "title": "这是别人做出来的AI短片 这是你做出来的AI短片【视频切换播放】 如果你最近在苦恼AI短片制作， 那你可以关注一下我， 我后续会更新一系列AI短片制作",
+      "turns": 3,
+      "messages": 15
+    },
+    {
+      "id": "01a099de-c284-79f1-880e-eff4ad216875",
+      "title": "牧老板通过本地分镜工作台提交任务。请调用$zimu-storyboard-4x3。\n每次任务重新读取当前Skill：/Users/zimu/.code",
+      "turns": 24,
+      "messages": 76
+    },
+    {
+      "id": "01a09bec-24ae-7593-a890-4babfb386c35",
+      "title": "牧老板通过本地分镜工作台提交任务。请调用$zimu-storyboard-4x3。\n每次任务重新读取当前Skill：/Users/zimu/.code",
+      "turns": 2,
+      "messages": 7
+    },
+    {
+      "id": "01a09f30-be40-7c31-827b-4805ad2312cf",
+      "title": "牧老板通过子牧工作台明确请求制作视频。必须调用$zimu-storyboard-motion：/Users/zimu/.codex/skills/zi",
+      "turns": 6,
+      "messages": 22
+    },
+    {
+      "id": "01a0a2fd-3ad1-7303-ac01-a863f08db49b",
+      "title": "牧老板通过本地分镜工作台提交任务。请调用$zimu-storyboard-4x3。\n每次任务重新读取当前Skill：/Users/zimu/.code",
+      "turns": 2,
+      "messages": 6
+    },
+    {
+      "id": "01a0a309-0884-7261-ad0b-f630127dd59b",
+      "title": "牧老板通过本地分镜工作台提交任务。请调用$zimu-storyboard-4x3。\n每次任务重新读取当前Skill：/Users/zimu/.code",
+      "turns": 2,
+      "messages": 7
+    },
+    {
+      "id": "01a0a3de-c1b7-7803-a0f3-2ba4fd6dfa81",
+      "title": "设计AI视频资产目录页",
+      "turns": 4,
+      "messages": 10
+    },
+    {
+      "id": "01a0a3eb-b773-7182-b396-61216e8fb763",
+      "title": "牧老板通过本地分镜工作台提交任务。请调用$zimu-storyboard-4x3。\n每次任务重新读取当前Skill：/Users/zimu/.code",
+      "turns": 6,
+      "messages": 20
+    },
+    {
+      "id": "01a02eed-de11-78b0-b70d-d2e2fe557c3f",
+      "title": "# Files mentioned by the user:\n\n## 8月23日 (1).png: /Users/zimu/Downloads/8月2",
+      "turns": 8,
+      "messages": 38,
+      "scope": "补充项目检索；主案例回合与引用位置见实操复盘"
+    },
+    {
+      "id": "01a032d1-ef5f-79f1-bd65-027b36f57fd6",
+      "title": "想做一个这个提取结构大纲的一个skill，就比如说我上传一张视频分镜，然后它会基于这个视频分镜先识别一下画面中元素的属性，然后再接着去绘制一张黑白灰原",
+      "turns": 6,
+      "messages": 19,
+      "scope": "补充项目检索；主案例回合与引用位置见实操复盘"
+    },
+    {
+      "id": "01a032fa-6c16-7312-87e9-e467ffbc52dc",
+      "title": "测试1-制作单一分镜",
+      "turns": 12,
+      "messages": 65,
+      "scope": "补充项目检索；主案例回合与引用位置见实操复盘"
+    },
+    {
+      "id": "01a03339-e75e-7402-abca-9113a6adfdfc",
+      "title": "测试2-Remotion视频",
+      "turns": 10,
+      "messages": 51,
+      "scope": "补充项目检索；主案例回合与引用位置见实操复盘"
+    },
+    {
+      "id": "01a0336c-8232-7040-8e4c-347165053f0a",
+      "title": "做一个抠图skill，直接调用苹果本地的抠图软件抠图功能就是苹果相册，不是自带了一个很好用的抠图功能吗？直接调那个扣，然后扣的就会比较好。这个需求能不",
+      "turns": 2,
+      "messages": 7,
+      "scope": "补充项目检索；主案例回合与引用位置见实操复盘"
+    },
+    {
+      "id": "01a033ce-2e91-7c12-b97c-0b5cefa1cf00",
+      "title": "我现在有一个自媒体的脚本儿文案，但是我不知道这个文案要配什么Broll的分镜头画面，以及我不知道我的那些那些画面里面要有放哪些文字，以及用什么排版比较",
+      "turns": 3,
+      "messages": 9,
+      "scope": "补充项目检索；主案例回合与引用位置见实操复盘"
+    }
+  ]
+}

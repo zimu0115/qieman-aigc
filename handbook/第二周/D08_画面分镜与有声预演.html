@@ -1,0 +1,576 @@
+<!doctype html><html lang="zh-CN" data-theme="paper"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>画面分镜与有声预演｜四周AIGC就业课</title><link rel="icon" type="image/png" href="/qieman-aigc/media/860a54faa22d1310c56209a4.webp"><style>:root{color-scheme:light;--bg:#f5f5f7;--paper:#fff;--ink:#1d1d1f;--muted:#6e6e73;--subtle:#86868b;--rule:#dedee3;--accent:#0066cc;--action:#0071e3;--wash:#f5f5f7;--active:#eaf3ff;--warning:#8b5900;--warnbg:#fff8ed;--glass:rgba(250,250,252,.9);--shadow:0 12px 40px rgba(0,0,0,.035);--header-height:124px;--radius:24px;--font:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif}
+[data-theme=dark]{color-scheme:dark;--bg:#000;--paper:#161617;--ink:#f5f5f7;--muted:#a1a1a6;--subtle:#98989d;--rule:#38383a;--accent:#64b5ff;--action:#0077ed;--wash:#242426;--active:#142e48;--warning:#edbd74;--warnbg:#302719;--glass:rgba(22,22,23,.91);--shadow:none}
+[data-theme=eye]{color-scheme:light;--bg:#eef0e8;--paper:#f9faf3;--ink:#29322b;--muted:#657060;--subtle:#6d7967;--rule:#d3dacb;--accent:#356b53;--action:#386f57;--wash:#edf1e6;--active:#e0ecdE;--warning:#855824;--warnbg:#f7eddb;--glass:rgba(246,248,237,.93)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-height) + 24px)}body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.85 var(--font);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-wrap:break-word}::selection{background:#b7d9ff;color:#102132}button,select,input{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button,.pill{min-height:36px;border:1px solid transparent;border-radius:999px;padding:7px 15px;background:var(--wash);color:var(--ink);font-size:13px;font-weight:500;line-height:1.4;transition:background .18s,color .18s,box-shadow .18s}button:hover{background:var(--active)}button[aria-pressed=true]{background:var(--paper);box-shadow:0 1px 5px #00000013;color:var(--ink)}button:disabled{opacity:.4;cursor:default}a{color:var(--accent);text-decoration:none;text-underline-offset:4px}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--action);outline-offset:4px}button.primary,.button-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:11px 24px;border:0;border-radius:999px;background:var(--action);color:#fff;font-size:15px;font-weight:500;text-decoration:none}button.primary:hover,.button-primary:hover{background:#0077ed;color:#fff;text-decoration:none}.text-link{font-size:17px;font-weight:500}.icon{width:18px;height:18px;display:inline-block;flex:none;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.skip-link{position:fixed;top:-100px;left:24px;z-index:99;background:var(--paper);padding:10px 20px;border-radius:12px}.skip-link:focus{top:12px}
+header.top{position:sticky;top:0;z-index:40;background:var(--glass);backdrop-filter:saturate(180%) blur(22px);-webkit-backdrop-filter:saturate(180%) blur(22px);border-bottom:1px solid var(--rule)}.global-inner{max-width:1440px;min-height:58px;margin:auto;padding:0 36px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:inline-flex;align-items:center;gap:11px;white-space:nowrap;color:var(--ink);font-size:17px;font-weight:650;letter-spacing:-.03em}.brand:hover{text-decoration:none}.brand svg{width:25px;height:25px}.course-tabs{display:flex;align-items:center;gap:5px;flex-wrap:nowrap}.course-tabs a{padding:9px 15px;white-space:nowrap;color:var(--muted);font-size:12px;font-weight:500;border-radius:999px;line-height:1.4}.course-tabs a:hover{background:var(--wash);color:var(--ink);text-decoration:none}.course-tabs a[aria-current=page]{color:var(--ink);background:var(--wash)}.toolbar-wrap{border-top:1px solid color-mix(in srgb,var(--rule) 55%,transparent)}.reader-tools{max-width:1440px;min-height:64px;margin:auto;padding:10px 36px;display:flex;gap:20px;align-items:center;justify-content:space-between}.page-context{font-size:13px;color:var(--muted);white-space:nowrap}.page-context b{color:var(--ink);font-weight:500;margin-left:12px}.tools{display:flex;align-items:center;gap:14px}.segmented{display:flex;gap:2px;padding:3px;background:var(--wash);border-radius:999px;border:1px solid color-mix(in srgb,var(--rule) 50%,transparent)}.segmented button{min-height:30px;font-size:12px;padding:5px 12px;background:transparent}.segmented button[aria-pressed=true]{background:var(--paper)}.print-button{display:inline-flex;align-items:center;gap:6px;background:transparent;font-size:12px;min-height:36px;border:1px solid var(--rule)}.reading-progress{height:2px;position:absolute;bottom:-1px;left:0;right:0;pointer-events:none}.reading-progress i{display:block;height:100%;width:0;background:var(--action)}
+.layout{max-width:1440px;margin:0 auto;display:grid;grid-template-columns:212px minmax(0,1fr);gap:44px;padding:0 36px}.side-nav{position:sticky;top:calc(var(--header-height) + 24px);max-height:calc(100dvh - var(--header-height) - 48px);height:max-content;overflow:auto;padding:12px 0 24px;font-size:12px;scrollbar-width:thin;scrollbar-color:var(--rule) transparent}.nav-caption{display:block;margin:2px 13px 15px;color:var(--subtle);font-size:10px;font-weight:650;letter-spacing:.13em}.side-nav a{display:block;color:var(--muted);padding:7px 12px;border-radius:8px;font-size:12px;line-height:1.65;margin:2px 0;transition:background .18s,color .18s}.side-nav a:hover{color:var(--ink);background:var(--paper);text-decoration:none}.side-nav a[aria-current=location]{color:var(--accent);background:var(--active);font-weight:600}.side-nav .nav-title{font-size:11px;font-weight:550;padding:20px 12px 7px;color:var(--subtle)}.nav-details{margin:20px 0 0;border-top:1px solid var(--rule);padding-top:12px}.nav-details summary{padding:10px 12px;font-size:12px;color:var(--muted)}main{padding:52px 0 88px;min-width:0;width:100%}.hero{padding:8px 0 38px;margin:0 0 32px}.eyebrow{font-size:12px;letter-spacing:.08em;font-weight:600;color:var(--muted);line-height:1.6}h1,h2,h3,h4{font-weight:650;color:var(--ink);text-wrap:pretty}h1{font-size:clamp(36px,3.5vw,56px);line-height:1.2;letter-spacing:-.045em;margin:18px 0 22px;max-width:900px}h2{font-size:30px;line-height:1.35;letter-spacing:-.035em;margin:0 0 26px}h3{font-size:21px;line-height:1.5;letter-spacing:-.02em;margin:36px 0 16px}h4{font-size:17px;margin:25px 0 10px}.subtitle{font-size:19px;line-height:1.7;color:var(--muted);max-width:800px;margin:0}.hero-meta{display:flex;flex-wrap:wrap;align-items:center;gap:11px 24px;margin-top:25px;color:var(--muted);font-size:12px}.hero-meta span{display:inline-flex;align-items:center;gap:8px}.hero-meta .dot{width:3px;height:3px;border-radius:50%;background:var(--subtle)}.hero-actions{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;margin-top:28px}.hero-actions a{font-size:14px}.hero-actions .button-primary{min-height:42px;padding:10px 21px}.lead{font-size:22px;line-height:1.65;font-weight:550;letter-spacing:-.02em;max-width:850px}section{scroll-margin-top:calc(var(--header-height) + 24px);background:var(--paper);padding:40px;margin:0 0 24px;border:0;border-radius:var(--radius);box-shadow:none;min-width:0}section>h2:before{content:attr(data-number);display:block;font-size:11px;letter-spacing:.1em;line-height:1.5;font-weight:500;color:var(--subtle);margin-bottom:9px}p{margin:12px 0 21px}section>p{max-width:880px}ul,ol{padding-left:23px;margin:16px 0 25px}li{margin:8px 0}li::marker{color:var(--subtle)}strong{font-weight:650}.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{padding:24px;border:0;border-radius:18px;background:var(--wash);min-width:0}.card h3{margin-top:0}.card p:last-child{margin-bottom:0}.tag{display:inline-block;margin-bottom:8px;font-size:11px;letter-spacing:.035em;line-height:1.6;font-weight:600;color:var(--muted)}.flag,.callout{padding:19px 22px;border:0;border-radius:14px;margin:24px 0;font-size:14px;line-height:1.8;background:var(--wash);color:var(--ink)}.flag{background:var(--warnbg);color:var(--warning);border:1px solid color-mix(in srgb,var(--warning) 16%,transparent)}.callout{border-left:3px solid var(--action)}.blank{padding:24px;background:var(--warnbg);border:1px dashed color-mix(in srgb,var(--warning) 45%,transparent);border-radius:18px;margin:24px 0;color:var(--warning)}.blank strong{font-size:14px}.blank p{font-size:13px;margin:8px 0}.small,.caption,.board-note{font-size:12px;color:var(--muted);line-height:1.8}.caption{margin:12px 0 22px}code{font:400 .88em/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;background:var(--wash);border-radius:5px;padding:3px 6px}pre{padding:24px;white-space:pre-wrap;overflow-wrap:anywhere;background:var(--wash);border:0;border-radius:16px;font-size:14px;line-height:1.9}pre code{padding:0;background:none}blockquote{border-left:2px solid var(--rule);color:var(--muted);padding:5px 22px;margin:22px 0;font-size:15px}.table-scroll{width:100%;overflow:auto;margin:24px 0 30px;border:1px solid var(--rule);border-radius:14px;scrollbar-width:thin}table{border-collapse:collapse;border-spacing:0;width:100%;font-size:13px;line-height:1.85;margin:24px 0 30px} .table-scroll table{margin:0}th,td{text-align:left;vertical-align:top;padding:14px 16px;border:0;border-bottom:1px solid var(--rule);min-width:90px}th{background:var(--wash);font-weight:600;font-size:12px;color:var(--muted);white-space:normal}td+td,th+th{border-left:1px solid color-mix(in srgb,var(--rule) 55%,transparent)}tr:last-child td{border-bottom:0}tbody tr:hover td{background:color-mix(in srgb,var(--wash) 60%,transparent)}td p:last-child{margin-bottom:0}.table-scroll td a{overflow-wrap:anywhere}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:32px 0}.stat{border:0;border-right:1px solid var(--rule);padding:0 16px 0 0}.stat:last-child{border:0}.stat strong{font-size:36px;line-height:1.2;letter-spacing:-.045em;display:block}.stat small{font-size:12px;color:var(--muted)}
+.block{position:relative;scroll-margin-top:calc(var(--header-height) + 24px);padding:30px 0 32px;border-top:1px solid var(--rule)}.block:first-child{padding-top:10px;border:0}.block:last-child{padding-bottom:0}.block-head{display:flex;justify-content:space-between;gap:22px;align-items:flex-start;margin-bottom:17px}.block-head h3{font-size:20px;line-height:1.6;margin:0;font-weight:600}.clock{display:block;color:var(--muted);font-size:12px;line-height:1.5;font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:.025em;margin-bottom:8px}.kind{flex:none;font-size:11px;color:var(--muted);border:1px solid var(--rule);border-radius:999px;padding:4px 10px;margin-top:24px;line-height:1.6}.block p{font-size:15px;margin:10px 0;line-height:1.85}.block p strong{font-size:13px;letter-spacing:.01em}.block .student{padding:15px 18px;border-radius:12px;background:var(--wash);margin:14px 0}.block.break{background:var(--wash);padding:20px 24px;margin:22px 0;border:0;border-radius:16px}.break .block-head{margin-bottom:8px}.break .block-head h3{font-size:17px}.break .kind{margin-top:0}.break p{font-size:13px;color:var(--muted)}.beat{border-left:2px solid var(--rule);padding-left:14px;color:var(--muted);font-size:12px!important;margin:14px 0!important}.quote{color:var(--accent);background:var(--active);font-size:12px;margin-top:14px;padding:8px 15px}.quote:hover{background:color-mix(in srgb,var(--action) 17%,var(--paper))}details{margin:22px 0}summary{cursor:pointer;color:var(--ink);font-size:14px;font-weight:550;padding:12px 0;list-style:none;display:flex;gap:12px;align-items:center}summary::-webkit-details-marker{display:none}summary:before{content:'›';display:inline-block;line-height:1;font-size:20px;font-weight:400;color:var(--subtle);transition:transform .18s}details[open]>summary:before{transform:rotate(90deg)}details[open]>summary{margin-bottom:8px}.block details{margin:6px 0}.block details summary{font-size:12px;color:var(--muted)}.board svg,.diagram svg{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--rule)}.board-tools{display:flex;flex-wrap:wrap;gap:8px;margin:17px 0 26px}.board-tools button{font-size:12px;min-height:34px}.board-tools button[data-export]{background:transparent;border-color:var(--rule)}video{display:block;width:100%;border-radius:18px;outline:none;background:#000!important}main img{max-width:100%;border-radius:12px}figure{min-width:0}figure img{display:block}figure figcaption{padding:0 3px}.media-pair{display:grid;grid-template-columns:1fr 2fr;gap:20px;align-items:start}.media-pair img{width:100%;height:330px;object-fit:contain;background:var(--wash);border-radius:16px}.copy-link{min-height:24px;font-size:10px;line-height:1.4;padding:3px 7px;margin:0 3px 0 7px;vertical-align:baseline;color:var(--muted);background:var(--wash)}dialog{width:min(760px,calc(100vw - 32px));max-height:85dvh;border:1px solid var(--rule);border-radius:26px;background:var(--paper);color:var(--ink);padding:34px;box-shadow:0 30px 100px #00000026}dialog::backdrop{background:rgba(0,0,0,.28);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px)}dialog h3{font-size:22px;margin:0 0 22px}#talk-text{white-space:pre-wrap;line-height:2;font-size:16px;padding:24px;border-radius:16px;background:var(--wash);margin:20px 0 24px}.dialog-tools{display:flex;gap:8px;justify-content:flex-end}#toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);padding:11px 23px;background:var(--ink);color:var(--paper);font-size:13px;border-radius:999px;z-index:90;display:none;box-shadow:var(--shadow)}.mode-full .only-short,.mode-short .only-full{display:none!important}.day-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.download-card{display:block;padding:26px;border-radius:20px;background:var(--wash);border:1px solid transparent;color:var(--ink);transition:transform .25s,box-shadow .25s}.download-card h3{margin:6px 0 12px;font-size:22px}.download-card p{color:var(--muted);font-size:14px}.download-card>span:last-child{color:var(--accent);font-size:13px}.download-card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--shadow)}.next-lesson{display:flex;justify-content:space-between;gap:28px;align-items:center;padding:32px 34px;background:var(--paper);border-radius:24px;margin-top:35px;color:var(--ink)}.next-lesson h3{margin:6px 0 0;font-size:24px}.next-lesson span{font-size:12px;color:var(--muted)}.next-lesson:hover{text-decoration:none}.next-lesson>.icon{width:28px;height:28px;color:var(--accent)}footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--rule);font-size:11px;color:var(--muted);line-height:1.8}.footer-line{display:flex;justify-content:space-between;gap:24px}.footer-links{display:flex;gap:18px;flex-wrap:wrap}footer p{margin:12px 0 0;max-width:780px}footer details{margin:0}footer summary{font-size:11px;padding:0;color:var(--muted)}
+/* Course overview */
+.page-home .layout{display:block;max-width:none;padding:0}.page-home .side-nav{display:none}.page-home main{padding:0 0 80px}.page-home .reader-tools{min-height:60px}.page-home .home-hero{padding:72px 28px 44px;text-align:center;margin:0 auto;max-width:1100px}.home-hero .eyebrow{font-size:15px;letter-spacing:.025em;color:var(--ink)}.home-hero h1{font-size:clamp(42px,5.1vw,72px);max-width:none;letter-spacing:-.055em;line-height:1.15;margin:24px 0}.home-hero h1 span{color:var(--muted)}.home-hero .subtitle{max-width:670px;margin:auto;font-size:20px;line-height:1.65}.home-hero .hero-actions{justify-content:center;margin-top:30px}.home-hero .hero-actions a{font-size:16px}.home-hero .hero-actions .button-primary{min-height:46px;padding:12px 24px}.overview-facts{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:34px 0 0}.overview-facts span{display:flex;gap:7px;align-items:center}.overview-facts b{font-weight:600;color:var(--ink)}.film-showcase{position:relative;max-width:1200px;margin:12px auto 0;border-radius:30px;overflow:hidden;background:#192120;aspect-ratio:2.5;isolation:isolate}.film-showcase>img{width:100%;height:145%;max-width:none;position:absolute;left:0;top:-23%;object-fit:cover;border-radius:0;object-position:50% 45%}.film-showcase:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.67));z-index:1}.film-caption{position:absolute;z-index:2;left:40px;right:40px;bottom:28px;display:flex;justify-content:space-between;align-items:flex-end;color:#fff}.film-caption h2{color:#fff;font-size:30px;margin:5px 0;letter-spacing:-.03em}.film-caption p{font-size:12px;opacity:.85;margin:0}.film-label{display:inline-block;font-size:10px;letter-spacing:.08em;border:1px solid #ffffff70;border-radius:999px;padding:3px 9px}.film-caption .film-open{display:inline-flex;align-items:center;gap:10px;padding:11px 19px;background:rgba(255,255,255,.92);color:#1d1d1f;border-radius:999px;font-size:13px;white-space:nowrap}.film-open:hover{text-decoration:none;background:#fff}.home-band{max-width:1200px;margin:0 auto;padding:88px 0 0;background:none;border-radius:0}.home-band>h2,.section-heading h2{font-size:42px;line-height:1.28;letter-spacing:-.045em;margin:0 0 14px}.section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:32px}.section-heading p{color:var(--muted);font-size:16px;margin:0;max-width:530px}.section-heading .small{font-size:12px;text-align:right}.path-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;padding:30px 0 40px;border-bottom:1px solid var(--rule);margin-bottom:38px}.path-step{position:relative}.path-step:not(:last-child):after{content:'›';position:absolute;right:0;top:28px;color:var(--subtle);font-size:25px}.path-step small{display:block;color:var(--muted);font-size:11px;margin-bottom:9px;letter-spacing:.06em}.path-step b{display:block;font-size:17px;font-weight:600}.path-step p{color:var(--muted);font-size:12px;margin:4px 0 0}.lesson-collection{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:24px}.lesson-tile{grid-column:span 3;overflow:hidden;position:relative;background:var(--paper);border-radius:28px;display:flex;flex-direction:column;color:var(--ink);transition:transform .3s,box-shadow .3s;min-width:0}.lesson-tile:nth-child(n+3){grid-column:span 2}.lesson-tile:hover{transform:translateY(-5px);box-shadow:0 20px 42px #00000008;text-decoration:none}.tile-copy{padding:32px 32px 24px}.tile-label{font-size:11px;color:var(--muted);font-weight:500;letter-spacing:.04em}.tile-copy h3{font-size:28px;line-height:1.3;letter-spacing:-.045em;margin:13px 0}.tile-copy p{font-size:14px;line-height:1.75;color:var(--muted);margin:0;max-width:430px}.tile-art{height:214px;margin:0 24px 18px;position:relative;overflow:hidden;border-radius:18px;background:var(--wash)}.lesson-tile:nth-child(n+3) .tile-art{height:185px}.tile-footer{margin-top:auto;padding:6px 32px 28px;display:flex;justify-content:space-between;gap:15px;align-items:center;color:var(--muted);font-size:12px}.circle-link{width:30px;height:30px;border-radius:50%;background:var(--wash);display:grid;place-items:center;color:var(--ink);flex:none}.circle-link .icon{width:15px;height:15px}.category-stack{height:100%;display:flex;gap:13px;justify-content:center;align-items:center;padding:22px}.category-stack div{width:28%;height:143px;border-radius:14px;display:flex;flex-direction:column;justify-content:space-between;padding:18px 15px;background:var(--paper);box-shadow:0 8px 18px #00000004;font-size:17px;font-weight:550}.category-stack div:nth-child(1){transform:rotate(-7deg) translateY(6px)}.category-stack div:nth-child(2){background:#1d1d1f;color:#fff;transform:translateY(-6px)}.category-stack div:nth-child(3){transform:rotate(7deg) translateY(6px)}.category-stack small{font-size:10px;color:var(--muted);font-weight:400}.category-stack div:nth-child(2) small{color:#bbb}.category-stack svg{width:25px;height:25px}.asset-mosaic{display:flex;gap:8px;padding:17px;align-items:center;height:100%}.asset-mosaic img{width:calc((100% - 16px)/3);height:160px;object-fit:cover;object-position:center;border-radius:10px}.motion-art{height:100%;display:grid;place-items:center;padding:24px}.motion-art .motion-frame{position:relative;border-radius:12px;overflow:hidden;width:100%;height:116px}.motion-frame img{width:100%;height:145%;object-fit:cover;position:absolute;top:-23%;border-radius:0}.motion-art .play-dot{position:absolute;inset:0;display:grid;place-items:center;color:#fff}.play-dot svg{width:44px;height:44px;filter:drop-shadow(0 2px 6px #00000040)}.motion-ruler{display:flex;justify-content:space-between;color:var(--muted);font-size:9px;width:100%;letter-spacing:1px;margin-top:8px}.timeline-art{height:100%;padding:30px 22px 24px;display:flex;flex-direction:column;justify-content:center;gap:9px;position:relative}.timeline-art:after{content:'';position:absolute;left:45%;top:23px;bottom:23px;width:1px;background:#ff6b4a}.timeline-time{display:flex;justify-content:space-between;color:var(--subtle);font-size:9px;margin-bottom:5px}.timeline-row{display:flex;gap:4px;height:28px}.timeline-row span{height:100%;flex:1;border-radius:5px;background:#c5d4c7}.timeline-row span:nth-child(2){background:#a6bbb0;flex:1.5}.timeline-row span:nth-child(3){background:#d8ddd1}.timeline-row.audio{height:20px}.timeline-row.audio span{background:#bcd3ee;background-image:repeating-linear-gradient(90deg,transparent 0,transparent 3px,#8dabd244 3px,#8dabd244 4px);flex:1}.timeline-row.text{height:18px;max-width:60%}.timeline-row.text span{background:#d7cdec}.script-art{height:100%;display:flex;align-items:center;justify-content:center;padding:22px}.script-paper{transform:rotate(-3deg);width:80%;height:145px;background:var(--paper);border-radius:9px;padding:20px;box-shadow:0 7px 17px #00000008}.script-paper b{display:block;font-size:13px;font-weight:600;margin-bottom:12px}.script-line{height:5px;border-radius:5px;background:var(--rule);margin:9px 0}.script-line:nth-child(3){width:68%}.script-line:nth-child(4){width:84%;background:#c9dff5}.script-tags{display:flex;gap:10px;color:var(--muted);font-size:10px;margin-top:13px}.home-project{padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;background:var(--paper);border-radius:28px}.project-copy{align-self:center}.project-copy h3{font-size:29px;margin:12px 0 17px}.project-copy p{font-size:15px;color:var(--muted)}.project-stats{display:flex;gap:28px;margin-top:25px}.project-stats strong{display:block;font-size:32px;letter-spacing:-.04em;line-height:1.3}.project-stats small{font-size:11px;color:var(--muted)}.project-visual{position:relative;aspect-ratio:1.25;background:var(--wash);border-radius:18px;overflow:hidden}.project-visual img{position:absolute;width:100%;height:133%;object-fit:cover;top:-16.5%;border-radius:0}.home-cases{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}.case-link{padding:26px 30px;background:var(--paper);border-radius:22px;display:flex;gap:18px;align-items:center;color:var(--ink)}.case-link .icon{width:30px;height:30px;color:var(--muted)}.case-link strong{display:block;font-size:17px;font-weight:600}.case-link small{font-size:12px;color:var(--muted)}.case-link:hover{text-decoration:none;background:var(--active)}.support-list{background:var(--paper);border-radius:24px;padding:10px 30px;display:grid;grid-template-columns:1fr 1fr;column-gap:44px}.support-row{display:flex;align-items:center;gap:16px;padding:24px 0;border-bottom:1px solid var(--rule);color:var(--ink)}.support-row:last-child{border-bottom:0}.support-row .icon{color:var(--subtle);width:21px;height:21px}.support-row div{flex:1}.support-row b{font-size:15px;font-weight:550;display:block}.support-row small{font-size:11px;color:var(--muted)}.support-row:hover{text-decoration:none;color:var(--accent)}.support-tables{margin-top:24px;border-radius:22px;background:var(--paper);padding:12px 30px}.support-tables summary{font-size:15px;padding:13px 0}.file-links{display:flex;gap:12px 24px;flex-wrap:wrap;font-size:13px;padding:10px 0 17px}.review-panel{padding:34px;border-top:1px solid var(--rule);margin-top:32px;font-size:14px;color:var(--muted)}.review-panel h3{font-size:18px;margin:0 0 12px}.page-home footer{max-width:1200px;margin:60px auto 0}.home-band .flag{margin-top:24px}.home-band .table-scroll{background:var(--paper)}
+@media(min-width:1550px){.layout{gap:56px}.hero{padding-top:22px}.home-hero h1{font-size:76px}}
+@media(max-width:1240px){.global-inner,.reader-tools{padding-left:24px;padding-right:24px}.layout{grid-template-columns:180px minmax(0,1fr);gap:28px;padding:0 24px}section{padding:32px}.home-band,.film-showcase,.page-home footer{margin-left:32px;margin-right:32px}.home-band{padding-top:70px}.lesson-collection{gap:20px}.tile-copy{padding:26px}.tile-copy h3{font-size:25px}.tile-footer{padding-left:26px;padding-right:26px}.tile-art{margin-left:20px;margin-right:20px}.home-project{gap:28px}.section-heading h2{font-size:37px}}
+@media(max-width:960px){.layout{display:block;padding:0 24px}.side-nav{position:sticky;top:var(--header-height);z-index:25;display:flex;align-items:center;gap:5px;overflow-x:auto;max-height:none;white-space:nowrap;padding:8px 0;background:var(--bg);border-bottom:1px solid var(--rule);margin:0 -24px;padding-left:24px;padding-right:24px;scrollbar-width:none}.side-nav a{display:inline-block;padding:7px 11px;font-size:12px;margin:0}.nav-caption,.side-nav .nav-details{display:none}.hero{padding-top:0;margin-bottom:22px}main{padding-top:38px}.course-tabs a{padding:8px 11px}.page-context b{display:none}.tools{gap:9px}.reader-tools{gap:12px}.page-home .home-hero{padding-top:60px}.home-hero h1{font-size:60px}.home-hero .subtitle{font-size:18px}.lesson-collection{grid-template-columns:repeat(2,minmax(0,1fr))}.lesson-tile,.lesson-tile:nth-child(n+3){grid-column:span 1}.lesson-tile:last-child{grid-column:span 2;display:grid;grid-template-columns:1fr 1fr}.lesson-tile:last-child .tile-art{grid-column:2;grid-row:1 / span 2;height:210px;margin:24px}.lesson-tile:last-child .tile-footer{grid-column:1}.lesson-tile:nth-child(n+3) .tile-art{height:200px}.home-project{padding:30px}.project-copy h3{font-size:26px}.support-list{column-gap:28px}.film-showcase{aspect-ratio:2.1}.home-hero h1{font-size:clamp(42px,6.8vw,60px)}section,.block{scroll-margin-top:calc(var(--header-height) + 78px)}}
+@media(max-width:680px){body{font-size:16px}.global-inner{padding:0 16px;min-height:52px;gap:14px;flex-wrap:wrap}.brand{font-size:15px;gap:8px;min-height:48px}.brand svg{width:22px;height:22px}.course-tabs{gap:0;overflow:auto;margin-left:auto}.course-tabs a{font-size:11px;padding:8px 9px}.course-tabs .tab-overview{display:none}.reader-tools{padding:9px 16px;min-height:57px;align-items:center;justify-content:flex-end;gap:0}.page-context{display:none}.tools{width:100%;justify-content:space-between;gap:5px}.segmented{gap:0;padding:2px}.segmented button{font-size:11px;padding:5px 8px;min-height:30px}.print-button{padding:7px 10px;min-height:34px}.print-button .print-word{display:none}.layout{padding:0 16px}.side-nav{margin:0 -16px;padding:8px 16px}.hero{padding:0 4px 23px;margin:0 0 20px}h1{font-size:36px;margin:15px 0 18px;letter-spacing:-.045em}h2{font-size:26px;margin-bottom:23px}h3{font-size:20px}.subtitle{font-size:17px}.hero-meta{margin-top:20px;font-size:11px;gap:8px 15px}.hero-actions{gap:12px 20px;margin-top:23px}.hero-actions a{font-size:13px}main{padding-top:30px;padding-bottom:50px}section{padding:26px 22px;border-radius:20px;margin-bottom:17px}.lead{font-size:19px}.two,.day-grid,.media-pair{grid-template-columns:1fr}.two{gap:12px}.card{padding:20px}.table-scroll{margin:22px -3px}.table-scroll table{min-width:560px;font-size:13px}th,td{padding:12px 13px}.block-head{gap:12px}.block-head h3{font-size:18px}.kind{font-size:10px;padding:4px 8px;margin-top:24px}.block p{font-size:14px}.block .student{padding:13px 15px}.block{padding:25px 0}.block.break{padding:18px}.block.break .block-head{align-items:center}.stats{grid-template-columns:1fr 1fr;gap:22px}.board-tools{gap:6px}.board-tools button{font-size:11px;padding:7px 11px}.board svg{border-radius:10px}.board{overflow:auto}.board svg{min-width:520px}dialog{padding:24px;border-radius:22px}#talk-text{padding:20px;font-size:15px}.next-lesson{padding:25px}.next-lesson h3{font-size:21px}.footer-line{flex-direction:column;gap:14px}.page-home .home-hero{padding:42px 24px 28px}.home-hero .eyebrow{font-size:13px}.home-hero h1{font-size:42px;line-height:1.18;margin:21px 0}.home-hero .subtitle{font-size:17px;max-width:420px}.home-hero .hero-actions{gap:18px;margin-top:24px}.home-hero .hero-actions a{font-size:14px}.overview-facts{gap:12px 21px;margin-top:28px;font-size:11px}.film-showcase,.home-band,.page-home footer{margin-left:20px;margin-right:20px}.film-showcase{border-radius:22px;aspect-ratio:1.32;margin-top:12px}.film-showcase>img{height:120%;top:-10%;object-position:65% center}.film-caption{left:24px;right:24px;bottom:22px}.film-caption h2{font-size:25px}.film-caption p{font-size:10px;max-width:190px}.film-caption .film-open{font-size:0;padding:11px;min-width:38px;min-height:38px}.film-open .icon{width:17px;height:17px}.home-band{padding-top:56px}.section-heading{display:block;margin-bottom:24px}.section-heading h2,.home-band>h2{font-size:31px;line-height:1.3}.section-heading p{font-size:14px;margin-top:10px}.section-heading .small{text-align:left;margin-top:12px}.path-steps{grid-template-columns:repeat(5,128px);overflow-x:auto;padding:14px 0 27px;gap:20px;margin-bottom:26px;scrollbar-width:thin}.path-step b{font-size:16px}.path-step p{font-size:11px}.lesson-collection{grid-template-columns:1fr;gap:18px}.lesson-tile,.lesson-tile:nth-child(n+3),.lesson-tile:last-child{grid-column:auto;display:flex;border-radius:24px}.lesson-tile:last-child .tile-art,.lesson-tile:nth-child(n+3) .tile-art{height:200px;margin:0 22px 16px}.tile-copy{padding:28px 28px 22px}.tile-copy h3{font-size:28px}.tile-copy p{font-size:14px}.tile-art{height:200px;margin:0 22px 16px}.tile-footer{padding:6px 28px 25px}.home-project{padding:24px;grid-template-columns:1fr;gap:26px;border-radius:24px}.project-copy h3{font-size:27px}.project-copy p{font-size:14px}.project-stats{gap:30px}.project-visual{aspect-ratio:1.5;grid-row:1}.home-cases{grid-template-columns:1fr;gap:14px;margin-top:16px}.case-link{padding:24px;border-radius:20px}.support-list{display:block;padding:5px 24px;border-radius:22px}.support-row{padding:22px 0}.support-row b{font-size:14px}.support-tables{padding:10px 24px}.review-panel{padding:25px 4px 0;font-size:13px}.page-home footer{margin-top:32px}.page-home main{padding-bottom:44px}.media-pair img{height:auto;max-height:440px}}
+@media(max-width:390px){.global-inner{gap:0}.brand{font-size:14px}.course-tabs a{padding:8px 7px}.segmented button{padding:5px 6px}.home-hero h1{font-size:37px}.home-hero .hero-actions{gap:16px}.hero-meta .dot{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+@media(prefers-contrast:more){:root{--muted:#4d4d52;--subtle:#55555b;--rule:#96969e}[data-theme=dark]{--muted:#c9c9cf;--subtle:#c0c0c6;--rule:#7c7c85}header.top{background:var(--paper)}.flag,.blank{border-style:solid}}
+@media print{header.top,.side-nav,.tools,button,.board-tools,#toast,dialog,.hero-actions,.skip-link,.next-lesson,.reading-progress,.copy-link{display:none!important}html{scroll-behavior:auto}:root,[data-theme=dark],[data-theme=eye]{--bg:#fff;--paper:#fff;--ink:#1d1d1f;--muted:#555;--subtle:#666;--rule:#ccc;--wash:#f5f5f7;--accent:#1d1d1f;--warnbg:#faf6ee;--warning:#664500}body{background:white;color:#1d1d1f;font-size:10pt;line-height:1.65}.layout{display:block;max-width:none;padding:0}main{padding:0;max-width:none}.hero{padding:0 0 12px;margin-bottom:12px}h1{font-size:26pt}h2{font-size:19pt}h3{font-size:14pt}.subtitle{font-size:12pt}section{border-radius:0;padding:18px 0;margin:0 0 16px;box-shadow:none;border-bottom:1px solid #ddd}.table-scroll{border-radius:0;overflow:visible;margin:15px 0}table,.table-scroll table{font-size:8pt;min-width:0}th,td{padding:7px 8px;min-width:0}h2,h3{break-after:avoid}.block,.card,.board,.diagram{break-inside:avoid}.board svg{min-width:0;max-height:170mm}.block p{font-size:10pt}.block{padding:17px 0}.card{padding:16px}.flag,.callout,.card{background:#f5f5f7!important}a{color:inherit;text-decoration:none}.board [data-step]{visibility:visible!important}.mode-full .only-short,.mode-short .only-full{display:none!important}details{display:block}details:not([open])>:not(summary){display:block!important}footer{font-size:8pt}.page-home .home-hero{padding:20px}.home-hero h1{font-size:30pt}.home-band,.film-showcase,.page-home footer{margin-left:0;margin-right:0}.home-band{padding-top:25px}.film-showcase{max-height:60mm}.lesson-tile{break-inside:avoid}.lesson-tile:hover{transform:none}.tile-art{display:none}.lesson-collection{grid-template-columns:1fr 1fr}.lesson-tile,.lesson-tile:nth-child(n+3),.lesson-tile:last-child{grid-column:auto}.home-project{padding:20px}.section-heading h2{font-size:21pt}.film-caption h2,.film-caption p{color:#fff!important}.path-steps{display:grid;grid-template-columns:repeat(5,1fr);overflow:visible}.table-scroll:focus{outline:0}}
+@media(max-width:680px){.segmented button{min-height:38px}.course-tabs a{min-height:44px;display:inline-flex;align-items:center}.print-button{min-height:42px}.side-nav a{min-height:40px;display:inline-flex;align-items:center}.board-tools button{min-height:40px}}
+
+.brand .brand-logo{display:block;width:32px;height:32px;flex:none;object-fit:contain;border-radius:8px}@media(max-width:680px){.brand .brand-logo{width:28px;height:28px;border-radius:7px}}
+
+/* Weekday lessons and weekend assignments */
+.week-course-path{grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:16px}.weekend-collection{margin-top:24px}.weekend-collection .card{height:100%}.weekend-collection a{color:var(--link,#06c)}.week-course-group{scroll-margin-top:150px}.weekend-task-list li{margin-bottom:12px}@media(max-width:680px){.week-course-path{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Compact learning-path items reserve room for the separator. */
+.page-home .week-course-path .path-step{min-width:0;box-sizing:border-box;padding-right:20px}
+.page-home .week-course-path .path-step b{font-size:16px;line-height:1.45;overflow-wrap:anywhere}
+.page-home .week-course-path .path-step b a{display:block;max-width:100%;white-space:normal}
+.page-home .week-course-path .path-step p{font-size:12px;line-height:1.65;margin-top:7px;overflow-wrap:anywhere}
+.page-home .week-course-path .path-step:not(:last-child)::after{right:0;top:27px;pointer-events:none}
+@media(max-width:680px){.page-home .week-course-path .path-step{padding-right:8px}.page-home .week-course-path .path-step::after{display:none}}
+</style><style id="course-typography">
+@font-face{font-family:"Course Week Display";src:url("/qieman-aigc/media/fed57d596fd6005d7b59f0e3.woff2") format("woff2");font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:"MiSans Course Bold";src:url("/qieman-aigc/media/4d0b3a1b4800af830cda0e54.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+.week-hero .week-title{
+ font-family:"Course Week Display","Montserrat","Arial Black",sans-serif;
+ font-size:clamp(30px,6.4vw,88px);font-weight:900;font-style:normal;font-synthesis:none;
+ line-height:1.12;letter-spacing:-.05em;color:var(--ink);margin:10px 0 14px;
+ transform:scaleY(.8);transform-origin:center;max-width:none;white-space:nowrap;
+}
+.week-hero .week-subtitle{
+ font-family:"PingFang SC",-apple-system,BlinkMacSystemFont,sans-serif;
+ font-size:clamp(20px,2.3vw,30px);font-weight:600;line-height:1.5;
+ color:var(--ink);letter-spacing:-.025em;max-width:860px;margin:0 auto 17px;
+ text-wrap:balance;
+}
+.week-hero .week-description{font-size:16px;font-weight:400;line-height:1.85;color:var(--muted);max-width:730px;margin:0 auto}
+.hero.week-hero .week-subtitle,.hero.week-hero .week-description{margin-left:0;margin-right:0}
+.hero.week-hero .week-title{font-size:clamp(32px,5.4vw,76px);transform-origin:left center}
+
+
+.week-course-group{margin-top:38px}
+.week-group-heading{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin-bottom:15px}
+.week-group-heading h3{margin:0;font-size:27px;font-weight:650;letter-spacing:-.035em}
+.week-group-heading span{font-size:12px;color:var(--muted);font-weight:500;letter-spacing:.035em}
+.week-course-group .table-scroll{margin-top:0}
+.week-course-group table{table-layout:fixed;width:100%;min-width:750px}
+.week-course-group th:nth-child(1){width:8%}
+.week-course-group th:nth-child(2){width:27%}
+.week-course-group th:nth-child(3){width:12%}
+.week-course-group th:nth-child(4){width:53%}
+@media(max-width:680px){
+ .page-home .week-hero{padding:42px 20px 28px}
+ .week-hero .week-title{font-size:clamp(25px,7.3vw,48px);margin:6px 0 17px;letter-spacing:-.045em}
+ .week-hero .week-subtitle{font-size:21px;max-width:430px;margin-bottom:14px}
+ .week-hero .week-description{font-size:14px;line-height:1.85;max-width:430px}
+ 
+ 
+ .week-course-group{margin-top:29px}
+ .week-group-heading h3{font-size:23px}
+ .week-group-heading span{font-size:10px}
+}
+@media print{
+ .week-hero .week-title{font-size:36pt}
+ .week-hero .week-subtitle{font-size:18pt}
+ .week-hero .week-description{font-size:11pt}
+ 
+ 
+ .week-course-group{break-inside:avoid}
+ .week-course-group table{min-width:0}
+}
+
+/* Daily lesson headers: one close text group, then a separate action group. */
+.hero.lesson-hero{padding-bottom:30px;margin-bottom:28px}
+.lesson-hero .eyebrow{margin:0 0 14px}
+.lesson-heading-group{display:flex;flex-direction:column;align-items:flex-start}
+.lesson-hero .lesson-title{
+ font-family:"MiSans Course Bold","MiSans","PingFang SC",sans-serif;
+ font-weight:700;font-style:normal;font-synthesis:none;
+ font-size:clamp(32px,4.2vw,58px);line-height:1.18;letter-spacing:-.02em;
+ color:var(--ink);margin:0;max-width:none;transform:none;text-wrap:balance;
+}
+.lesson-hero .lesson-subtitle{
+ font-family:"PingFang SC",-apple-system,BlinkMacSystemFont,sans-serif;
+ font-size:clamp(20px,1.8vw,25px);font-weight:600;line-height:1.45;
+ color:var(--ink);letter-spacing:-.015em;margin:8px 0 0;max-width:980px;text-wrap:balance;
+}
+.lesson-hero .lesson-description{
+ font-family:var(--font);font-size:1em;font-weight:400;line-height:1.85;
+ color:var(--muted);letter-spacing:normal;margin:10px 0 0;max-width:800px;
+}
+.lesson-hero .hero-actions{margin-top:26px}
+@media(max-width:680px){
+ .hero.lesson-hero{padding-bottom:24px;margin-bottom:20px}
+ .lesson-hero .eyebrow{margin-bottom:12px}
+ .lesson-hero .lesson-title{font-size:34px;line-height:1.22;margin:0}
+ .lesson-hero .lesson-subtitle{font-size:20px;line-height:1.45;margin-top:7px}
+ .lesson-hero .lesson-description{font-size:1em;margin-top:8px}
+ .lesson-hero .hero-actions{margin-top:22px}
+}
+@media print{
+ .hero.lesson-hero{padding-bottom:12px;margin-bottom:12px}
+ .lesson-hero .eyebrow{margin-bottom:8px}
+ .lesson-hero .lesson-title{font-size:27pt}
+ .lesson-hero .lesson-subtitle{font-size:15pt;margin-top:5px}
+ .lesson-hero .lesson-description{font-size:1em;margin-top:6px}
+}
+</style><style>/* Original teaching images: keep the full frame and group captions with figures. */
+.asset-visuals{margin:28px 0 40px;scroll-margin-top:160px}
+.asset-visuals h4{margin:0 0 8px;font-size:21px;line-height:1.4;letter-spacing:0}
+.asset-visuals .asset-intro{margin:0 0 18px;font-size:16px;line-height:1.7;color:var(--muted,#6e6e73)}
+.asset-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.asset-grid[data-columns="2"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+.asset-grid[data-columns="1"]{grid-template-columns:minmax(0,1fr)}
+.asset-figure{margin:0;min-width:0;break-inside:avoid}
+.asset-image-link{display:flex;justify-content:center;align-items:center;position:relative;overflow:hidden;border-radius:16px;background:#ececee;cursor:zoom-in}
+.asset-figure img{display:block;width:100%;height:300px;object-fit:contain;margin:0!important;max-width:100%;border-radius:0!important}
+.asset-grid[data-columns="2"] .asset-figure img{height:340px}
+.asset-grid[data-columns="1"] .asset-figure img{height:auto;max-height:640px}
+.asset-image-link:after{content:'放大';position:absolute;right:10px;bottom:10px;padding:4px 10px;border-radius:20px;color:#1d1d1f;background:rgba(255,255,255,.92);font-size:12px;line-height:1.6}
+.asset-figure figcaption{margin:10px 2px 0;font-size:14px;line-height:1.65;color:var(--muted,#6e6e73)}
+.asset-figure figcaption strong{display:block;color:var(--ink,#1d1d1f);font-size:15px;font-weight:600;margin-bottom:3px}
+.asset-question{margin:18px 0 0!important;padding:14px 18px;border-left:3px solid #0071e3;background:var(--wash,#f5f5f7);font-size:16px!important;line-height:1.7}
+.asset-visuals .asset-more{margin:20px 0 0;padding:0;border:1px solid var(--rule,#d2d2d7);border-radius:14px;background:transparent;overflow:hidden}
+.asset-visuals .asset-more>summary{padding:15px 18px;font-size:15px;line-height:1.6;color:var(--accent,#0066cc);cursor:pointer}
+.asset-more>.asset-grid{padding:4px 18px 18px}
+.asset-visuals .asset-file-list{margin:0;padding:4px 20px 18px;list-style:none;font-size:15px}
+.asset-file-list li{padding:10px 0;border-top:1px solid var(--rule,#d2d2d7)}
+.asset-file-list span{display:block;font-size:14px;color:var(--muted,#6e6e73);margin-top:4px}
+.asset-video{margin:24px 0 0;break-inside:avoid}
+.asset-video video{display:block;width:100%;aspect-ratio:16/9;max-height:600px;object-fit:contain;border-radius:16px;background:#111}
+.asset-video figcaption{margin:12px 2px 0;font-size:14px;line-height:1.7;color:var(--muted,#6e6e73)}
+.asset-video figcaption strong{font-size:15px;color:var(--ink,#1d1d1f)}
+.asset-video figcaption p{margin:4px 0 8px!important;font-size:14px!important;line-height:1.7}
+.asset-jumps{display:flex;gap:8px 18px;flex-wrap:wrap;font-size:15px;margin:16px 0 22px}
+.asset-map{border:1px solid var(--rule,#d2d2d7);border-radius:20px;padding:24px;margin:20px 0 30px;background:var(--wash,#f5f5f7)}
+.asset-map header{margin:0 0 18px;position:static;background:transparent;border:0;backdrop-filter:none;box-shadow:none}
+.asset-map header h4{font-size:20px;margin:0 0 6px}
+.asset-map header p{font-size:15px!important;margin:0;color:var(--muted,#6e6e73)}
+.asset-map-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.asset-map-group{padding:18px;background:var(--paper,#fff);border-radius:14px;min-width:0}
+.asset-map-group b{display:block;font-size:17px;margin-bottom:10px}
+.asset-map-group ul{padding-left:18px;margin:0;font-size:15px;line-height:1.9}
+.asset-map-actions{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:18px;font-size:15px}
+.asset-map iframe{display:block;width:100%;height:550px;border:1px solid #d2d2d7;border-radius:12px;background:#fff;margin-top:16px}
+.asset-map details{margin:18px 0 0;padding:0;background:none;border:0}
+.asset-map summary{font-size:15px}
+.asset-lightbox{width:96vw;max-width:1600px;height:94vh;max-height:96vh;border:0;border-radius:20px;padding:0;background:#f5f5f7;color:#1d1d1f;overflow:hidden}
+.asset-lightbox::backdrop{background:rgba(0,0,0,.75);backdrop-filter:blur(8px)}
+.asset-lightbox-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 20px;background:#fff;border-bottom:1px solid #d2d2d7;min-height:64px;box-sizing:border-box}
+.asset-lightbox-bar p{margin:0;font-size:15px;line-height:1.5}
+.asset-lightbox-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;flex-shrink:0}
+.asset-lightbox button,.asset-lightbox a{font:inherit;font-size:14px;padding:8px 12px;background:#f5f5f7;color:#0066cc;border:0;border-radius:18px;cursor:pointer}
+.asset-lightbox-stage{height:calc(100% - 78px);overflow:auto;padding:16px;box-sizing:border-box;text-align:center}
+.asset-lightbox-stage img{display:block;margin:0 auto;width:auto;max-width:100%;height:100%;object-fit:contain;max-height:100%;cursor:zoom-in}
+.asset-lightbox-stage.is-actual img{height:auto;max-height:none;max-width:none;cursor:zoom-out}
+@media(max-width:760px){.asset-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.asset-grid[data-columns="2"]{grid-template-columns:repeat(2,minmax(0,1fr))}.asset-figure img,.asset-grid[data-columns="2"] .asset-figure img{height:240px}.asset-map-grid{grid-template-columns:1fr}.asset-map{padding:18px}.asset-lightbox-bar{align-items:flex-start;flex-direction:column;gap:8px}.asset-lightbox-stage{height:calc(100% - 120px)}}
+@media(max-width:440px){.asset-grid,.asset-grid[data-columns="2"]{grid-template-columns:1fr}.asset-figure img,.asset-grid[data-columns="2"] .asset-figure img{height:360px}}
+@media print{.asset-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.asset-grid[data-columns="2"]{grid-template-columns:repeat(2,minmax(0,1fr))}.asset-figure img,.asset-grid[data-columns="2"] .asset-figure img{height:180px}.asset-grid[data-columns="1"] .asset-figure img{height:auto;max-height:380px}.asset-image-link:after,.asset-jumps,.asset-map iframe,.asset-map details,.asset-lightbox{display:none!important}.asset-visuals{margin:20px 0}.asset-map-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+.storyboard-intro{margin:28px 0 36px;padding:24px 0;border-bottom:1px solid var(--rule)}.storyboard-intro h3{margin-top:0}.storyboard-intro p{color:var(--muted)}.storyboard-visuals .asset-grid[data-columns="1"] img{max-height:none;height:auto;width:100%;display:block;background:#fff}.storyboard-visuals{margin:28px 0 44px}.storyboard-visuals h4{margin-bottom:16px}.storyboard-source{font-size:13px!important;line-height:1.7;color:var(--muted);margin:12px 0 18px}.storyboard-source a{margin-left:8px}.storyboard-answer{margin-top:12px}.storyboard-answer p{margin:12px 0}.storyboard-intro .asset-jumps{gap:8px}@media print{.storyboard-intro .asset-jumps{display:none}.storyboard-visuals{break-inside:avoid}.storyboard-visuals .asset-grid[data-columns="1"] img{max-height:460px;object-fit:contain}.storyboard-source{font-size:10px!important}}</style><style id="course-navigation">
+.course-tabs{min-width:0;max-width:100%;overflow-x:auto}
+@media(max-width:680px){.course-tabs{width:100%;margin-left:0}.course-tabs .tab-overview{display:inline-flex}}
+</style><link data-aigc-motion rel="stylesheet" href="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/reading-motion.css?v=2">
+<meta name="robots" content="noindex,nofollow"><script defer src="/qieman-aigc/online-media.js"></script></head><body class="mode-full page-reader"><a href="#main-content" class="skip-link">跳到正文</a><header class="top"><div class="global-inner"><a class="brand" href="/qieman-aigc/handbook/index.html"><img class="brand-logo" src="/qieman-aigc/media/860a54faa22d1310c56209a4.webp" alt="个人Logo" width="32" height="32"><span>AIGC教学手册</span></a><div class="course-tabs" role="navigation" aria-label="四周总览与本周课程"><a href="/qieman-aigc/handbook/index.html">四周总览</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/00_%E7%AC%AC%E4%BA%8C%E5%91%A8%E6%95%99%E6%A1%88%E5%AF%BC%E8%88%AA.html" class="tab-overview">本周总览</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D06_%E5%8F%99%E4%BA%8B%E6%8B%86%E8%A7%A3%E4%B8%8E%E6%96%87%E5%AD%97%E5%88%86%E9%95%9C.html" aria-label="D6 叙事拆解与文字分镜">D6</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D07_%E7%BE%8E%E6%9C%AF%E8%AE%BE%E5%AE%9A%E4%B8%8E%E8%B5%84%E4%BA%A7%E7%94%9F%E6%88%90.html" aria-label="D7 美术设定与资产生成">D7</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D08_%E7%94%BB%E9%9D%A2%E5%88%86%E9%95%9C%E4%B8%8E%E6%9C%89%E5%A3%B0%E9%A2%84%E6%BC%94.html" aria-label="D8 画面分镜与有声预演" aria-current="page">D8</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D09_%E8%A1%A8%E6%BC%94%E5%A3%B0%E9%9F%B3%E4%B8%8E%E5%89%A7%E6%83%85%E9%95%9C%E5%A4%B4%E7%94%9F%E6%88%90.html" aria-label="D9 表演声音与剧情镜头生成">D9</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D10_%E5%89%AA%E8%BE%91%E5%8F%99%E4%BA%8B%E4%B8%8E%E6%83%85%E7%BB%AA%E7%B2%BE%E4%BF%AE.html" aria-label="D10 剪辑叙事与情绪精修">D10</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/06_%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A.html">周末</a></div></div><div class="toolbar-wrap"><div class="reader-tools"><div class="page-context">第二周<b>D08 · 画面分镜与有声预演</b></div><div class="tools"><div class="segmented" role="group" aria-label="教案版本"><button data-mode-button="full" aria-pressed="true">完整版</button><button data-mode-button="short" aria-pressed="false">应急短版</button></div><div class="segmented" role="group" aria-label="阅读主题"><button data-theme-button="paper">浅色</button><button data-theme-button="dark">深色</button><button data-theme-button="eye">护眼</button></div><button class="print-button" onclick="window.print()"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H4V9h16v8h-3M7 14h10v7H7z"/><path d="M17 11h.01"/></svg><span class="print-word">打印／PDF</span></button></div></div></div><div class="reading-progress" aria-hidden="true"><i></i></div></header><div class="layout"><nav class="side-nav" aria-label="本页目录"><span class="nav-caption">本页目录</span><a href="#goal">目标与交付</a><a href="#time">时间与短版</a><a href="#prep">课前准备</a><a href="#content">案例与知识</a><a href="#storyboard-examples">分镜图例</a><a href="#board-am">上午板书</a><a href="#am">上午教案</a><a href="#board-pm">下午板书</a><a href="#pm">下午教案</a><a href="#assessment">验收与作业</a><a href="#sources">依据与新增参考</a><a href="#rules">课堂机制</a><div class="only-full"><details class="nav-details"><summary>按钟点定位</summary><a href="#D08-full-am-1">10:00 接回D7资产包</a><a href="#D08-full-am-2">10:08 从观看任务选择机位</a><a href="#D08-full-am-3">10:25 摆出整条主要画面</a><a href="#D08-full-am-5">11:05 接点与同镜关键图</a><a href="#D08-full-am-6">11:23 补关键图并修整条连续</a><a href="#D08-full-am-7">11:50 上午闭卷验收</a><a href="#D08-full-pm-1">14:00 接回上午同一题</a><a href="#D08-full-pm-2">14:08 用正常试读搭预演</a><a href="#D08-full-pm-3">14:25 完成整条有声预演</a><a href="#D08-full-pm-5">15:20 按具体位置定位问题</a><a href="#D08-full-pm-6">15:35 修分镜和预演</a><a href="#D08-full-pm-8">16:30 补必要起始构图与参考</a><a href="#D08-full-pm-9">17:05 组装并实际接手镜头任务</a><a href="#D08-full-pm-10">17:30 保存采用版与动态风险</a><a href="#D08-full-pm-11">17:50 下午闭卷验收</a></details></div><div class="only-short"><details class="nav-details"><summary>按钟点定位</summary><a href="#D08-short-am-1">10:15 接回D7资产包</a><a href="#D08-short-am-2">10:23 从观看任务选择机位</a><a href="#D08-short-am-3">10:33 摆出整条主要画面</a><a href="#D08-short-am-5">11:13 接点与同镜关键图</a><a href="#D08-short-am-6">11:23 补关键图并修整条连续</a><a href="#D08-short-am-7">11:50 上午闭卷验收</a><a href="#D08-short-pm-1">14:15 接回上午同一题</a><a href="#D08-short-pm-2">14:23 用正常试读搭预演</a><a href="#D08-short-pm-3">14:33 完成整条有声预演</a><a href="#D08-short-pm-5">15:28 按具体位置定位问题</a><a href="#D08-short-pm-6">15:35 修分镜和预演</a><a href="#D08-short-pm-8">16:30 补必要起始构图与参考</a><a href="#D08-short-pm-9">17:05 组装并实际接手镜头任务</a><a href="#D08-short-pm-10">17:30 保存采用版与动态风险</a><a href="#D08-short-pm-11">17:50 下午闭卷验收</a></details></div></nav><main id="main-content" tabindex="-1"><div class="hero lesson-hero"><div class="eyebrow">第二周 · D08 · 教师授课手册</div><div class="lesson-heading-group"><h1 class="lesson-title">画面分镜</h1><p class="lesson-subtitle">镜头设计、连续性与预演</p><p class="lesson-description">用采用资产安排镜头，把空间、动作与时间连成一条故事。</p></div><div class="hero-actions"><a class="button-primary" href="#am" data-scroll>开始上午课程 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#content" data-scroll>查看案例与知识</a><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D08_%E7%94%BB%E9%9D%A2%E5%88%86%E9%95%9C%E4%B8%8E%E6%9C%89%E5%A3%B0%E9%A2%84%E6%BC%94.md">可编辑文字稿 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M4 17v4h16v-4"/></svg></a></div></div><section id="goal"><h2 data-number="01">学生下课带走什么</h2><p class="lead">整条图文分镜采用版、配正常试读的有声预演、逐镜生成输入表与必要参考；记录一处连续性或信息修改及未决风险。</p><div class="two"><div class="card"><span class="tag">上午｜B类实训</span><p>覆盖采用故事的画面分镜草稿，附主要机位、视线与必要动作关键图；文字与镜号对应。</p></div><div class="card"><span class="tag">下午｜B类实训</span><p>整条图文分镜采用版、配正常试读的有声预演、逐镜生成输入表与必要参考；记录一处连续性或信息修改及未决风险。</p></div></div><p>画面分镜 → 空间连续 → 有声预演 → 生成输入</p></section><section id="time"><h2 data-number="02">时间与应急短版</h2><p>完整版10:00—12:00、14:00—18:00；短版从10:15、14:15开始，仍按原时刻下课。首次本人实作：完整版10:25，短版10:33；课末验收固定11:50、17:50。短版每半天从已标出的教师讲述、示范或讲评回收15分钟，共30分钟；保留本人实作、休息和验收。局部延误只采用后续尚未进行的删减，不主动迟开课。</p><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>版本</th>
+<th>计划总时段</th>
+<th>休息</th>
+<th>净课堂</th>
+<th>本人实作</th>
+<th>计划实作／净课堂</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>完整版</td>
+<td>360分钟</td>
+<td>30分钟</td>
+<td>330分钟</td>
+<td>227分钟</td>
+<td>68.8%</td>
+</tr>
+<tr>
+<td>短版</td>
+<td>330分钟</td>
+<td>30分钟</td>
+<td>300分钟</td>
+<td>227分钟</td>
+<td>75.7%</td>
+</tr>
+</tbody></table></div>
+<p class="small">本人实作计制作、写作、试读和交接；纯排队、观看、讲评和闭卷回测不计入。</p><h3>30分钟回收清单</h3><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>环节</th>
+<th>回收</th>
+<th>怎样压缩</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>上午：从观看任务选择机位</td>
+<td>7分钟</td>
+<td>保留核心演示与关键判断，省去重复讲述；实作、休息与闭卷题不缩减。</td>
+</tr>
+<tr>
+<td>上午：接点与同镜关键图</td>
+<td>8分钟</td>
+<td>保留核心演示与关键判断，省去重复讲述；实作、休息与闭卷题不缩减。</td>
+</tr>
+<tr>
+<td>下午：用正常试读搭预演</td>
+<td>7分钟</td>
+<td>保留核心演示与关键判断，省去重复讲述；实作、休息与闭卷题不缩减。</td>
+</tr>
+<tr>
+<td>下午：按具体位置定位问题</td>
+<td>8分钟</td>
+<td>保留核心演示与关键判断，省去重复讲述；实作、休息与闭卷题不缩减。</td>
+</tr>
+</tbody></table></div>
+<h3>每次休息回座对表</h3><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>版本</th>
+<th>回座校时点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>完整版</td>
+<td>11:05、15:20、16:30</td>
+</tr>
+<tr>
+<td>短版</td>
+<td>11:13、15:28、16:30</td>
+</tr>
+</tbody></table></div>
+<p>落后超过8分钟，启用尚可执行的短版删减；不加快语速、不取消休息和验收。超出可回收时间时保留基础档任务，缺项明记。</p></section><section id="prep"><h2 data-number="03">课前准备</h2><p>接收D6文字分镜与关键草图、D7人物场景道具采用包、空间关系和风格说明。教师备好同一段落的机位与景别对照、视线和手部道具跳变示意、一镜多关键图、草图配正常试读的时间线，以及单镜输入样页。继续单场景双角色20—30秒稿，镜数按原文字表与必要信息确定；可参考6—8镜，不强制凑数。用简笔画、素材拼摆或AI辅助出图均可，先完成整条可理解的方案，不以全片精绘作为下课条件。 本页已附6张重绘分镜图例，可点击放大，原课章节与图号另附索引；本班采用资产的整条预演和实际生成输入样页仍由主讲准备。</p><div class="blank"><strong>主讲课前补齐</strong><p>当前工具入口与规格：________</p><p>本人同条件操作录屏／失败与修正：________</p><p>干净输入素材／备用素材／工程：________</p><p>实际日期、主讲、助教、分发位置：________</p></div></section><section id="content"><h2 data-number="04">案例与教学内容</h2><div class="storyboard-intro" id="storyboard-examples"><h3>把文字，放进画面。</h3><p>以下6张图按原课知识重新设计为店内对话示意，采用白底线稿与蓝色提示。课堂仍使用本班D7采用资产；图中的角色、菜单短线与镜号用于讲解。点击图片可放大。</p><div class="asset-jumps"><a href="#storyboard-shot-purpose">先选观看任务</a><a href="#storyboard-space">先把人放进同一个空间</a><a href="#storyboard-axis">机位同侧，视线有来有回</a><a href="#storyboard-action-match">把前镜落点与后镜起点并排</a><a href="#storyboard-keyposes">三张关键图，仍可属于一镜</a><a href="#storyboard-reveal">先看观众何时得到线索</a></div></div><h3>本日位置：资产回答长相，分镜安排观看</h3>
+<p>今天接收D7已经选定的人、景、物和风格，安排观众从哪里看、先看到什么、动作怎样前后连接。整条分镜只有一天，上午画清镜头与接点，下午用真实声音预演并准备生成。第一周学过的按钮和术语按需调用，不重讲完整软件课。D7组合试图可以提供空间或外观依据，不能自动充当所有镜头的起始帧。</p>
+<h3>1．每镜先定观看任务，再选景别机位</h3>
+<p>文字分镜已经给出本镜信息。需要理解两人关系时可用关系画面，需要辨认菜单字时安排可读细节，需要看人物明白后的变化时留反应镜头。全景、人物近景、肩后与特写各有作用，不要求每个类型都出现。正反打不是说一句换一次镜头；声音可以继续，画面留在听者身上。手或道具被身体遮住时，先改站位、机位或构图。</p>
+<div class="asset-visuals storyboard-visuals" id="storyboard-shot-purpose"><h4>先选观看任务</h4><div class="asset-grid" data-columns="1"><figure class="asset-figure"><a class="asset-image-link" href="/qieman-aigc/media/2f899f16f4252eb7eaec2aa5.webp" data-asset-image="先选观看任务"><img src="/qieman-aigc/media/2f899f16f4252eb7eaec2aa5.webp" alt="先选观看任务。关系画面交代谁和谁；细节画面突出线索；反应画面让理解或情绪的变化可见。三格是用途对照，不是每场戏都要照抄的顺序。" loading="lazy" decoding="async"></a><figcaption>关系画面交代谁和谁；细节画面突出线索；反应画面让理解或情绪的变化可见。三格是用途对照，不是每场戏都要照抄的顺序。</figcaption></figure></div><p class="storyboard-source">知识参考：老白的分镜，《景别实战》27:47—28:25，图10_06。<a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">来源与改绘说明 ↗</a></p><p class="asset-question"><strong>看图提问：</strong>如果这一镜要让观众读清菜单，你会选哪种画面？</p><details class="storyboard-answer"><summary>教师参考答案</summary><p>选择线索细节，并检查文字大小、遮挡与停留时间。菜单上的短线只是位置示意，课堂须换成本班采用稿里的准确文字。</p></details></div><h3>2．借D7空间图保持同一地点</h3>
+<p>沿采用的柜台、菜单、入口和两人位置标主要机位。入门任务让机位主要在人物关系轴线同侧，保持左右关系与互看方向；身体左、场地左和画面左分别说明。两个反向镜头不能都用同一面墙作背景，也不靠整图镜像制造另一面。越轴可有叙事用途，但需帮助观众重新定位，本课不把复杂跨轴设计列为基础任务。若新机位露出未设计的区域，补对应场景方向并标明新增设计。</p>
+<div class="asset-visuals storyboard-visuals" id="storyboard-space"><h4>先把人放进同一个空间</h4><div class="asset-grid" data-columns="1"><figure class="asset-figure"><a class="asset-image-link" href="/qieman-aigc/media/0f09ef2ea2c1b552e17072e5.webp" data-asset-image="先把人放进同一个空间"><img src="/qieman-aigc/media/0f09ef2ea2c1b552e17072e5.webp" alt="先把人放进同一个空间。杯子、柜台、店员、门窗提供前后关系。换机位前先回到D7空间图，确定这些东西实际在哪里，再判断新角度会露出什么。" loading="lazy" decoding="async"></a><figcaption>杯子、柜台、店员、门窗提供前后关系。换机位前先回到D7空间图，确定这些东西实际在哪里，再判断新角度会露出什么。</figcaption></figure></div><p class="storyboard-source">知识参考：老白的分镜，《人物和空间组成构图》20:13—20:56，图08_05；《空间和透视》图06_03。<a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">来源与改绘说明 ↗</a></p><p class="asset-question"><strong>看图提问：</strong>如果改拍顾客正面，哪些背景会退出画面，哪些方向的素材可能需要补？</p><details class="storyboard-answer"><summary>教师参考答案</summary><p>先在空间图标出新机位和朝向，画出可见范围。原来的门窗不一定还能看见；需要时补当前视角会露出的墙面或入口，不能把整张图镜像代替反向场景。</p></details></div><div class="asset-visuals storyboard-visuals" id="storyboard-axis"><h4>机位同侧，视线有来有回</h4><div class="asset-grid" data-columns="1"><figure class="asset-figure"><a class="asset-image-link" href="/qieman-aigc/media/ab70d20082f97aab124a62bd.webp" data-asset-image="机位同侧，视线有来有回"><img src="/qieman-aigc/media/ab70d20082f97aab124a62bd.webp" alt="机位同侧，视线有来有回。上方示意人物关系线与同侧机位，下方对应互看方向。先让观众能定位两个人，再考虑复杂调度；图中柜台是示意，不替代本班空间图。" loading="lazy" decoding="async"></a><figcaption>上方示意人物关系线与同侧机位，下方对应互看方向。先让观众能定位两个人，再考虑复杂调度；图中柜台是示意，不替代本班空间图。</figcaption></figure></div><p class="storyboard-source">知识参考：老白的分镜，《轴向实战》16:59—17:33，图09_03。<a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">来源与改绘说明 ↗</a></p><p class="asset-question"><strong>看图提问：</strong>如果两个单人镜头里的人都看向画面右侧，怎么判断是否接错？</p><details class="storyboard-answer"><summary>教师参考答案</summary><p>回到机位与视线对象检查。面对面交谈时，两幅画面通常应形成可理解的互看关系；如果两人都看向同一物件，也可能同向，不能只靠箭头方向判错。</p></details></div><h3>3．动作、视线与道具要接得住</h3>
+<p>把前镜落点与后镜起点并排看：谁看谁、哪只手、指向哪里、杯子与菜单在哪。举例，前镜手才伸出，后镜却已收回，可能缺关键过程；顾客看向服务员却切到不在视线方向的物件，需要重新组织。可改后镜起点、补必要状态或调整观看顺序，不用转场效果掩盖因果断裂。</p>
+<div class="asset-visuals storyboard-visuals" id="storyboard-action-match"><h4>把前镜落点与后镜起点并排</h4><div class="asset-grid" data-columns="1"><figure class="asset-figure"><a class="asset-image-link" href="/qieman-aigc/media/3fc7690636ea6c272af9a991.webp" data-asset-image="把前镜落点与后镜起点并排"><img src="/qieman-aigc/media/3fc7690636ea6c272af9a991.webp" alt="把前镜落点与后镜起点并排。本图只隔离比较动作状态：伸手指菜单后，如果直接接抱臂，观众可能看不到收手过程。示例保持相同构图，便于辨认差异，不表示实拍一定要同景别硬切。" loading="lazy" decoding="async"></a><figcaption>本图只隔离比较动作状态：伸手指菜单后，如果直接接抱臂，观众可能看不到收手过程。示例保持相同构图，便于辨认差异，不表示实拍一定要同景别硬切。</figcaption></figure></div><p class="storyboard-source">知识参考：老白的分镜，《用速写来“表演”》17:08—17:51，图07_03；《高潮戏的综合应用（连接镜）》25:52—26:27，图18_02。接点对照为本课新增练习。<a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">来源与改绘说明 ↗</a></p><p class="asset-question"><strong>看图提问：</strong>在强调连续动作的这段里，第三格至少需要改什么？</p><details class="storyboard-answer"><summary>教师参考答案</summary><p>把后镜起点改回可承接的手部状态，或安排可理解的收手过程。若有意省略时间，要让省略成立；同时核对杯子、菜单、人物视线和左右手，不能用转场特效掩盖缺失。</p></details></div><h3>4．一镜多图表达过程，不等于多次切镜</h3>
+<p>草图保留镜号、画幅、景别、主体大小、位置、动作和必要说明。一镜按实际难点补起点、转折或落点，标S04-a、S04-b；总时长属于这一镜，不能按每张图重复相加。人物移动与摄影机移动分别写清对象、从哪到哪和结束时要看清什么。「尴尬」落到停顿、视线或身体变化，动态表演精修留D9。几张图能说清就用几张，简单静态不用硬凑起中末三图。</p>
+<div class="asset-visuals storyboard-visuals" id="storyboard-keyposes"><h4>三张关键图，仍可属于一镜</h4><div class="asset-grid" data-columns="1"><figure class="asset-figure"><a class="asset-image-link" href="/qieman-aigc/media/9b03d26e1990eba7c1f60186.webp" data-asset-image="三张关键图，仍可属于一镜"><img src="/qieman-aigc/media/9b03d26e1990eba7c1f60186.webp" alt="三张关键图，仍可属于一镜。S04-a、S04-b、S04-c描述同一镜头里的起点、过程和落点。5秒是演示用的整镜预算，实际时长由动作与试读决定；简单动作不必硬凑三张。" loading="lazy" decoding="async"></a><figcaption>S04-a、S04-b、S04-c描述同一镜头里的起点、过程和落点。5秒是演示用的整镜预算，实际时长由动作与试读决定；简单动作不必硬凑三张。</figcaption></figure></div><p class="storyboard-source">知识参考：老白的分镜，《运动规律基础》17:25—18:09、32:45—33:32，图14_04、14_05。镜号与5秒预算为本课示例。<a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">来源与改绘说明 ↗</a></p><p class="asset-question"><strong>看图提问：</strong>三张图是否等于三个镜头、各生成5秒？</p><details class="storyboard-answer"><summary>教师参考答案</summary><p>不等于。先分清它们是同镜关键状态还是不同机位的切镜。这里只记S04总时长5秒，三张图共享这个时间；具体工具是否支持多关键图，需要按实际入口安排。</p></details></div><h3>5．有声预演检查观看顺序与实际时间</h3>
+<p>把草图或关键图按镜号摆进剪辑时间线，配正常试读，给读字、动作和反应留时间；预计20—30秒是当前任务目标，不靠加速念词硬压。先看整条，再让同伴说人物目的、误会和纠正发生在哪里，记具体时间点。缺信息补必要画面，重复信息精简，动作关系错回对应图，阅读时间不足调整停留。静态预演不能证明AI已经能完成表演、口型和运动，动态风险留D9先做短样。</p>
+<div class="asset-visuals storyboard-visuals" id="storyboard-reveal"><h4>先看观众何时得到线索</h4><div class="asset-grid" data-columns="1"><figure class="asset-figure"><a class="asset-image-link" href="/qieman-aigc/media/2096c4d487f8cf97eb95837d.webp" data-asset-image="先看观众何时得到线索"><img src="/qieman-aigc/media/2096c4d487f8cf97eb95837d.webp" alt="先看观众何时得到线索。这组三格演示疑惑、辨认线索、理解反应。先后顺序与停留时长一起决定观众能否跟上；底部色块只示意时间分配，不是已经完成的有声预演。" loading="lazy" decoding="async"></a><figcaption>这组三格演示疑惑、辨认线索、理解反应。先后顺序与停留时长一起决定观众能否跟上；底部色块只示意时间分配，不是已经完成的有声预演。</figcaption></figure></div><p class="storyboard-source">知识参考：老白的分镜，《控制信息在实战中的应用》36:52—37:45，图12_04；《高潮戏的综合应用（连接镜）》29:07—29:48，图18_03。<a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">来源与改绘说明 ↗</a></p><p class="asset-question"><strong>看图提问：</strong>如果菜单只闪了一下，顾客下一镜已经明白了，你会先检查什么？</p><details class="storyboard-answer"><summary>教师参考答案</summary><p>先让没看过脚本的人正常播放，确认是否读到线索、在哪个时间点没跟上。再调整字号、构图、遮挡或停留；不要只加快台词。菜单短线须替换成准确文本，静态图不能替代实际试读和动态小样。</p></details></div><h3>6．把资产、分镜图和生成输入接起来</h3>
+<p>资产身份图用于稳定外形；场景图负责空间；道具图负责外形文字和状态；分镜图负责当前构图。明确哪张是身份参考、哪张是位置示意、哪张才是实际起始画面，不能直接把带字的多人设定拼图塞成视频第一帧。今天按采用镜头补必要起始构图与角度，不重新设计整套人物。不同生成路线支持的引用方式由主讲按本班工具准备，不能假设所有草图都可直接生成高质量视频。</p>
+<h3>7．交给周四的最小执行包</h3>
+<p>同一入口保存文字与画面分镜、正常试读、有声预演、采用资产及逐镜输入表。表内写镜号、实际图文件、参考职责、动作起止、声音、预计时长、保持条件和缺项。挑最影响整条完成的两处动态风险交D9做小样。今天未补的关键图必须写明，不能因为预演能播放就标成生成准备全部通过。挑战同学可做一处机位或揭示顺序A/B，复杂调度与多套精绘不占基础任务时间。</p>
+<h3>同一采用稿：指菜单到人物明白</h3>
+<p>以下文字与上方图例为教师教学示意，课堂沿用D6的镜号与采用稿；示例编号不能覆盖学员已有编号，示例菜单短线须换成采用稿里的准确文本。</p>
+<div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>镜头任务</th>
+<th>画面怎样安排</th>
+<th>连续与时间要点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>交代对话关系</td>
+<td>用D7柜台和两位角色，画两人位置与菜单所在侧</td>
+<td>空间与资产一致，后续反向可回到同一布局</td>
+</tr>
+<tr>
+<td>服务员提供选项</td>
+<td>根据观看重点选单人或双人画面</td>
+<td>保持互看方向，声音与原稿一致</td>
+</tr>
+<tr>
+<td>顾客误听并回答</td>
+<td>留顾客可见反应，不急着泄露纠正信息</td>
+<td>台词长度和动作可完成，不靠满屏字解释</td>
+</tr>
+<tr>
+<td>服务员指菜单</td>
+<td>必要时同镜补手从柜台附近到字旁的两张关键图</td>
+<td>手、菜单和机位对应；明确两图共用的镜头总时长</td>
+</tr>
+<tr>
+<td>观众辨认线索</td>
+<td>采用D7准确文字的菜单参考，按需要给可读细节</td>
+<td>字不被遮挡，有足够阅读时间</td>
+</tr>
+<tr>
+<td>顾客理解后反应</td>
+<td>回到对应机位与同一角色状态</td>
+<td>反应不能被无意截掉，静态时长留D9动态试验</td>
+</tr>
+</tbody></table></div>
+<h3>同一张资产的不同用途</h3>
+<p>人物正面特写用于身份；店内总图用于环境；D7组合试图可说明站位；D8该镜关键图说明具体观看角度和动作起点。它们可以共同参与一个生成任务，但不能用图的文件名代替实际引用，也不把资产总览页当作成片画面。</p>
+<h3>课堂问题与参考判断</h3>
+<ul>
+<li>前镜顾客在画面左，后镜也要在左吗？不机械规定。先看当前机位与空间关系，基础练习保持观众能理解谁在看谁。</li>
+<li>一镜画两张动作图，是否把5秒变成10秒？不是。先说明两张是同镜起止，仍按这一镜的总时间安排。</li>
+<li>预演已经清楚，是否可以整片一次批量生成？先查实际输入和高风险动作，D9按任务做小样再扩大。</li>
+</ul>
+<p>**最低交付：**整条图文分镜、本人正常试读与有声预演、实际可用参考入口、逐镜输入和两处优先动态风险。草图可简洁，不能缺关键剧情或把未完成图写成已采用素材。</p>
+</section><section id="board-am"><h2 data-number="05">上午板书</h2><div class="board"><svg id="board-D08-am" data-shown="6" xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="D08三区板书"><rect width="1600" height="900" fill="#f5f5f7"/><text x="40" y="63" fill="#1d1d1f" font-size="38" font-family="PingFang SC,Microsoft YaHei,sans-serif">D08 · 上午｜先画空表，讲到再填</text><text x="40" y="112" fill="#6e6e73" font-size="24" font-family="PingFang SC,Microsoft YaHei,sans-serif">绿：永久主线　橙：当前演算　灰：等学生提供</text><rect x="40" y="150" width="685" height="575" rx="18" fill="#f0f6ef" stroke="#c9d8c9"/><rect x="745" y="150" width="455" height="575" rx="18" fill="#fff6e9" stroke="#ead7b8"/><rect x="1220" y="150" width="340" height="575" rx="18" fill="#fff" stroke="#d2d2d7"/><text x="64" y="196" fill="#346b42" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">永久区｜全程不擦</text><text x="766" y="196" fill="#8b5900" font-size="26" font-family="PingFang SC,Microsoft YaHei,sans-serif">临时区｜讲完擦除</text><text x="1240" y="196" fill="#63636a" font-size="25" font-family="PingFang SC,Microsoft YaHei,sans-serif">留空区｜学员供料</text><g data-step="1"><text x="68" y="285" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">①本镜要看清什么</text></g><g data-step="2"><text x="68" y="395" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">②机位跟着空间走</text></g><g data-step="3"><text x="68" y="505" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">③前镜落点接后镜起点</text></g><g data-step="4"><text x="68" y="615" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">④同镜多图，总时长一次</text></g><g data-step="5"><text x="770" y="280" fill="#604825" font-size="23" font-family="PingFang SC,Microsoft YaHei,sans-serif">景别改变能看见的信息</text><text x="770" y="390" fill="#604825" font-size="23" font-family="PingFang SC,Microsoft YaHei,sans-serif">视线与道具不能跳变</text><text x="770" y="500" fill="#604825" font-size="23" font-family="PingFang SC,Microsoft YaHei,sans-serif">手势两图仍是一镜</text></g><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 0)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 65)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 130)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 195)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 260)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 325)" stroke="#d2d2d7" stroke-dasharray="6 6"/><g data-step="6"><text x="1240" y="247" fill="#6e6e73" font-size="20" font-family="PingFang SC,Microsoft YaHei,sans-serif">请补：问题、依据、改法</text></g><text x="45" y="777" fill="#1d1d1f" font-size="26" font-family="PingFang SC,Microsoft YaHei,sans-serif">实际书写：先画三区空表 → 按本页讲解逐项填①②③④ → 演算一例 → 请学生填右区</text><text x="45" y="827" fill="#6e6e73" font-size="25" font-family="PingFang SC,Microsoft YaHei,sans-serif">本半天板书节点：10:08、10:25、11:05、11:23、11:50</text><text x="45" y="870" fill="#6e6e73" font-size="21" font-family="PingFang SC,Microsoft YaHei,sans-serif">下方表列完整版与应急短版实际钟点；讲完例子擦临时区，永久区保留到复述互查。</text></svg></div><div class="board-tools"><button data-board-action="blank" data-board="board-D08-am">显示空板</button><button data-board-action="next" data-board="board-D08-am">下一笔</button><button data-board-action="all" data-board="board-D08-am">完整示意</button><button data-export="svg" data-board="board-D08-am">导出SVG</button><button data-export="png" data-board="board-D08-am">导出PNG</button></div><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>书写顺序</th>
+<th>完整版</th>
+<th>短版</th>
+<th>实际动作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>10:08—10:25</td>
+<td>10:23—10:33</td>
+<td>①本镜要看清什么</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10:25—10:55</td>
+<td>10:33—11:03</td>
+<td>②机位跟着空间走</td>
+</tr>
+<tr>
+<td>3</td>
+<td>11:05—11:23</td>
+<td>11:13—11:23</td>
+<td>③前镜落点接后镜起点</td>
+</tr>
+<tr>
+<td>4</td>
+<td>11:23—11:50</td>
+<td>11:23—11:50</td>
+<td>④同镜多图，总时长一次</td>
+</tr>
+<tr>
+<td>5</td>
+<td>11:50—12:00</td>
+<td>11:50—12:00</td>
+<td>右区写连续性依据</td>
+</tr>
+</tbody></table></div>
+</section><section id="am"><h2 data-number="06">上午逐段教案</h2><div class="only-full"><article class="block " id="D08-full-am-1"><div class="block-head"><h3><span class="clock">10:00—10:08</span>接回D7资产包</h3><span class="kind">回测｜8分钟</span></div><p><strong>老师做：</strong>复问D7下午题，定位采用入口与未补项。原题：一套人物、场景、道具资产怎样交给画面分镜？组合图出现不一致时，怎样定位并选择修改方式？</p><p class="student"><strong>学生做：</strong>闭卷说明参考职责，打开本人资产</p><p><strong>留下什么：</strong>当天输入与优先缺项</p><button class="quote" data-talk="talk-D08-full-am-1" data-title="10:00—10:08｜接回D7资产包">打开现场话术</button><template id="talk-D08-full-am-1">上一半天原题：一套人物、场景、道具资产怎样交给画面分镜？组合图出现不一致时，怎样定位并选择修改方式？ 今天用昨天采用的人物、场景和道具安排每一镜。</template><details><summary>展开话术</summary><blockquote>上一半天原题：一套人物、场景、道具资产怎样交给画面分镜？组合图出现不一致时，怎样定位并选择修改方式？ 今天用昨天采用的人物、场景和道具安排每一镜。</blockquote></details></article><article class="block " id="D08-full-am-2"><div class="block-head"><h3><span class="clock">10:08—10:25</span>从观看任务选择机位</h3><span class="kind">示范｜17分钟</span></div><p><strong>老师做：</strong>在D7空间图上标机位，比较关系画面、人物与道具细节。先看「先选观看任务」，再结合「空间」和「机位同侧」图，在本班D7空间图上演示；三图按需调用。</p><p class="student"><strong>学生做：</strong>写本人关键镜头要看清什么</p><p><strong>留下什么：</strong>镜头任务与位置批注</p><p class="beat">板书：①本镜要看清什么</p><button class="quote" data-talk="talk-D08-full-am-2" data-title="10:08—10:25｜从观看任务选择机位">打开现场话术</button><template id="talk-D08-full-am-2">先说观众要看见什么，再决定镜头站在哪里。</template><details><summary>展开话术</summary><blockquote>先说观众要看见什么，再决定镜头站在哪里。</blockquote></details></article><article class="block " id="D08-full-am-3"><div class="block-head"><h3><span class="clock">10:25—10:55</span>摆出整条主要画面</h3><span class="kind">实作｜30分钟</span></div><p><strong>老师做：</strong>巡视空间方向、人物位置与线索，支持简笔画和素材拼摆</p><p class="student"><strong>学生做：</strong>按D6文字表完成各镜主要画面，沿用D7资产</p><p><strong>留下什么：</strong>整条画面草稿v01</p><p class="beat">板书：②机位跟着空间走</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-full-am-3" data-title="10:25—10:55｜摆出整条主要画面">打开现场话术</button><template id="talk-D08-full-am-3">菜单、柜台和两个人，在换方向以后还要属于同一家店。</template><details><summary>展开话术</summary><blockquote>菜单、柜台和两个人，在换方向以后还要属于同一家店。</blockquote></details></article><article class="block break" id="D08-full-am-4"><div class="block-head"><h3><span class="clock">10:55—11:05</span>离屏休息</h3><span class="kind">休息｜10分钟</span></div><p><strong>老师做：</strong>提示回座时间</p><p class="student"><strong>学生做：</strong>离屏休息</p><p><strong>留下什么：</strong>继续准备</p><button class="quote" data-talk="talk-D08-full-am-4" data-title="10:55—11:05｜离屏休息">打开现场话术</button><template id="talk-D08-full-am-4">回来补容易断的动作关系。</template><details><summary>展开话术</summary><blockquote>回来补容易断的动作关系。</blockquote></details></article><article class="block " id="D08-full-am-5"><div class="block-head"><h3><span class="clock">11:05—11:23</span>接点与同镜关键图</h3><span class="kind">示范｜18分钟</span></div><p><strong>老师做：</strong>并排演示前镜落点、后镜起点，分别画人物与摄影机箭头。调用「把前镜落点与后镜起点并排」及「三张关键图，仍可属于一镜」；先让学生说出差异，再展开教师参考答案。</p><p class="student"><strong>学生做：</strong>标本人最容易误读的动作或道具状态</p><p><strong>留下什么：</strong>关键接点任务</p><p class="beat">板书：③前镜落点接后镜起点</p><button class="quote" data-talk="talk-D08-full-am-5" data-title="11:05—11:23｜接点与同镜关键图">打开现场话术</button><template id="talk-D08-full-am-5">两张图只是把同一动作说清，不是自动切两次镜头。</template><details><summary>展开话术</summary><blockquote>两张图只是把同一动作说清，不是自动切两次镜头。</blockquote></details></article><article class="block " id="D08-full-am-6"><div class="block-head"><h3><span class="clock">11:23—11:50</span>补关键图并修整条连续</h3><span class="kind">实作｜27分钟</span></div><p><strong>老师做：</strong>指导有限补帧与同步文字，不开展全片精绘</p><p class="student"><strong>学生做：</strong>修视线或道具跳变，补必要起止图、图序与时长</p><p><strong>留下什么：</strong>图文分镜草稿v02</p><p class="beat">板书：④同镜多图，总时长一次</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-full-am-6" data-title="11:23—11:50｜补关键图并修整条连续">打开现场话术</button><template id="talk-D08-full-am-6">先让前后发生的是同一件事，再精修局部外观。</template><details><summary>展开话术</summary><blockquote>先让前后发生的是同一件事，再精修局部外观。</blockquote></details></article><article class="block " id="D08-full-am-7"><div class="block-head"><h3><span class="clock">11:50—12:00</span>上午闭卷验收</h3><span class="kind">回测｜10分钟</span></div><p><strong>老师做：</strong>用上午题收集空间、动作与时间混淆</p><p class="student"><strong>学生做：</strong>不看稿说明一个接点和同镜多图</p><p><strong>留下什么：</strong>上午回测记录</p><p class="beat">板书：右区写连续性依据</p><button class="quote" data-talk="talk-D08-full-am-7" data-title="11:50—12:00｜上午闭卷验收">打开现场话术</button><template id="talk-D08-full-am-7">请指到你自己的两张图，说明它们怎样接。</template><details><summary>展开话术</summary><blockquote>请指到你自己的两张图，说明它们怎样接。</blockquote></details></article></div><div class="only-short"><article class="block " id="D08-short-am-1"><div class="block-head"><h3><span class="clock">10:15—10:23</span>接回D7资产包</h3><span class="kind">回测｜8分钟</span></div><p><strong>老师做：</strong>复问D7下午题，定位采用入口与未补项。原题：一套人物、场景、道具资产怎样交给画面分镜？组合图出现不一致时，怎样定位并选择修改方式？</p><p class="student"><strong>学生做：</strong>闭卷说明参考职责，打开本人资产</p><p><strong>留下什么：</strong>当天输入与优先缺项</p><button class="quote" data-talk="talk-D08-short-am-1" data-title="10:15—10:23｜接回D7资产包">打开现场话术</button><template id="talk-D08-short-am-1">上一半天原题：一套人物、场景、道具资产怎样交给画面分镜？组合图出现不一致时，怎样定位并选择修改方式？ 今天用昨天采用的人物、场景和道具安排每一镜。</template><details><summary>展开话术</summary><blockquote>上一半天原题：一套人物、场景、道具资产怎样交给画面分镜？组合图出现不一致时，怎样定位并选择修改方式？ 今天用昨天采用的人物、场景和道具安排每一镜。</blockquote></details></article><article class="block " id="D08-short-am-2"><div class="block-head"><h3><span class="clock">10:23—10:33</span>从观看任务选择机位</h3><span class="kind">示范｜10分钟</span></div><p><strong>老师做：</strong>在D7空间图上标机位，比较关系画面、人物与道具细节。先看「先选观看任务」，再结合「空间」和「机位同侧」图，在本班D7空间图上演示；三图按需调用。</p><p class="student"><strong>学生做：</strong>写本人关键镜头要看清什么</p><p><strong>留下什么：</strong>镜头任务与位置批注</p><p class="beat">板书：①本镜要看清什么</p><button class="quote" data-talk="talk-D08-short-am-2" data-title="10:23—10:33｜从观看任务选择机位">打开现场话术</button><template id="talk-D08-short-am-2">先说观众要看见什么，再决定镜头站在哪里。</template><details><summary>展开话术</summary><blockquote>先说观众要看见什么，再决定镜头站在哪里。</blockquote></details></article><article class="block " id="D08-short-am-3"><div class="block-head"><h3><span class="clock">10:33—11:03</span>摆出整条主要画面</h3><span class="kind">实作｜30分钟</span></div><p><strong>老师做：</strong>巡视空间方向、人物位置与线索，支持简笔画和素材拼摆</p><p class="student"><strong>学生做：</strong>按D6文字表完成各镜主要画面，沿用D7资产</p><p><strong>留下什么：</strong>整条画面草稿v01</p><p class="beat">板书：②机位跟着空间走</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-short-am-3" data-title="10:33—11:03｜摆出整条主要画面">打开现场话术</button><template id="talk-D08-short-am-3">菜单、柜台和两个人，在换方向以后还要属于同一家店。</template><details><summary>展开话术</summary><blockquote>菜单、柜台和两个人，在换方向以后还要属于同一家店。</blockquote></details></article><article class="block break" id="D08-short-am-4"><div class="block-head"><h3><span class="clock">11:03—11:13</span>离屏休息</h3><span class="kind">休息｜10分钟</span></div><p><strong>老师做：</strong>提示回座时间</p><p class="student"><strong>学生做：</strong>离屏休息</p><p><strong>留下什么：</strong>继续准备</p><button class="quote" data-talk="talk-D08-short-am-4" data-title="11:03—11:13｜离屏休息">打开现场话术</button><template id="talk-D08-short-am-4">回来补容易断的动作关系。</template><details><summary>展开话术</summary><blockquote>回来补容易断的动作关系。</blockquote></details></article><article class="block " id="D08-short-am-5"><div class="block-head"><h3><span class="clock">11:13—11:23</span>接点与同镜关键图</h3><span class="kind">示范｜10分钟</span></div><p><strong>老师做：</strong>并排演示前镜落点、后镜起点，分别画人物与摄影机箭头。调用「把前镜落点与后镜起点并排」及「三张关键图，仍可属于一镜」；先让学生说出差异，再展开教师参考答案。</p><p class="student"><strong>学生做：</strong>标本人最容易误读的动作或道具状态</p><p><strong>留下什么：</strong>关键接点任务</p><p class="beat">板书：③前镜落点接后镜起点</p><button class="quote" data-talk="talk-D08-short-am-5" data-title="11:13—11:23｜接点与同镜关键图">打开现场话术</button><template id="talk-D08-short-am-5">两张图只是把同一动作说清，不是自动切两次镜头。</template><details><summary>展开话术</summary><blockquote>两张图只是把同一动作说清，不是自动切两次镜头。</blockquote></details></article><article class="block " id="D08-short-am-6"><div class="block-head"><h3><span class="clock">11:23—11:50</span>补关键图并修整条连续</h3><span class="kind">实作｜27分钟</span></div><p><strong>老师做：</strong>指导有限补帧与同步文字，不开展全片精绘</p><p class="student"><strong>学生做：</strong>修视线或道具跳变，补必要起止图、图序与时长</p><p><strong>留下什么：</strong>图文分镜草稿v02</p><p class="beat">板书：④同镜多图，总时长一次</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-short-am-6" data-title="11:23—11:50｜补关键图并修整条连续">打开现场话术</button><template id="talk-D08-short-am-6">先让前后发生的是同一件事，再精修局部外观。</template><details><summary>展开话术</summary><blockquote>先让前后发生的是同一件事，再精修局部外观。</blockquote></details></article><article class="block " id="D08-short-am-7"><div class="block-head"><h3><span class="clock">11:50—12:00</span>上午闭卷验收</h3><span class="kind">回测｜10分钟</span></div><p><strong>老师做：</strong>用上午题收集空间、动作与时间混淆</p><p class="student"><strong>学生做：</strong>不看稿说明一个接点和同镜多图</p><p><strong>留下什么：</strong>上午回测记录</p><p class="beat">板书：右区写连续性依据</p><button class="quote" data-talk="talk-D08-short-am-7" data-title="11:50—12:00｜上午闭卷验收">打开现场话术</button><template id="talk-D08-short-am-7">请指到你自己的两张图，说明它们怎样接。</template><details><summary>展开话术</summary><blockquote>请指到你自己的两张图，说明它们怎样接。</blockquote></details></article></div></section><section id="board-pm"><h2 data-number="07">下午板书</h2><div class="board"><svg id="board-D08-pm" data-shown="6" xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="D08三区板书"><rect width="1600" height="900" fill="#f5f5f7"/><text x="40" y="63" fill="#1d1d1f" font-size="38" font-family="PingFang SC,Microsoft YaHei,sans-serif">D08 · 下午｜先画空表，讲到再填</text><text x="40" y="112" fill="#6e6e73" font-size="24" font-family="PingFang SC,Microsoft YaHei,sans-serif">绿：永久主线　橙：当前演算　灰：等学生提供</text><rect x="40" y="150" width="685" height="575" rx="18" fill="#f0f6ef" stroke="#c9d8c9"/><rect x="745" y="150" width="455" height="575" rx="18" fill="#fff6e9" stroke="#ead7b8"/><rect x="1220" y="150" width="340" height="575" rx="18" fill="#fff" stroke="#d2d2d7"/><text x="64" y="196" fill="#346b42" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">永久区｜全程不擦</text><text x="766" y="196" fill="#8b5900" font-size="26" font-family="PingFang SC,Microsoft YaHei,sans-serif">临时区｜讲完擦除</text><text x="1240" y="196" fill="#63636a" font-size="25" font-family="PingFang SC,Microsoft YaHei,sans-serif">留空区｜学员供料</text><g data-step="1"><text x="68" y="285" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">①正常试读＋画面顺序</text></g><g data-step="2"><text x="68" y="395" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">②缺信息、错接点、时间不足</text></g><g data-step="3"><text x="68" y="505" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">③资产用途与起始画面分开</text></g><g data-step="4"><text x="68" y="615" fill="#1d1d1f" font-size="27" font-family="PingFang SC,Microsoft YaHei,sans-serif">④采用输入交给周四</text></g><g data-step="5"><text x="770" y="280" fill="#604825" font-size="23" font-family="PingFang SC,Microsoft YaHei,sans-serif">读字和反应都占时间</text><text x="770" y="390" fill="#604825" font-size="23" font-family="PingFang SC,Microsoft YaHei,sans-serif">预演通过不代表动态通过</text><text x="770" y="500" fill="#604825" font-size="23" font-family="PingFang SC,Microsoft YaHei,sans-serif">设定拼图不直接作第一帧</text></g><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 0)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 65)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 130)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 195)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 260)" stroke="#d2d2d7" stroke-dasharray="6 6"/><line x1="1240" x2="1540" y1="285" y2="285" transform="translate(0 325)" stroke="#d2d2d7" stroke-dasharray="6 6"/><g data-step="6"><text x="1240" y="247" fill="#6e6e73" font-size="20" font-family="PingFang SC,Microsoft YaHei,sans-serif">请补：问题、依据、改法</text></g><text x="45" y="777" fill="#1d1d1f" font-size="26" font-family="PingFang SC,Microsoft YaHei,sans-serif">实际书写：先画三区空表 → 按本页讲解逐项填①②③④ → 演算一例 → 请学生填右区</text><text x="45" y="827" fill="#6e6e73" font-size="25" font-family="PingFang SC,Microsoft YaHei,sans-serif">本半天板书节点：14:08、15:20、16:30、17:05、17:50</text><text x="45" y="870" fill="#6e6e73" font-size="21" font-family="PingFang SC,Microsoft YaHei,sans-serif">下方表列完整版与应急短版实际钟点；讲完例子擦临时区，永久区保留到复述互查。</text></svg></div><div class="board-tools"><button data-board-action="blank" data-board="board-D08-pm">显示空板</button><button data-board-action="next" data-board="board-D08-pm">下一笔</button><button data-board-action="all" data-board="board-D08-pm">完整示意</button><button data-export="svg" data-board="board-D08-pm">导出SVG</button><button data-export="png" data-board="board-D08-pm">导出PNG</button></div><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>书写顺序</th>
+<th>完整版</th>
+<th>短版</th>
+<th>实际动作</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>14:08—14:25</td>
+<td>14:23—14:33</td>
+<td>①正常试读＋画面顺序</td>
+</tr>
+<tr>
+<td>2</td>
+<td>15:20—15:35</td>
+<td>15:28—15:35</td>
+<td>②缺信息、错接点、时间不足</td>
+</tr>
+<tr>
+<td>3</td>
+<td>16:30—17:05</td>
+<td>16:30—17:05</td>
+<td>③资产用途与起始画面分开</td>
+</tr>
+<tr>
+<td>4</td>
+<td>17:05—17:30</td>
+<td>17:05—17:30</td>
+<td>④采用输入交给周四</td>
+</tr>
+<tr>
+<td>5</td>
+<td>17:50—18:00</td>
+<td>17:50—18:00</td>
+<td>右区写采用与待验证</td>
+</tr>
+</tbody></table></div>
+</section><section id="pm"><h2 data-number="08">下午逐段教案</h2><div class="only-full"><article class="block " id="D08-full-pm-1"><div class="block-head"><h3><span class="clock">14:00—14:08</span>接回上午同一题</h3><span class="kind">回测｜8分钟</span></div><p><strong>老师做：</strong>复问上午闭卷题，确定预演采用版本。原题：怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？</p><p class="student"><strong>学生做：</strong>闭卷说明图序和接点</p><p><strong>留下什么：</strong>下午优先问题</p><button class="quote" data-talk="talk-D08-full-pm-1" data-title="14:00—14:08｜接回上午同一题">打开现场话术</button><template id="talk-D08-full-pm-1">上一半天原题：怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？ 下午把刚才的图放进真实声音的时间里。</template><details><summary>展开话术</summary><blockquote>上一半天原题：怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？ 下午把刚才的图放进真实声音的时间里。</blockquote></details></article><article class="block " id="D08-full-pm-2"><div class="block-head"><h3><span class="clock">14:08—14:25</span>用正常试读搭预演</h3><span class="kind">示范｜17分钟</span></div><p><strong>老师做：</strong>演示草图配音、读字和人物反应停留，强调尚未验证动态。用「先看观众何时得到线索」标出读字时间，再切到本班正常试读的实际时间线。</p><p class="student"><strong>学生做：</strong>标本人台词与动作占时</p><p><strong>留下什么：</strong>预演时间批注</p><p class="beat">板书：①正常试读＋画面顺序</p><button class="quote" data-talk="talk-D08-full-pm-2" data-title="14:08—14:25｜用正常试读搭预演">打开现场话术</button><template id="talk-D08-full-pm-2">时间线上的空隙，有时是在给观众看懂或给人物反应。</template><details><summary>展开话术</summary><blockquote>时间线上的空隙，有时是在给观众看懂或给人物反应。</blockquote></details></article><article class="block " id="D08-full-pm-3"><div class="block-head"><h3><span class="clock">14:25—15:10</span>完成整条有声预演</h3><span class="kind">实作｜45分钟</span></div><p><strong>老师做：</strong>指导沿镜号摆图，录音用正常说话速度</p><p class="student"><strong>学生做：</strong>录或整理试读，搭整条时间线，导出预演初版</p><p><strong>留下什么：</strong>本人有声预演v01</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-full-pm-3" data-title="14:25—15:10｜完成整条有声预演">打开现场话术</button><template id="talk-D08-full-pm-3">不要用快念台词补救原本放不下的剧情。</template><details><summary>展开话术</summary><blockquote>不要用快念台词补救原本放不下的剧情。</blockquote></details></article><article class="block break" id="D08-full-pm-4"><div class="block-head"><h3><span class="clock">15:10—15:20</span>离屏休息</h3><span class="kind">休息｜10分钟</span></div><p><strong>老师做：</strong>组织分组互看</p><p class="student"><strong>学生做：</strong>离屏休息</p><p><strong>留下什么：</strong>继续准备</p><button class="quote" data-talk="talk-D08-full-pm-4" data-title="15:10—15:20｜离屏休息">打开现场话术</button><template id="talk-D08-full-pm-4">回来听同伴实际看懂了什么。</template><details><summary>展开话术</summary><blockquote>回来听同伴实际看懂了什么。</blockquote></details></article><article class="block " id="D08-full-pm-5"><div class="block-head"><h3><span class="clock">15:20—15:35</span>按具体位置定位问题</h3><span class="kind">讲评｜15分钟</span></div><p><strong>老师做：</strong>同伴复述后集中讲一两处缺信息、断接点或时间不足，短版保留核心例</p><p class="student"><strong>学生做：</strong>记录具体镜号与拟改动作</p><p><strong>留下什么：</strong>预演反馈单</p><p class="beat">板书：②缺信息、错接点、时间不足</p><button class="quote" data-talk="talk-D08-full-pm-5" data-title="15:20—15:35｜按具体位置定位问题">打开现场话术</button><template id="talk-D08-full-pm-5">他说不清误会在哪儿纠正，就回到那一镜找原因。</template><details><summary>展开话术</summary><blockquote>他说不清误会在哪儿纠正，就回到那一镜找原因。</blockquote></details></article><article class="block " id="D08-full-pm-6"><div class="block-head"><h3><span class="clock">15:35—16:20</span>修分镜和预演</h3><span class="kind">实作｜45分钟</span></div><p><strong>老师做：</strong>限定围绕已发现的问题修改，保持人物设定</p><p class="student"><strong>学生做：</strong>修一处关键问题，同步文字图序声音和时长</p><p><strong>留下什么：</strong>采用图文与有声预演v02</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-full-pm-6" data-title="15:35—16:20｜修分镜和预演">打开现场话术</button><template id="talk-D08-full-pm-6">先改影响看懂的地方，别在下午重写整个故事。</template><details><summary>展开话术</summary><blockquote>先改影响看懂的地方，别在下午重写整个故事。</blockquote></details></article><article class="block break" id="D08-full-pm-7"><div class="block-head"><h3><span class="clock">16:20—16:30</span>离屏休息</h3><span class="kind">休息｜10分钟</span></div><p><strong>老师做：</strong>整理下游输入示范</p><p class="student"><strong>学生做：</strong>离屏休息</p><p><strong>留下什么：</strong>继续准备</p><button class="quote" data-talk="talk-D08-full-pm-7" data-title="16:20—16:30｜离屏休息">打开现场话术</button><template id="talk-D08-full-pm-7">回来准备周四真正会用的图。</template><details><summary>展开话术</summary><blockquote>回来准备周四真正会用的图。</blockquote></details></article><article class="block " id="D08-full-pm-8"><div class="block-head"><h3><span class="clock">16:30—17:05</span>补必要起始构图与参考</h3><span class="kind">实作｜35分钟</span></div><p><strong>老师做：</strong>逐镜指出身份、构图、姿态和实际起始图的职责</p><p class="student"><strong>学生做：</strong>用采用资产补镜头需要的方向或起点，填写引用与未补项</p><p><strong>留下什么：</strong>生成输入与必要派生图</p><p class="beat">板书：③资产用途与起始画面分开</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-full-pm-8" data-title="16:30—17:05｜补必要起始构图与参考">打开现场话术</button><template id="talk-D08-full-pm-8">角色设定页负责告诉模型是谁，不应连着排版文字一起变成视频画面。</template><details><summary>展开话术</summary><blockquote>角色设定页负责告诉模型是谁，不应连着排版文字一起变成视频画面。</blockquote></details></article><article class="block " id="D08-full-pm-9"><div class="block-head"><h3><span class="clock">17:05—17:30</span>组装并实际接手镜头任务</h3><span class="kind">实作｜25分钟</span></div><p><strong>老师做：</strong>指定同伴从同一入口取一镜任务，老师处理无法继续的共性问题</p><p class="student"><strong>学生做：</strong>整理可编辑文件和素材入口，实际打开并配齐一镜输入，修引用歧义</p><p><strong>留下什么：</strong>镜号输入表与接收记录</p><p class="beat">板书：④采用输入交给周四</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-full-pm-9" data-title="17:05—17:30｜组装并实际接手镜头任务">打开现场话术</button><template id="talk-D08-full-pm-9">下一位应知道用哪张脸、哪一面店铺、动作从哪儿开始。</template><details><summary>展开话术</summary><blockquote>下一位应知道用哪张脸、哪一面店铺、动作从哪儿开始。</blockquote></details></article><article class="block " id="D08-full-pm-10"><div class="block-head"><h3><span class="clock">17:30—17:50</span>保存采用版与动态风险</h3><span class="kind">实作｜20分钟</span></div><p><strong>老师做：</strong>指导从当前镜头选两处高风险，不重排周四课程</p><p class="student"><strong>学生做：</strong>保存前后对照与真实缺项，列D9两处小样任务</p><p><strong>留下什么：</strong>D9执行包与优先清单</p><button class="quote" data-talk="talk-D08-full-pm-10" data-title="17:30—17:50｜保存采用版与动态风险">打开现场话术</button><template id="talk-D08-full-pm-10">预演没暴露口型问题，是因为它还没做口型；这要留给周四短样。</template><details><summary>展开话术</summary><blockquote>预演没暴露口型问题，是因为它还没做口型；这要留给周四短样。</blockquote></details></article><article class="block " id="D08-full-pm-11"><div class="block-head"><h3><span class="clock">17:50—18:00</span>下午闭卷验收</h3><span class="kind">回测｜10分钟</span></div><p><strong>老师做：</strong>用下午题作为D9开场原题</p><p class="student"><strong>学生做：</strong>闭卷说明预演边界与执行包</p><p><strong>留下什么：</strong>下午回测记录</p><p class="beat">板书：右区写采用与待验证</p><button class="quote" data-talk="talk-D08-full-pm-11" data-title="17:50—18:00｜下午闭卷验收">打开现场话术</button><template id="talk-D08-full-pm-11">说清已经决定了什么，还有什么必须靠动态小样确认。</template><details><summary>展开话术</summary><blockquote>说清已经决定了什么，还有什么必须靠动态小样确认。</blockquote></details></article></div><div class="only-short"><article class="block " id="D08-short-pm-1"><div class="block-head"><h3><span class="clock">14:15—14:23</span>接回上午同一题</h3><span class="kind">回测｜8分钟</span></div><p><strong>老师做：</strong>复问上午闭卷题，确定预演采用版本。原题：怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？</p><p class="student"><strong>学生做：</strong>闭卷说明图序和接点</p><p><strong>留下什么：</strong>下午优先问题</p><button class="quote" data-talk="talk-D08-short-pm-1" data-title="14:15—14:23｜接回上午同一题">打开现场话术</button><template id="talk-D08-short-pm-1">上一半天原题：怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？ 下午把刚才的图放进真实声音的时间里。</template><details><summary>展开话术</summary><blockquote>上一半天原题：怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？ 下午把刚才的图放进真实声音的时间里。</blockquote></details></article><article class="block " id="D08-short-pm-2"><div class="block-head"><h3><span class="clock">14:23—14:33</span>用正常试读搭预演</h3><span class="kind">示范｜10分钟</span></div><p><strong>老师做：</strong>演示草图配音、读字和人物反应停留，强调尚未验证动态。用「先看观众何时得到线索」标出读字时间，再切到本班正常试读的实际时间线。</p><p class="student"><strong>学生做：</strong>标本人台词与动作占时</p><p><strong>留下什么：</strong>预演时间批注</p><p class="beat">板书：①正常试读＋画面顺序</p><button class="quote" data-talk="talk-D08-short-pm-2" data-title="14:23—14:33｜用正常试读搭预演">打开现场话术</button><template id="talk-D08-short-pm-2">时间线上的空隙，有时是在给观众看懂或给人物反应。</template><details><summary>展开话术</summary><blockquote>时间线上的空隙，有时是在给观众看懂或给人物反应。</blockquote></details></article><article class="block " id="D08-short-pm-3"><div class="block-head"><h3><span class="clock">14:33—15:18</span>完成整条有声预演</h3><span class="kind">实作｜45分钟</span></div><p><strong>老师做：</strong>指导沿镜号摆图，录音用正常说话速度</p><p class="student"><strong>学生做：</strong>录或整理试读，搭整条时间线，导出预演初版</p><p><strong>留下什么：</strong>本人有声预演v01</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-short-pm-3" data-title="14:33—15:18｜完成整条有声预演">打开现场话术</button><template id="talk-D08-short-pm-3">不要用快念台词补救原本放不下的剧情。</template><details><summary>展开话术</summary><blockquote>不要用快念台词补救原本放不下的剧情。</blockquote></details></article><article class="block break" id="D08-short-pm-4"><div class="block-head"><h3><span class="clock">15:18—15:28</span>离屏休息</h3><span class="kind">休息｜10分钟</span></div><p><strong>老师做：</strong>组织分组互看</p><p class="student"><strong>学生做：</strong>离屏休息</p><p><strong>留下什么：</strong>继续准备</p><button class="quote" data-talk="talk-D08-short-pm-4" data-title="15:18—15:28｜离屏休息">打开现场话术</button><template id="talk-D08-short-pm-4">回来听同伴实际看懂了什么。</template><details><summary>展开话术</summary><blockquote>回来听同伴实际看懂了什么。</blockquote></details></article><article class="block " id="D08-short-pm-5"><div class="block-head"><h3><span class="clock">15:28—15:35</span>按具体位置定位问题</h3><span class="kind">讲评｜7分钟</span></div><p><strong>老师做：</strong>同伴复述后集中讲一两处缺信息、断接点或时间不足，短版保留核心例</p><p class="student"><strong>学生做：</strong>记录具体镜号与拟改动作</p><p><strong>留下什么：</strong>预演反馈单</p><p class="beat">板书：②缺信息、错接点、时间不足</p><button class="quote" data-talk="talk-D08-short-pm-5" data-title="15:28—15:35｜按具体位置定位问题">打开现场话术</button><template id="talk-D08-short-pm-5">他说不清误会在哪儿纠正，就回到那一镜找原因。</template><details><summary>展开话术</summary><blockquote>他说不清误会在哪儿纠正，就回到那一镜找原因。</blockquote></details></article><article class="block " id="D08-short-pm-6"><div class="block-head"><h3><span class="clock">15:35—16:20</span>修分镜和预演</h3><span class="kind">实作｜45分钟</span></div><p><strong>老师做：</strong>限定围绕已发现的问题修改，保持人物设定</p><p class="student"><strong>学生做：</strong>修一处关键问题，同步文字图序声音和时长</p><p><strong>留下什么：</strong>采用图文与有声预演v02</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-short-pm-6" data-title="15:35—16:20｜修分镜和预演">打开现场话术</button><template id="talk-D08-short-pm-6">先改影响看懂的地方，别在下午重写整个故事。</template><details><summary>展开话术</summary><blockquote>先改影响看懂的地方，别在下午重写整个故事。</blockquote></details></article><article class="block break" id="D08-short-pm-7"><div class="block-head"><h3><span class="clock">16:20—16:30</span>离屏休息</h3><span class="kind">休息｜10分钟</span></div><p><strong>老师做：</strong>整理下游输入示范</p><p class="student"><strong>学生做：</strong>离屏休息</p><p><strong>留下什么：</strong>继续准备</p><button class="quote" data-talk="talk-D08-short-pm-7" data-title="16:20—16:30｜离屏休息">打开现场话术</button><template id="talk-D08-short-pm-7">回来准备周四真正会用的图。</template><details><summary>展开话术</summary><blockquote>回来准备周四真正会用的图。</blockquote></details></article><article class="block " id="D08-short-pm-8"><div class="block-head"><h3><span class="clock">16:30—17:05</span>补必要起始构图与参考</h3><span class="kind">实作｜35分钟</span></div><p><strong>老师做：</strong>逐镜指出身份、构图、姿态和实际起始图的职责</p><p class="student"><strong>学生做：</strong>用采用资产补镜头需要的方向或起点，填写引用与未补项</p><p><strong>留下什么：</strong>生成输入与必要派生图</p><p class="beat">板书：③资产用途与起始画面分开</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-short-pm-8" data-title="16:30—17:05｜补必要起始构图与参考">打开现场话术</button><template id="talk-D08-short-pm-8">角色设定页负责告诉模型是谁，不应连着排版文字一起变成视频画面。</template><details><summary>展开话术</summary><blockquote>角色设定页负责告诉模型是谁，不应连着排版文字一起变成视频画面。</blockquote></details></article><article class="block " id="D08-short-pm-9"><div class="block-head"><h3><span class="clock">17:05—17:30</span>组装并实际接手镜头任务</h3><span class="kind">实作｜25分钟</span></div><p><strong>老师做：</strong>指定同伴从同一入口取一镜任务，老师处理无法继续的共性问题</p><p class="student"><strong>学生做：</strong>整理可编辑文件和素材入口，实际打开并配齐一镜输入，修引用歧义</p><p><strong>留下什么：</strong>镜号输入表与接收记录</p><p class="beat">板书：④采用输入交给周四</p><p class="beat">练习／笔记节拍：每12分钟对表一次：展示当前产出→互指一处问题→写出下一步。最后3分钟保存采用版和证据；教师只处理影响继续制作的共性问题。</p><button class="quote" data-talk="talk-D08-short-pm-9" data-title="17:05—17:30｜组装并实际接手镜头任务">打开现场话术</button><template id="talk-D08-short-pm-9">下一位应知道用哪张脸、哪一面店铺、动作从哪儿开始。</template><details><summary>展开话术</summary><blockquote>下一位应知道用哪张脸、哪一面店铺、动作从哪儿开始。</blockquote></details></article><article class="block " id="D08-short-pm-10"><div class="block-head"><h3><span class="clock">17:30—17:50</span>保存采用版与动态风险</h3><span class="kind">实作｜20分钟</span></div><p><strong>老师做：</strong>指导从当前镜头选两处高风险，不重排周四课程</p><p class="student"><strong>学生做：</strong>保存前后对照与真实缺项，列D9两处小样任务</p><p><strong>留下什么：</strong>D9执行包与优先清单</p><button class="quote" data-talk="talk-D08-short-pm-10" data-title="17:30—17:50｜保存采用版与动态风险">打开现场话术</button><template id="talk-D08-short-pm-10">预演没暴露口型问题，是因为它还没做口型；这要留给周四短样。</template><details><summary>展开话术</summary><blockquote>预演没暴露口型问题，是因为它还没做口型；这要留给周四短样。</blockquote></details></article><article class="block " id="D08-short-pm-11"><div class="block-head"><h3><span class="clock">17:50—18:00</span>下午闭卷验收</h3><span class="kind">回测｜10分钟</span></div><p><strong>老师做：</strong>用下午题作为D9开场原题</p><p class="student"><strong>学生做：</strong>闭卷说明预演边界与执行包</p><p><strong>留下什么：</strong>下午回测记录</p><p class="beat">板书：右区写采用与待验证</p><button class="quote" data-talk="talk-D08-short-pm-11" data-title="17:50—18:00｜下午闭卷验收">打开现场话术</button><template id="talk-D08-short-pm-11">说清已经决定了什么，还有什么必须靠动态小样确认。</template><details><summary>展开话术</summary><blockquote>说清已经决定了什么，还有什么必须靠动态小样确认。</blockquote></details></article></div></section><section id="assessment"><h2 data-number="09">分层任务与课堂验收</h2><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>档位</th>
+<th>任务</th>
+<th>标准</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>基础</td>
+<td>用简笔画或素材拼摆完成整条分镜和正常试读预演</td>
+<td>同伴能复述误会与纠正；镜号、实际输入和缺项清楚</td>
+</tr>
+<tr>
+<td>标准</td>
+<td>修一处连续性或信息时间问题，补必要关键图与输入</td>
+<td>修改指向具体镜号，采用资产和动作起止对应</td>
+</tr>
+<tr>
+<td>挑战</td>
+<td>对关键段落做一种机位或信息揭示顺序对照</td>
+<td>保持故事因果，说明观众何时知道什么；不挤占基础交付</td>
+</tr>
+</tbody></table></div>
+<div class="card" style="margin:16px 0"><h3>11:50上午闭卷题</h3><p>怎样判断画面分镜能连起来？一镜需要两张动作图时，怎样标图序、方向与时长？</p><details><summary>教师参考要点</summary><p>按文字任务看画面信息，再查空间机位、互看方向、动作和道具前后状态。两图属同镜则沿同一镜号加图序，人物与摄影机箭头分别注明对象和起止，镜头总时长只计一次；新增图用于说清过程，不自动等于新增镜头。</p></details><p class="small">下一半天开场同题回测；周五下午题在下周一回测，D20结课题在下一次辅导回测。</p></div><div class="card" style="margin:16px 0"><h3>17:50下午闭卷题</h3><p>有声预演主要查哪些问题，又不能证明什么？周四生成需要接收哪些采用输入？</p><details><summary>教师参考要点</summary><p>有声预演查必要信息、观看顺序、空间与动作接点，以及正常试读、读字和反应所需时间；不能证明最终表演、口型、运动已经成立。周四接收采用图文分镜、正常试读和预演、三类资产、实际起点及参考职责、逐镜动作声音时长、未完成项和两处优先小样。</p></details><p class="small">下一半天开场同题回测；周五下午题在下周一回测，D20结课题在下一次辅导回测。</p></div><div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>个人作品验收</th>
+<th>标准</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>画面任务</td>
+<td>每镜能说明观看重点，图文同一采用版，关键线索可见</td>
+</tr>
+<tr>
+<td>连续与时间</td>
+<td>人物、机位、视线与道具关系可理解；正常试读和动作有合理时间</td>
+</tr>
+<tr>
+<td>执行准备</td>
+<td>参考用途与起始画面明确，输入和预演沿同一镜号，动态风险与缺项如实记录</td>
+</tr>
+</tbody></table></div>
+<h3>没完成时</h3><p>先保留完整故事和关键关系，用简笔画、采用资产拼摆及本人录音做预演；不要求全片精绘。复杂运动先减为能说明任务的机位，必要输入未补就列缺项，由D9开场优先处理。</p><h3>课后与衔接</h3><p>D9接收同一图文分镜、三类资产、试读预演和生成输入，沿现有周四安排做表演、声音与高风险小样，再完成视频镜头和有声粗排。</p><p><a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/06_%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A.html#sat">本周周六作业</a> · <a href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/06_%E5%91%A8%E6%9C%AB%E4%BD%9C%E4%B8%9A.html#sun">本周周日作业</a></p><h3>教师手填</h3><p>实际时长：____；有效环节与证据：____；未通过人数及具体缺项：____；下次只改3件事：____。</p></section><section id="sources"><h2 data-number="10">来源与本次新增参考</h2><ul>
+<li><a href="https://sakuraoxo.feishu.cn/docx/D8lPdPHC2oHQPwx0j2UclcOWnWg">TEXT｜文字分镜与导演调度</a>，景别、机位、轴线、视线、动作接点及同镜多图</li>
+<li><a href="https://sakuraoxo.feishu.cn/docx/X9ZPdkl6hobJa2xNG7kcZ6Ghnbd">PLAY｜分镜试放与修改</a>，正常试读、信息揭示、时长与修改</li>
+<li><a href="https://sakuraoxo.feishu.cn/docx/EuYEdFIjnoQFlaxoRVMcFCbInxh">HAND｜分镜交接与镜头执行</a>，图文镜号与生成输入对应</li>
+<li><a href="https://sakuraoxo.feishu.cn/docx/BnI0deDuVozS4pxJu49c6mJJnCc">ARTSCENE｜场景与道具设计</a>，同一空间不同方向；人物与道具使用关系</li>
+<li><a href="https://sakuraoxo.feishu.cn/docx/NwTudPCvco2g8CxCltZco5UYnnb">ARTTEST｜设定整合、试制与修改</a>，参考职责；设定页被当作第一帧的实例，原课约02:44:02—02:47:54</li>
+<li><a href="https://sakuraoxo.feishu.cn/docx/GNvCd0zDjo5qXox8uQlcPsFVn2e">ARTHAND｜美术定稿与制作交接</a>，每个制作任务找到对应素材</li>
+<li><a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/09_%E5%88%86%E9%95%9C%E9%85%8D%E5%9B%BE%E4%B8%8E%E6%9D%A5%E6%BA%90.html#p2">SBLOCAL｜分镜课内嵌图与本课重绘图例</a>，19份本地文档、80张内嵌图的筛选记录；6张重绘图嵌入景别、空间、轴线、接点、同镜多图和预演讲解</li>
+</ul>
+<div class="table-scroll" role="region" aria-label="教学表格，可横向滚动" tabindex="0"><table>
+<thead>
+<tr>
+<th>半天</th>
+<th>原始来源</th>
+<th>改变的教学判断</th>
+<th>进入环节</th>
+<th>学员输出</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>上午</td>
+<td>文字分镜与03-05场景道具知识稿</td>
+<td>从采用资产和空间关系选择机位，合并原两天的关键连续性知识</td>
+<td>整条画面与接点练习</td>
+<td>可读画面分镜草稿</td>
+</tr>
+<tr>
+<td>下午</td>
+<td>分镜试放、03-07试制与03-08交接</td>
+<td>静态预演与动态验证分开；资产参考与第一帧用途分开</td>
+<td>预演修订、起始图和输入交接</td>
+<td>有声预演、真实引用与动态风险</td>
+</tr>
+<tr>
+<td>上午／下午</td>
+<td>老白的分镜：景别实战、轴向实战、人物与空间、运动规律、信息控制、连接镜</td>
+<td>将原课知识转成当前店内对话示意，注明章节、时间点与新增练习</td>
+<td>对应知识段落及既有示范环节</td>
+<td>学生用自己的采用资产解释镜头任务、空间关系、接点与时间</td>
+</tr>
+</tbody></table></div>
+<p class="small">会议原文只有通用发言人标签，按文件和时间引用；教师新编提示、练习和教学分镜明确区别于原文及原作者制作记录。</p></section><section id="rules"><h2 data-number="11">课堂机制与边界</h2><h3>班级怎样运转</h3>
+<p>30—40人按3—4人组成互查组，每人保留自己的项目与采用判断。组内轮换制作、审核、接收角色，互查不替代主讲验收。1名助教先处理文件与工具问题；有第2名助教时，再分管另一半教室。主讲在两个练习检查点收集共性问题，集中演示一次。</p>
+<p>每连续实作约12分钟停30秒：展示当前文件、说出一个问题、写下一步。纯等待、安装和排队不计入本人实作；等待生成时可以整理分镜、试读或填写采用理由。全班环境故障超过8分钟，改用教师备用素材完成同一判断任务；记录实际缺项，下一可用实作段优先补。</p>
+<h3>作品与记录一起交</h3>
+<p>项目记录只建一份，沿用同一项目号；当天只补对应栏位。提交、收到、通过、进入成片分别记录。每次修改保留采用版与上一版，不把同组作品写成个人独立完成。课内新编案例标为教学模拟，临摹片注明来源。</p>
+<p>学生月工具预算约1000元，课前记录已有额度和本项目可用额度；现金与积分分开记录。老师先做低成本关键镜头试验，再扩大制作。没有本班实测数据时不承诺单位成本，也不把积分直接换算为现金。</p>
+<h3>教师课后手填</h3>
+<p>计划时间是备课安排，实际用时与学生通过人数课后填写。先记做得有效的环节与证据，有效点数量不少于问题点，再记具体问题；选3项下次修改，每项写负责人、发生环节和预期变化。本包不代填真实课堂复盘结果。</p>
+<h3>第二周当前安排</h3>
+<p>周一D6文字分镜与关键草图；周二D7美术设定与人物、场景、道具资产；周三D8画面分镜、有声预演与生成准备；周四D9视频生成与有声粗排；周五D10剪辑、情绪声画与基础交付。仍为五个课堂日。周末修订与归档，为D11作品集定位准备，不另加一整天课程。</p>
+</section><a class="next-lesson" href="/qieman-aigc/handbook/%E7%AC%AC%E4%BA%8C%E5%91%A8/D09_%E8%A1%A8%E6%BC%94%E5%A3%B0%E9%9F%B3%E4%B8%8E%E5%89%A7%E6%83%85%E9%95%9C%E5%A4%B4%E7%94%9F%E6%88%90.html"><div><span>下一天 · D09</span><h3>表演声音与剧情镜头生成</h3></div><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><footer><div class="footer-line"><span>四周AIGC就业课 · 2026年9月16日</span><div class="footer-links"><a href="/qieman-aigc/handbook/index.html">四周总览</a><a href="/qieman-aigc/handbook/%E9%85%8D%E5%A5%97/02_%E8%AF%BE%E5%89%8D%E5%87%86%E5%A4%87%E4%B8%8E%E5%BE%85%E8%A1%A5%E6%9D%90%E6%96%99.html">课前准备</a><a href="#main-content" data-scroll>回到顶部 ↑</a></div></div><p>采用琳琳老师确认的原版skill；课程顺序以两份对课记录和牧老板最新确认为准。</p><details><summary>版本与材料说明</summary><p>四周20天为详细教案，每周另列周六与周日自主作业。实际课堂数据未预填，新编示范与待补素材在各页注明。由牧老板手动审阅，未执行成品自动校验。</p></details></footer></main></div><dialog id="talk-dialog" aria-labelledby="talk-title"><h3 id="talk-title">现场话术</h3><div id="talk-text"></div><div class="dialog-tools"><button id="copy-talk" class="primary">复制话术</button><button id="close-talk" autofocus>关闭</button></div></dialog><div id="toast" role="status" aria-live="polite"></div><script>
+const body=document.body;
+function toast(s){const t=document.querySelector('#toast');t.textContent=s;t.style.display='block';setTimeout(()=>t.style.display='none',2000)}
+async function copyText(s){try{await navigator.clipboard.writeText(s);toast('已复制')}catch{const a=document.createElement('textarea');a.value=s;document.body.append(a);a.select();const ok=document.execCommand('copy');a.remove();toast(ok?'已复制':'请选中文字手动复制')}}
+function theme(t){document.documentElement.dataset.theme=t;try{localStorage.setItem('lesson-theme',t)}catch{}document.querySelectorAll('[data-theme-button]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.themeButton===t))}
+try{theme(localStorage.getItem('lesson-theme')||'paper')}catch{theme('paper')}
+document.querySelectorAll('[data-theme-button]').forEach(b=>b.onclick=()=>theme(b.dataset.themeButton));
+document.querySelectorAll('[data-mode-button]').forEach(b=>b.onclick=()=>{body.classList.remove('mode-full','mode-short');body.classList.add('mode-'+b.dataset.modeButton);document.querySelectorAll('[data-mode-button]').forEach(x=>x.setAttribute('aria-pressed',x===b));});
+
+document.querySelectorAll('main a[href]').forEach(a=>{if(a.getAttribute('href').startsWith('http')){a.target='_blank';a.rel='noopener';const b=document.createElement('button');b.className='copy-link';b.textContent='复制链接';b.onclick=()=>copyText(a.href);a.after(b);}});
+const dialog=document.querySelector('#talk-dialog');document.querySelectorAll('[data-talk]').forEach(b=>b.onclick=()=>{document.querySelector('#talk-title').textContent=b.dataset.title;document.querySelector('#talk-text').textContent=document.getElementById(b.dataset.talk).content.textContent;dialog.showModal()});
+document.querySelector('#close-talk').onclick=()=>dialog.close();document.querySelector('#copy-talk').onclick=()=>copyText(document.querySelector('#talk-text').textContent);
+function boardState(svg,n){svg.dataset.shown=String(n);svg.querySelectorAll('[data-step]').forEach(g=>g.setAttribute('visibility',Number(g.dataset.step)<=n?'visible':'hidden'));}
+document.querySelectorAll('[data-board-action]').forEach(b=>b.onclick=()=>{const s=document.getElementById(b.dataset.board);if(b.dataset.boardAction==='blank')boardState(s,0);if(b.dataset.boardAction==='next')boardState(s,Math.min(6,Number(s.dataset.shown||6)+1));if(b.dataset.boardAction==='all')boardState(s,6);});
+function download(blob,name){const u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
+document.querySelectorAll('[data-export]').forEach(b=>b.onclick=async()=>{const svg=document.getElementById(b.dataset.board).cloneNode(true);svg.setAttribute('xmlns','http://www.w3.org/2000/svg');const s=new XMLSerializer().serializeToString(svg);if(b.dataset.export==='svg'){download(new Blob([s],{type:'image/svg+xml;charset=utf-8'}),b.dataset.board+'.svg');return}try{await document.fonts.ready;const im=new Image();im.onload=()=>{const c=document.createElement('canvas');c.width=1600;c.height=900;const ctx=c.getContext('2d');ctx.drawImage(im,0,0,1600,900);c.toBlob(p=>{if(p)download(p,b.dataset.board+'.png');else toast('请先导出SVG')},'image/png')};im.onerror=()=>toast('PNG导出未完成，请使用SVG');im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(s)}catch{toast('请使用SVG导出')}});
+// Reading controls. Content stays visible when JavaScript is unavailable.
+const header=document.querySelector('header.top');
+const reduceMotion=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function measureHeader(){if(header)document.documentElement.style.setProperty('--header-height',header.getBoundingClientRect().height+'px')}
+measureHeader();
+if('ResizeObserver' in window)new ResizeObserver(measureHeader).observe(header);
+window.addEventListener('resize',measureHeader,{passive:true});
+document.querySelectorAll('.side-nav a[href^="#"],a[data-scroll]').forEach(a=>a.addEventListener('click',e=>{
+ const href=a.getAttribute('href');
+ if(!href||!href.startsWith('#'))return;
+ const target=document.getElementById(href.slice(1));
+ if(!target)return;
+ e.preventDefault();
+ target.scrollIntoView({behavior:reduceMotion()?'instant':'smooth',block:'start'});
+}));
+const sections=[...document.querySelectorAll('main>section[id]')];
+const sectionLinks=[...document.querySelectorAll('.side-nav>a[href^="#"]')];
+const progress=document.querySelector('.reading-progress i');
+let scrolling=false;
+function updateReading(){
+ const max=document.documentElement.scrollHeight-window.innerHeight;
+ if(progress)progress.style.width=(max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0)+'%';
+ const edge=(header?.getBoundingClientRect().height||120)+100;
+ let active='';
+ for(const s of sections){if(s.getBoundingClientRect().top<=edge)active=s.id;else break}
+ sectionLinks.forEach(a=>{if(a.getAttribute('href')==='#'+active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')});
+ scrolling=false;
+}
+window.addEventListener('scroll',()=>{if(!scrolling){scrolling=true;requestAnimationFrame(updateReading)}},{passive:true});
+window.addEventListener('resize',updateReading,{passive:true});
+document.querySelectorAll('[data-mode-button]').forEach(b=>b.addEventListener('click',()=>{requestAnimationFrame(updateReading)}));
+updateReading();
+// Keep the modal easy to dismiss without affecting text selection inside it.
+dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
+</script><script>(() => {
+  const links = Array.from(document.querySelectorAll('a[data-asset-image]'));
+  if (!links.length) return;
+  const viewer = document.createElement('dialog');
+  viewer.className = 'asset-lightbox';
+  viewer.setAttribute('aria-label', '教学原图');
+  viewer.innerHTML = '<div class="asset-lightbox-bar"><p id="asset-viewer-caption"></p><div class="asset-lightbox-actions"><button type="button" data-image-scale>查看原尺寸</button><a data-image-file target="_blank" rel="noopener">打开原图</a><button type="button" data-image-close autofocus>关闭</button></div></div><div class="asset-lightbox-stage"><img alt=""></div>';
+  document.body.appendChild(viewer);
+  const stage = viewer.querySelector('.asset-lightbox-stage');
+  const picture = stage.querySelector('img');
+  const scale = viewer.querySelector('[data-image-scale]');
+  const resize = () => {
+    const actual = stage.classList.toggle('is-actual');
+    scale.textContent = actual ? '适应窗口' : '查看原尺寸';
+  };
+  scale.onclick = resize;
+  picture.onclick = resize;
+  viewer.querySelector('[data-image-close]').onclick = () => viewer.close();
+  viewer.addEventListener('click', event => { if (event.target === viewer) viewer.close(); });
+  let lastTrigger;
+  viewer.addEventListener('close', () => lastTrigger?.focus());
+  links.forEach(link => link.addEventListener('click', event => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0 || !viewer.showModal) return;
+    event.preventDefault();
+    lastTrigger = link;
+    picture.src = link.href;
+    picture.alt = link.querySelector('img').alt;
+    viewer.querySelector('#asset-viewer-caption').textContent = link.dataset.assetImage;
+    viewer.querySelector('[data-image-file]').href = link.href;
+    stage.classList.remove('is-actual');
+    scale.textContent = '查看原尺寸';
+    viewer.showModal();
+    stage.scrollTo(0, 0);
+  }));
+})();
+</script><script data-aigc-motion src="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/opening.js?v=2"></script>
+<script data-aigc-motion src="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/reading-motion.js?v=2"></script>
+</body></html>

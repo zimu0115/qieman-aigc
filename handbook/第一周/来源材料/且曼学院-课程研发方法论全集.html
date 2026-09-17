@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="且曼学院课程研发方法论全集：从引入设计、结构设计、现场节奏到软件课专项的教研方法库。">
+<meta name="theme-color" content="#0b0b0f">
+<meta property="og:title" content="且曼学院 · 课程研发方法论全集">
+<meta property="og:description" content="课程研发方法论全集：学员心理、结构设计、节奏骨架、搭课流程一站整理。">
+<meta property="og:type" content="website">
+<title>且曼学院 · 课程研发方法论全集</title>
+<style>
+:root {
+  --bg: #0b0b0f;
+  --surface: #131319;
+  --surface2: #1a1a23;
+  --surface3: #212130;
+  --border: #26263400;
+  --bd: #262634;
+  --text: #e6e6f2;
+  --text2: #9292ac;
+  --text3: #565670;
+  --red: #e85858;
+  --orange: #e88a44;
+  --yellow: #e8bc44;
+  --green: #44c88c;
+  --blue: #5894e8;
+  --purple: #9c74ee;
+  --teal: #44c4c4;
+  --pink: #e870b8;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.ambient-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(11, 11, 15, .15), rgba(11, 11, 15, .76) 70%),
+    repeating-linear-gradient(90deg, rgba(88, 148, 232, .17) 0 1px, transparent 1px 78px),
+    repeating-linear-gradient(0deg, rgba(68, 196, 196, .12) 0 1px, transparent 1px 78px),
+    linear-gradient(125deg, rgba(88, 148, 232, .18), transparent 30%, rgba(68, 196, 196, .12) 48%, transparent 62%, rgba(232, 188, 68, .1));
+}
+.ambient-bg::before,
+.ambient-bg::after {
+  content: '';
+  position: absolute;
+  inset: -20%;
+  will-change: transform, opacity;
+}
+.ambient-bg::before {
+  background:
+    repeating-linear-gradient(115deg, transparent 0 34px, rgba(88, 148, 232, .19) 35px, transparent 37px),
+    linear-gradient(105deg, transparent 0%, rgba(68, 196, 196, .24) 36%, rgba(232, 188, 68, .12) 48%, transparent 66%);
+  opacity: .42;
+  animation: ambientDrift 24s linear infinite alternate;
+}
+.ambient-bg::after {
+  background:
+    repeating-linear-gradient(180deg, transparent 0 18px, rgba(255, 255, 255, .035) 19px, transparent 20px),
+    linear-gradient(180deg, transparent 0%, rgba(68, 196, 196, .28) 48%, transparent 52%),
+    linear-gradient(90deg, transparent 0%, rgba(88, 148, 232, .18) 18%, transparent 38%, rgba(232, 188, 68, .12) 72%, transparent 94%);
+  opacity: .26;
+  animation: ambientScan 12s ease-in-out infinite;
+}
+
+@keyframes ambientDrift {
+  from { transform: translate3d(-5%, -3%, 0) skewX(-4deg); }
+  to { transform: translate3d(5%, 3%, 0) skewX(4deg); }
+}
+
+@keyframes ambientScan {
+  0%, 100% { transform: translate3d(0, -28%, 0); opacity: .14; }
+  45%, 55% { opacity: .34; }
+  50% { transform: translate3d(0, 28%, 0); }
+}
+
+.main::before {
+  content: '';
+  position: fixed;
+  left: 240px;
+  right: 0;
+  top: 0;
+  height: 280px;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(100deg, transparent 0%, rgba(88, 148, 232, .18) 22%, transparent 46%),
+    linear-gradient(155deg, transparent 28%, rgba(68, 196, 196, .12) 46%, transparent 64%);
+  opacity: .82;
+  animation: headerSweep 10s ease-in-out infinite alternate;
+}
+
+@keyframes headerSweep {
+  from { transform: translateX(-6%); }
+  to { transform: translateX(6%); }
+}
+
+.layout { position: relative; z-index: 1; display: grid; grid-template-columns: 240px 1fr; max-width: 1200px; margin: 0 auto; }
+
+/* ── SIDEBAR (TOC) ── */
+.toc {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 32px 20px;
+  border-right: 1px solid var(--bd);
+  background: rgba(19, 19, 25, .84);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.toc-brand {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--text3);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.toc-title {
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.3;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--bd);
+}
+.toc-section {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--yellow);
+  text-transform: uppercase;
+  margin: 18px 0 8px;
+}
+.toc-link {
+  display: block;
+  font-size: 12.5px;
+  color: var(--text2);
+  padding: 4px 0 4px 12px;
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  transition: all .15s;
+  line-height: 1.4;
+}
+.toc-link:hover { color: var(--text); border-left-color: var(--yellow); }
+.toc-link .tag {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--text3);
+  margin-right: 4px;
+}
+
+/* ── MAIN ── */
+.main { padding: 48px 56px 120px; min-width: 0; }
+
+.masthead { margin-bottom: 48px; padding-bottom: 28px; border-bottom: 1px solid var(--bd); }
+.eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: 3px; color: var(--text3); text-transform: uppercase; margin-bottom: 14px; }
+.masthead h1 { font-size: 32px; font-weight: 900; color: #fff; line-height: 1.2; margin-bottom: 12px; }
+.masthead h1 em { color: var(--yellow); font-style: normal; }
+.masthead-desc { font-size: 14px; color: var(--text2); max-width: 640px; line-height: 1.75; }
+.masthead-desc strong { color: var(--text); }
+
+/* ── HOW TO USE ── */
+.how-use {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--bd);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+.hu-cell { background: rgba(19, 19, 25, .86); padding: 16px 18px; }
+.hu-icon { font-size: 18px; margin-bottom: 8px; }
+.hu-t { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.hu-d { font-size: 12px; color: var(--text2); line-height: 1.6; }
+
+/* ── PART DIVIDER ── */
+.part {
+  margin: 56px 0 28px;
+  padding: 24px 28px;
+  background: linear-gradient(135deg, rgba(26, 26, 35, .94), rgba(19, 19, 25, .86));
+  border: 1px solid var(--bd);
+  border-radius: 12px;
+  border-left: 4px solid var(--yellow);
+}
+.part-num { font-family: var(--mono); font-size: 11px; letter-spacing: 2px; color: var(--yellow); text-transform: uppercase; margin-bottom: 8px; }
+.part-title { font-size: 22px; font-weight: 900; color: #fff; line-height: 1.25; margin-bottom: 6px; }
+.part-desc { font-size: 13px; color: var(--text2); line-height: 1.6; }
+
+/* ── ENTRY (字典条目) ── */
+.entry {
+  position: relative;
+  margin-bottom: 16px;
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  overflow: hidden;
+  scroll-margin-top: 20px;
+}
+.entry > * {
+  position: relative;
+  z-index: 1;
+}
+.entry-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--bd);
+}
+.entry-what { padding: 16px 20px; border-right: 1px solid var(--bd); background: rgba(26, 26, 35, .92); }
+.entry-why { padding: 16px 20px; background: rgba(19, 19, 25, .86); }
+.entry-label { font-family: var(--mono); font-size: 9px; letter-spacing: 1.5px; color: var(--text3); text-transform: uppercase; margin-bottom: 8px; }
+.entry-name { font-size: 15px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; line-height: 1.3; margin-bottom: 5px; }
+.entry-icon { font-size: 16px; }
+.entry-id { font-family: var(--mono); font-size: 10px; color: var(--text3); letter-spacing: .5px; }
+.entry-text { font-size: 13px; color: var(--text2); line-height: 1.75; }
+.entry-text strong { color: var(--text); }
+.entry-core {
+  display: inline-block;
+  background: #1e1a08;
+  border: 1px solid #3a3010;
+  border-radius: 4px;
+  padding: 5px 11px;
+  font-size: 12px;
+  color: var(--yellow);
+  font-weight: 600;
+  margin-top: 9px;
+  line-height: 1.4;
+}
+.entry-body { padding: 16px 20px; background: rgba(19, 19, 25, .86); }
+.eb-intro { font-family: var(--mono); font-size: 9px; letter-spacing: 1.5px; color: var(--text3); text-transform: uppercase; margin-bottom: 11px; }
+.eb-row { display: flex; gap: 10px; margin-bottom: 7px; font-size: 12.5px; line-height: 1.6; align-items: flex-start; }
+.eb-row:last-child { margin-bottom: 0; }
+.eb-mark { font-family: var(--mono); font-size: 10px; font-weight: 700; flex-shrink: 0; padding: 1px 6px; border-radius: 3px; margin-top: 2px; }
+.m-orig { background: #222; color: #999; }
+.m-ext { background: #0a1a2a; color: var(--blue); }
+.m-note { background: #1a1208; color: var(--orange); }
+.eb-text { color: var(--text2); }
+.eb-text strong { color: var(--text); }
+.eb-eg { color: var(--text3); font-style: italic; }
+.judge { margin-top: 11px; padding-top: 11px; border-top: 1px solid var(--bd); font-size: 11.5px; color: var(--text3); font-family: var(--mono); letter-spacing: .3px; line-height: 1.6; }
+
+/* ── M02 BACKGROUND MOTION ── */
+#m02 {
+  border-color: rgba(68, 196, 196, .46);
+  box-shadow: 0 0 0 1px rgba(88, 148, 232, .08), 0 18px 60px rgba(68, 196, 196, .08);
+}
+#m02::before,
+#m02::after {
+  content: '';
+  position: absolute;
+  inset: -28%;
+  z-index: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+#m02::before {
+  background:
+    radial-gradient(circle at 18% 34%, rgba(68, 196, 196, .3) 0 2px, transparent 3px),
+    radial-gradient(circle at 44% 20%, rgba(232, 188, 68, .24) 0 2px, transparent 3px),
+    radial-gradient(circle at 68% 54%, rgba(88, 148, 232, .32) 0 2px, transparent 3px),
+    radial-gradient(circle at 84% 30%, rgba(68, 196, 196, .22) 0 2px, transparent 3px);
+  background-size: 150px 120px;
+  opacity: .42;
+  animation: m02PulseField 16s ease-in-out infinite;
+}
+#m02::after {
+  background:
+    linear-gradient(100deg, transparent 18%, rgba(68, 196, 196, .18) 27%, transparent 38%),
+    repeating-linear-gradient(100deg, transparent 0 34px, rgba(88, 148, 232, .13) 35px, transparent 37px);
+  opacity: .24;
+  animation: m02AnswerFlow 9s linear infinite;
+}
+#m02 .entry-what {
+  background:
+    linear-gradient(135deg, rgba(26, 26, 35, .92), rgba(16, 31, 36, .9)),
+    rgba(26, 26, 35, .92);
+}
+#m02 .entry-why,
+#m02 .entry-body {
+  background: rgba(13, 18, 24, .84);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+#m02 .entry-icon {
+  display: inline-block;
+  filter: drop-shadow(0 0 10px rgba(68, 196, 196, .42));
+  animation: m02IconNod 2.8s ease-in-out infinite;
+}
+#m02 .entry-core {
+  background: rgba(9, 31, 34, .92);
+  border-color: rgba(68, 196, 196, .38);
+  color: #8be8df;
+  box-shadow: inset 0 0 18px rgba(68, 196, 196, .08);
+}
+
+@keyframes m02PulseField {
+  0%, 100% { transform: translate3d(-2%, -1%, 0) scale(1); opacity: .24; }
+  45% { opacity: .5; }
+  50% { transform: translate3d(2%, 1%, 0) scale(1.05); opacity: .56; }
+}
+
+@keyframes m02AnswerFlow {
+  from { transform: translate3d(-16%, 0, 0); }
+  to { transform: translate3d(16%, 0, 0); }
+}
+
+@keyframes m02IconNod {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  45% { transform: translateY(-1px) rotate(-4deg); }
+  70% { transform: translateY(1px) rotate(3deg); }
+}
+
+/* ── TIMELINE (节奏骨架) ── */
+.tl { border: 1px solid var(--bd); border-radius: 12px; overflow: hidden; margin-bottom: 16px; }
+.tl-row { display: grid; grid-template-columns: 80px 1fr; border-bottom: 1px solid var(--bd); }
+.tl-row:last-child { border-bottom: none; }
+.tl-time { padding: 16px 12px; background: var(--surface2); border-right: 1px solid var(--bd); text-align: center; }
+.tl-time-v { font-family: var(--mono); font-size: 13px; font-weight: 700; color: var(--yellow); }
+.tl-time-l { font-family: var(--mono); font-size: 9px; color: var(--text3); margin-top: 3px; letter-spacing: .5px; }
+.tl-c { padding: 16px 20px; background: rgba(19, 19, 25, .86); }
+.tl-phase { font-family: var(--mono); font-size: 10px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px; color: var(--blue); }
+.tl-t { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+.tl-b { font-size: 12.5px; color: var(--text2); line-height: 1.7; }
+.tl-b strong { color: var(--text); }
+
+/* ── QUOTE ── */
+.quote { margin: 16px 0; padding: 14px 20px; border-left: 3px solid var(--purple); background: rgba(19, 19, 25, .86); border-radius: 0 8px 8px 0; font-size: 13px; font-style: italic; color: var(--text2); line-height: 1.75; }
+.quote strong { color: var(--text); font-style: normal; }
+.quote-by { font-family: var(--mono); font-size: 10px; color: var(--text3); margin-top: 8px; font-style: normal; letter-spacing: .5px; }
+
+/* ── META RULE ── */
+.meta {
+  margin: 28px 0;
+  background: var(--surface2);
+  border: 1px solid #2c2c42;
+  border-radius: 12px;
+  padding: 22px 26px;
+}
+.meta-label { font-family: var(--mono); font-size: 9px; letter-spacing: 2px; color: var(--text3); text-transform: uppercase; margin-bottom: 10px; }
+.meta-text { font-size: 17px; font-weight: 800; color: var(--yellow); line-height: 1.5; }
+.meta-sub { font-size: 13px; color: var(--text2); margin-top: 10px; line-height: 1.75; }
+.meta-sub strong { color: var(--text); }
+
+/* ── QUICK TABLE ── */
+.qtable { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+.qtable th { background: var(--surface3); color: var(--text); text-align: left; padding: 10px 14px; font-size: 11px; font-family: var(--mono); letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid var(--bd); }
+.qtable td { padding: 11px 14px; border-bottom: 1px solid var(--bd); color: var(--text2); line-height: 1.6; vertical-align: top; }
+.qtable tr:last-child td { border-bottom: none; }
+.qtable td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+.qtable td .arrow { color: var(--yellow); }
+
+.footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--bd); font-family: var(--mono); font-size: 10px; color: var(--text3); display: flex; justify-content: space-between; }
+
+@media print {
+  .toc { display: none; }
+  .layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 860px) {
+  body { font-size: 13.5px; }
+  .layout { display: block; max-width: none; }
+  .toc {
+    position: relative;
+    height: auto;
+    overflow: visible;
+    padding: 22px 18px 18px;
+    border-right: none;
+    border-bottom: 1px solid var(--bd);
+  }
+  .toc-title { margin-bottom: 16px; }
+  .toc-section { margin-top: 14px; }
+  .toc-link { display: inline-block; margin: 0 10px 8px 0; padding: 4px 8px; border: 1px solid var(--bd); border-radius: 999px; background: var(--surface2); }
+  .toc-link:hover { border-left-color: var(--bd); border-color: var(--yellow); }
+  .main { padding: 32px 18px 72px; }
+  .main::before { left: 0; height: 220px; opacity: .7; }
+  .masthead { margin-bottom: 32px; }
+  .masthead h1 { font-size: 28px; }
+  .how-use { grid-template-columns: 1fr; margin-bottom: 32px; }
+  .part { margin: 38px 0 22px; padding: 20px 18px; border-radius: 10px; }
+  .part-title { font-size: 20px; }
+  .entry-head { grid-template-columns: 1fr; }
+  .entry-what { border-right: none; border-bottom: 1px solid var(--bd); }
+  .entry-what, .entry-why, .entry-body { padding: 15px 16px; }
+  .eb-row { display: block; }
+  .eb-mark { display: inline-block; margin: 0 0 5px; }
+  .tl-row { grid-template-columns: 68px 1fr; }
+  .tl-time { padding: 14px 8px; }
+  .tl-c { padding: 14px 15px; }
+  .qtable { display: block; overflow-x: auto; white-space: normal; }
+  .footer { display: block; line-height: 1.8; }
+  .footer span { display: block; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .ambient-bg::before,
+  .ambient-bg::after {
+    animation: none;
+  }
+  .main::before {
+    animation: none;
+  }
+  #m02::before,
+  #m02::after,
+  #m02 .entry-icon {
+    animation: none;
+  }
+}
+</style>
+<link data-aigc-motion rel="stylesheet" href="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/reading-motion.css?v=2">
+<meta name="robots" content="noindex,nofollow"><script defer src="/qieman-aigc/online-media.js"></script></head>
+<body>
+<div class="ambient-bg" aria-hidden="true"></div>
+<div class="layout">
+
+  <!-- ═══════ SIDEBAR TOC ═══════ -->
+  <nav class="toc">
+    <div class="toc-brand">且曼学院 · 教研</div>
+    <div class="toc-title">课程研发<br>方法论全集</div>
+
+    <div class="toc-section">导读</div>
+    <a class="toc-link" href="#meta">核心信念</a>
+    <a class="toc-link" href="#psych">学员心理 → 方法对照表</a>
+
+    <div class="toc-section">PART 1 · 引入设计</div>
+    <a class="toc-link" href="#m01"><span class="tag">01</span>八卦/爱恨情仇开门</a>
+    <a class="toc-link" href="#m02"><span class="tag">02</span>互动题人人能答</a>
+
+    <div class="toc-section">PART 2 · 内容说服力</div>
+    <a class="toc-link" href="#m03"><span class="tag">03</span>感性铺垫+数据收尾</a>
+    <a class="toc-link" href="#m04"><span class="tag">04</span>代入感设计</a>
+
+    <div class="toc-section">PART 3 · 结构设计</div>
+    <a class="toc-link" href="#m05"><span class="tag">05</span>Why先于How</a>
+    <a class="toc-link" href="#m06"><span class="tag">06</span>支线服务主干</a>
+    <a class="toc-link" href="#m07"><span class="tag">07</span>笔记倒推结构</a>
+
+    <div class="toc-section">PART 4 · 现场能量</div>
+    <a class="toc-link" href="#m08"><span class="tag">08</span>抖音节奏感</a>
+    <a class="toc-link" href="#m09"><span class="tag">09</span>读课堂状态</a>
+
+    <div class="toc-section">PART 5 · 软件课专项</div>
+    <a class="toc-link" href="#m10"><span class="tag">10</span>Why扎得足够深</a>
+    <a class="toc-link" href="#m11"><span class="tag">11</span>鼓励式推进</a>
+    <a class="toc-link" href="#m12"><span class="tag">12</span>宣传点选差异化</a>
+
+    <div class="toc-section">PART 6 · 节奏骨架</div>
+    <a class="toc-link" href="#backbone">15分钟节奏骨架</a>
+    <a class="toc-link" href="#m13"><span class="tag">13</span>判断题不做填空题</a>
+    <a class="toc-link" href="#m14"><span class="tag">14</span>英文名词制造知识感</a>
+    <a class="toc-link" href="#m15"><span class="tag">15</span>概念折回</a>
+    <a class="toc-link" href="#m16"><span class="tag">16</span>吵架带知识点</a>
+    <a class="toc-link" href="#m17"><span class="tag">17</span>放慢+验收点</a>
+
+    <div class="toc-section">附录</div>
+    <a class="toc-link" href="#build">搭课五步流程</a>
+    <a class="toc-link" href="#source">素材来源原则</a>
+  </nav>
+
+  <!-- ═══════ MAIN ═══════ -->
+  <main class="main">
+
+    <div class="masthead">
+      <div class="eyebrow">且曼学院 · 课程研发 · 方法论全集 · 参考版</div>
+      <h1>课程研发<em>方法论全集</em></h1>
+      <div class="masthead-desc">
+        把且曼所有课程方法论收进一份，<strong>当字典查</strong>。左侧目录点击直达，每个方法按「是什么 → 为什么有效 → 同类方法族 → 判断标准」四段固定结构编排，遇到具体场景翻到对应条目即可。整理自水球泡、泡泡老师多次教研记录。
+      </div>
+    </div>
+
+    <div class="how-use">
+      <div class="hu-cell">
+        <div class="hu-icon">📖</div>
+        <div class="hu-t">当字典查</div>
+        <div class="hu-d">遇到具体问题，左侧目录定位到对应方法，直接看"延展方法族"</div>
+      </div>
+      <div class="hu-cell">
+        <div class="hu-icon">🧭</div>
+        <div class="hu-t">配套A手册</div>
+        <div class="hu-d">真要搭课时用《新老师课程搭建手册》填空，本册用来查原理</div>
+      </div>
+      <div class="hu-cell">
+        <div class="hu-icon">🔑</div>
+        <div class="hu-t">先看心理表</div>
+        <div class="hu-d">不知道用哪个方法时，先查"学员心理→方法对照表"反查</div>
+      </div>
+    </div>
+
+    <!-- ═══ 核心信念 ═══ -->
+    <div class="meta" id="meta" style="scroll-margin-top:20px;">
+      <div class="meta-label">全册的核心信念 · 所有方法都为它服务</div>
+      <div class="meta-text">搭课不是"我要教什么"，而是"学员要拿什么走"</div>
+      <div class="meta-sub">
+        课程设计的本质，是在每个环节回答：<strong>学员此刻的心理状态是什么？我的设计满足了这个状态的什么需求？</strong> 优秀课程的悖论目标是——每个知识点都不需要专业背景就能听懂，但听完以后学员觉得自己学到了内行才知道的东西。这两件事必须同时成立。
+      </div>
+    </div>
+
+    <!-- ═══ 心理对照表 ═══ -->
+    <div id="psych" style="scroll-margin-top:20px;">
+      <h2 style="font-size:18px;font-weight:700;color:#fff;margin:8px 0 4px;">学员心理 → 方法对照表（反查用）</h2>
+      <p style="font-size:13px;color:var(--text2);margin-bottom:8px;">不知道该用哪个方法时，先定位"学员卡在什么心理状态"，再反查对应方法。</p>
+      <table class="qtable">
+        <thead><tr><th>学员的心理状态</th><th>底层原理</th><th>用哪个方法</th></tr></thead>
+        <tbody>
+          <tr><td>没兴趣听</td><td>情绪是注意力的开关</td><td><span class="arrow">→</span> #01 八卦开门 / #16 反直觉</td></tr>
+          <tr><td>是旁观者，不参与</td><td>参与感=认同感</td><td><span class="arrow">→</span> #02 / #13 判断题互动</td></tr>
+          <tr><td>讲了不信</td><td>说服=先有欲望再给证明</td><td><span class="arrow">→</span> #03 感性铺垫+数据收尾</td></tr>
+          <tr><td>觉得跟自己无关</td><td>心理距离是学习屏障</td><td><span class="arrow">→</span> #04 代入感设计</td></tr>
+          <tr><td>记不住</td><td>大脑只存有意义的信息</td><td><span class="arrow">→</span> #05 Why先于How / #15 概念折回</td></tr>
+          <tr><td>听跑偏了</td><td>认知资源有限</td><td><span class="arrow">→</span> #06 支线服务主干</td></tr>
+          <tr><td>走神了</td><td>大脑对持续刺激习惯化</td><td><span class="arrow">→</span> #08 抖音节奏感</td></tr>
+          <tr><td>没有想学的冲动（软件课）</td><td>能动性是最强驱动力</td><td><span class="arrow">→</span> #10 Why扎得足够深</td></tr>
+          <tr><td>不敢开始（软件课）</td><td>小胜利积累自信</td><td><span class="arrow">→</span> #11 鼓励式推进</td></tr>
+          <tr><td>觉得"没学到内行的东西"</td><td>适度难度感是诱饵</td><td><span class="arrow">→</span> #14 英文名词制造知识感</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ═══════════ PART 1 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Part One</div>
+      <div class="part-title">引入设计</div>
+      <div class="part-desc">在学员"打开"之前先制造情绪。引入解决的是"没有情绪/动力"的问题。</div>
+    </div>
+
+    <!-- M01 -->
+    <div class="entry" id="m01">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 01</div>
+          <div class="entry-name"><span class="entry-icon">🔥</span>用八卦/爱恨情仇开门</div>
+          <div class="entry-id">GOSSIP AS GATEWAY</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">学员在"还不知道自己需要这个知识"之前不会主动听。八卦的本质是<strong>不需要任何专业背景就能触发情绪</strong>——好奇、愤慨、共鸣，让学员"打开"，后面的知识才有地方落。</div>
+          <div class="entry-core">情绪先于认知，情绪是注意力的开关</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>行业爱恨情仇八卦</strong>：公司互相使绊子 <span class="eb-eg">· 微信封抖音 / iconfont只能微博登录 / kimi vs Cursor</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>学员自己踩过的坑</strong>：先问"有没有人遇到过X"，委屈感比好奇心更强 <span class="eb-eg">· "有没有被Cursor封号过？"</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>反直觉的真实数据</strong>：抛一个让人不信的事实再解释，认知失调本身就是情绪</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>悬念式提问</strong>：用答案不显而易见的问题开场 <span class="eb-eg">· "你现在用的工具6个月后可能就用不了，为什么？"</span></span></div>
+        <div class="judge">判断标准：学员没有任何专业背景时，这个开场能让他产生情绪吗？能→有效。需要先懂一点才能感受到→失效。</div>
+      </div>
+    </div>
+
+    <!-- M02 -->
+    <div class="entry" id="m02">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 02</div>
+          <div class="entry-name"><span class="entry-icon">💬</span>互动题必须"人人能答"</div>
+          <div class="entry-id">UNIVERSAL ENTRY POINT</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">互动的目的不是收集答案，而是让学员<strong>从旁观者变成参与者</strong>。一旦开口，心理上就加入了这堂课。但答不上来会羞耻，反而更关闭——所以门槛决定参与率。</div>
+          <div class="entry-core">参与感=认同感，开口=入场</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>答案在生活经验里的问题</strong> <span class="eb-eg">· "微信怎么封抖音链接的？"人人经历过</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>选择题/举手确认</strong>：把开放题变二选一，连沉默的人都愿意参与</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>让学员预测内容</strong>：讲答案前先问"你们猜"，猜对有成就感，猜错有好奇心</span></div>
+        <div class="judge">判断标准：班里80%以上的人，不用任何准备就能回答吗？能→有效。</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ PART 2 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Part Two</div>
+      <div class="part-title">内容说服力</div>
+      <div class="part-desc">让学员"想要相信"再给证明。说服力来自顺序，不是来自论据多。</div>
+    </div>
+
+    <!-- M03 -->
+    <div class="entry" id="m03">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 03</div>
+          <div class="entry-name"><span class="entry-icon">📊</span>感性铺垫 + 数据收尾</div>
+          <div class="entry-id">EMOTION FIRST, DATA LAST</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">数据本身没有说服力，<strong>只有学员"想要被说服"时，数据才是证明</strong>。先用故事建立情绪认同，产生"我希望这是真的"的欲望，数据才能起到"果然如此"的收尾效果。</div>
+          <div class="entry-core">说服=先有欲望再给证明</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>八卦故事→官方数据</strong> <span class="eb-eg">· 先铺平台爱恨情仇，再给75.9%数据收尾</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>痛点场景→解决方案</strong>：先描述困境，等学员想解决，再介绍方案</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>类比理解→专业术语</strong>：先用类比让学员"已经懂了"，再贴正式定义的标签</span></div>
+        <div class="judge">判断标准：给出证明/数据/定义之前，学员是否已经产生"我想要这个答案"的欲望？是→顺序正确。</div>
+      </div>
+    </div>
+
+    <!-- M04 -->
+    <div class="entry" id="m04">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 04</div>
+          <div class="entry-name"><span class="entry-icon">🎭</span>代入感设计——让学员觉得"我也行"</div>
+          <div class="entry-id">IDENTITY BRIDGE</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">学习动力最大的阻碍不是"听不懂"，而是<strong>"这不是我这种人能做到的事"</strong>。代入感设计消除这个屏障：让学员看到一个"不遥远的人"也在用，建立"我和他是同类"的认同。</div>
+          <div class="entry-core">降低心理距离，打破"不是我的世界"的屏障</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>知名人物也在用</strong>：选知名但不遥远的人 <span class="eb-eg">· 何同学（括号"同学"）也用开源的东西</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>学员身边人案例</strong>：身边人做到了=我也能做到，心理距离最短</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>展示"起点相同"</strong>：强调那个人当初起点和学员一样，不是强调他多厉害</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>讲师自曝踩坑</strong>：主动暴露自己当初的无知，拉近距离</span></div>
+        <div class="judge">判断标准：案例人物，学员能产生"他跟我差不多"的感受吗？太厉害太遥远→反效果（打击信心）。</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ PART 3 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Part Three</div>
+      <div class="part-title">结构设计</div>
+      <div class="part-desc">让知识在学员脑子里"装得进去"。结构解决"记不住/搞不清"的问题。</div>
+    </div>
+
+    <!-- M05 -->
+    <div class="entry" id="m05">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 05</div>
+          <div class="entry-name"><span class="entry-icon">🎯</span>Why 先于 How</div>
+          <div class="entry-id">TARGET BEFORE TOOL</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">人脑处理信息需要"挂钩"——新知识必须挂在已有框架上才记得住。<strong>Why就是挂钩</strong>：它告诉大脑"这个信息有用"，大脑才为它分配记忆资源。</div>
+          <div class="entry-core">意义感是记忆的前提</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>先讲必要性，再讲操作</strong></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>先展示终态，再教路径</strong>：先让学员看到成品，终态即Why</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>先给全局地图，再深入局部</strong>：让学员始终知道当前在地图哪里</span></div>
+        <div class="judge">判断标准：讲具体内容前，学员是否已知道"这对我意味着什么"？是→挂钩建立。</div>
+      </div>
+    </div>
+
+    <!-- M06 -->
+    <div class="entry" id="m06">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 06</div>
+          <div class="entry-name"><span class="entry-icon">🔗</span>每个展开都要服务主干</div>
+          <div class="entry-id">EVERY BRANCH RETURNS TO ROOT</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">短期记忆容量有限。支线如果不指向主干，认知资源就被分散，学员<strong>同时记不住主线和支线</strong>。支线服务主干是帮学员大脑"减负"。</div>
+          <div class="entry-core">认知资源有限，整合比堆积更好记</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>展开后必须串回主题</strong> <span class="eb-eg">· "所以VS Code不会被封"</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>用"一句话结论"承上启下</strong>：每段结束主动说结论，帮学员"装箱打包"</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>展开前先告知"这是为了说明X"</strong>：让学员带着框架听</span></div>
+        <div class="judge">判断标准：这个展开删掉，主线会受损吗？不受损→可能是冗余。受损→确实在服务主干。</div>
+      </div>
+    </div>
+
+    <!-- M07 -->
+    <div class="entry" id="m07">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 07</div>
+          <div class="entry-name"><span class="entry-icon">📝</span>心里装着学员笔记，倒推结构</div>
+          <div class="entry-id">DESIGN BACKWARDS FROM NOTES</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">课讲得流畅≠学员学会了。真正的检验是<strong>学员能否自己重建知识结构</strong>。笔记是重建能力的代理指标——笔记乱了，说明课程设计的逻辑层次没传递清楚。</div>
+          <div class="entry-core">输出检验输入，笔记是课程结构的镜子</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>讲完默想"笔记长什么样"</strong></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>课后让学员复述</strong>：学员输出暴露的问题比讲师自检更准</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>设计前先写"理想笔记"</strong>：先写终点，再倒推路径</span></div>
+        <div class="judge">判断标准：如果学员只能带走三句话，这三句是否就是你最想传递的核心？是→结构清晰。</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ PART 4 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Part Four</div>
+      <div class="part-title">现场能量</div>
+      <div class="part-desc">维持注意力，防止走神。节奏解决"注意力流失"的问题。</div>
+    </div>
+
+    <!-- M08 -->
+    <div class="entry" id="m08">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 08</div>
+          <div class="entry-name"><span class="entry-icon">⚡</span>"抖音节奏感"——持续切换刺激</div>
+          <div class="entry-id">TIKTOK PACING</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">大脑对"新刺激"敏感，对"持续相同刺激"会习惯化即停止关注。内容再好，画面不变，大脑就切到低功耗。<strong>节奏感的本质是持续制造"新刺激"信号</strong>。</div>
+          <div class="entry-core">大脑对新刺激的反应强于持续刺激（习惯化定律）</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>切换画面/互动/媒介</strong>：每3分钟一次形式变化</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>疲劳点植入"爆炸信息"</strong>：能量低谷放一个反直觉事实强制重启注意力</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>变换表达方式</strong>：同一概念先讲、再类比、再举例，内容同但刺激形式不同</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>制造"即将揭晓"的期待感</strong>：切话题前埋悬念</span></div>
+        <div class="judge">判断标准：过去3分钟里，学员的感知内容是否发生了变化（形式/话题/互动）？没有→走神风险高。</div>
+      </div>
+    </div>
+
+    <!-- M09 -->
+    <div class="entry" id="m09">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 09</div>
+          <div class="entry-name"><span class="entry-icon">🌡️</span>读课堂状态，动态调节深度</div>
+          <div class="entry-id">READ THE ROOM</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">课堂能量是动态的，<strong>固定讲稿无法响应当下状态</strong>。好讲师像DJ：有预备曲目，根据气氛决定播什么。课程要预留"调节阀"，不是一条到底的流水线。</div>
+          <div class="entry-core">课堂是实时系统，内容要有弹性响应机制</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>预备"可选展开"</strong>：设计加深/跳过两套路径</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>预备"急救互动"</strong>：备1-2个随时可抛、能量低谷救场的互动题</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>主动问"跟上了吗"</strong>：问"绕不绕"不问"懂不懂"，降低承认困惑的门槛</span></div>
+        <div class="judge">判断标准：你的课里有没有可灵活加入或跳过的模块？有→有弹性。全是必须按顺序讲→脆弱。</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ PART 5 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Part Five</div>
+      <div class="part-title">软件课专项</div>
+      <div class="part-desc">让学员"急死了想学"再"一点不害怕"。软件课额外要解决"没冲动"和"不敢开始"。</div>
+    </div>
+
+    <!-- M10 -->
+    <div class="entry" id="m10">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 10</div>
+          <div class="entry-name"><span class="entry-icon">🔥</span>Why扎得足够深——让学员"急死了"</div>
+          <div class="entry-id">MAKE THEM DESPERATE</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">软件课最大风险不是讲不清操作，而是<strong>学员还没有"我要学"的欲望就开始听操作</strong>。Why扎得越深，能动性越强——强到他们不用你教自己会去学。</div>
+          <div class="entry-core">能动性=最强的学习驱动力，Why是开关</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>截图轰炸：大神都在用</strong> <span class="eb-eg">· Karpathy用Obsidian的截图</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>展示"迁徙潮"</strong>：大量大神正在抛弃旧工具转投，迁徙比推荐更有说服力</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>装逼场景设计</strong>：描述用了之后被刮目相看的场景，社交货币是强动机</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>面试/找工作价值锚定</strong>：和职业竞争力挂钩</span></div>
+        <div class="judge">判断标准：讲完Why后，学员有没有"就算这节课不会，私下也要搞定"的感受？有→足够深。</div>
+      </div>
+    </div>
+
+    <!-- M11 -->
+    <div class="entry" id="m11">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 11</div>
+          <div class="entry-name"><span class="entry-icon">🪜</span>鼓励式推进——"骗"学员一步步走完</div>
+          <div class="entry-id">LOWER FEAR, RAISE PACE</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">学员对软件最大的障碍不是"太难"，而是<strong>"不知道有多难，不敢开始"</strong>。持续制造"比想象简单"的感受，用小胜利的积累驱动继续学。</div>
+          <div class="entry-core">小胜利积累自信，自信降低对难度的感知</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>提前承诺"超级简单"</strong>：设定低预期，超预期完成</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>渐进式加码</strong>：先两步说"好了"，再"加一步""加半步"，每次加前先小结</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>遇到难点换方法不硬讲</strong>：难就换方法，不是换学员</span></div>
+        <div class="judge">判断标准：学员学完每个知识点说的是"哇好简单"还是"太难了"？前者→节奏对了。</div>
+      </div>
+    </div>
+
+    <!-- M12 -->
+    <div class="entry" id="m12">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 12</div>
+          <div class="entry-name"><span class="entry-icon">🎯</span>宣传点选"差异化亮点"，不选"基础功能"</div>
+          <div class="entry-id">SELL THE DIFFERENCE</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">宣传点必须是<strong>别的工具没有、或明显更强的地方</strong>。基础功能（能用、免费、本地）是及格线不是差异化。"推销橘子要说甜，不能说能吃——能吃是废话。"</div>
+          <div class="entry-core">说服力来自差异感，无差异的优点等于没有优点</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>找"只有它才有"的点</strong> <span class="eb-eg">· Obsidian宣传"从树状到群星的知识网络"，不是"本地存储"</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>对比旧工具痛点</strong>：先描述旧工具的痛苦，对比出的差异更有力</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>次要优点顺带提</strong>：基础功能只"顺便一提"，不占主讲时间不放开头</span></div>
+        <div class="judge">判断标准：你的宣传点换成其他同类工具还成立吗？成立→不是差异化。只有这个工具才有→对了。</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ PART 6 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Part Six</div>
+      <div class="part-title">节奏骨架与现场技巧</div>
+      <div class="part-desc">一节15分钟课的完整时间骨架，以及现场执行的具体技巧。来自「AI训练师工作流」实时拆解。</div>
+    </div>
+
+    <!-- BACKBONE -->
+    <div id="backbone" style="scroll-margin-top:20px;">
+      <h2 style="font-size:17px;font-weight:700;color:#fff;margin:8px 0 4px;">15分钟课程标准节奏骨架</h2>
+      <p style="font-size:13px;color:var(--text2);margin-bottom:12px;">套任何主题都能用。先想清终点（那张表），再倒推路径。</p>
+      <div class="tl">
+        <div class="tl-row"><div class="tl-time"><div class="tl-time-v">0–2′</div><div class="tl-time-l">WHY</div></div><div class="tl-c"><div class="tl-phase" style="color:var(--red)">Step 1</div><div class="tl-t">说清"为什么听"</div><div class="tl-b">三个理由对准学员真实关心的（面试/工作/<strong>晋升压轴</strong>）。越简单越激励越好。</div></div></div>
+        <div class="tl-row"><div class="tl-time"><div class="tl-time-v">2–5′</div><div class="tl-time-l">HOOK</div></div><div class="tl-c"><div class="tl-phase" style="color:var(--green)">Step 2</div><div class="tl-t">抛"明知会答错"的判断题</div><div class="tl-b">答错后反转，制造醍醐灌顶感。同时把枯燥概念藏在判断题里铺出去。</div></div></div>
+        <div class="tl-row"><div class="tl-time"><div class="tl-time-v">藏在<br>互动里</div><div class="tl-time-l">CONCEPT</div></div><div class="tl-c"><div class="tl-phase" style="color:var(--purple)">Step 3</div><div class="tl-t">枯燥概念藏起来铺</div><div class="tl-b">不单独讲，揉进互动；3分钟后在新场景再出现一次，强化记忆。</div></div></div>
+        <div class="tl-row"><div class="tl-time"><div class="tl-time-v">5–8′</div><div class="tl-time-l">MAIN</div></div><div class="tl-c"><div class="tl-phase" style="color:var(--blue)">Step 4</div><div class="tl-t">抛主线（那张表）</div><div class="tl-b">唯一要带走的东西。只讲主线，<strong>绝不展开支线</strong>。</div></div></div>
+        <div class="tl-row"><div class="tl-time"><div class="tl-time-v">8–10′</div><div class="tl-time-l">DETAIL</div></div><div class="tl-c"><div class="tl-phase" style="color:var(--orange)">Step 5</div><div class="tl-t">填充结构</div><div class="tl-b">讲岗位/环节就讲它<strong>"产出什么"</strong>，不讲"是什么"。保安=打卡表。</div></div></div>
+        <div class="tl-row"><div class="tl-time"><div class="tl-time-v">10′+</div><div class="tl-time-l">RECAP</div></div><div class="tl-c"><div class="tl-phase" style="color:var(--teal)">Step 6</div><div class="tl-t">3分钟折返</div><div class="tl-b">带学员复述，拧干水分，确认笔记上只剩那张表。</div></div></div>
+      </div>
+    </div>
+
+    <!-- M13 -->
+    <div class="entry" id="m13">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 13</div>
+          <div class="entry-name"><span class="entry-icon">✋</span>互动只做判断题，不做填空题</div>
+          <div class="entry-id">JUDGMENT NOT FILL-IN</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">填空/开放题门槛太高，答不上来会冷场。<strong>判断题只有两选项，人人敢选</strong>，且老师能预判学员选哪个错误答案，从而设计反转。</div>
+          <div class="entry-core">降低参与门槛 + 可预测答错 = 可设计反转</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>判断题反转</strong>：问明知会答错的，答错后反转</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>选择题代替开放题</strong>：必须开放时给2个选项</span></div>
+        <div class="eb-row"><span class="eb-mark m-note">关键</span><span class="eb-text"><strong>一定要确定学员会答错才问</strong>。互动目的是制造"被点醒"，不是收集答案</span></div>
+        <div class="judge">判断标准：这个互动题，你能预测80%学员怎么答吗？能→可设计反转。不可预测→可能冷场。</div>
+      </div>
+    </div>
+
+    <!-- M14 -->
+    <div class="entry" id="m14">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 14</div>
+          <div class="entry-name"><span class="entry-icon">🔤</span>刻意用英文原称，制造"知识点感"</div>
+          <div class="entry-id">JARGON AS BAIT</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">太好记、太浅白的内容，学员觉得"没学到东西"就走神。<strong>适度的英文原称制造"含金量"感受，让学员沉下来记笔记</strong>——哪怕名词本身可以遗忘。</div>
+          <div class="entry-core">适度的"难度感"是留住注意力的诱饵</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>岗位用英文名</strong> <span class="eb-eg">· Annotator/PE/RLHF Research Engineer，而非"初/中/高级"——后者太好记会走神</span></span></div>
+        <div class="eb-row"><span class="eb-mark m-note">关键</span><span class="eb-text"><strong>名词要"精选"不是越多越好</strong>：挑最好记、最常见的，难记的反而不选</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>面试/装逼锚定</strong>：给术语一个使用动机，记得更牢</span></div>
+        <div class="judge">判断标准：这个术语让学员"沉下来"还是"被劝退"？适度→含金量感。过载→选择性遗忘甚至放弃。</div>
+      </div>
+    </div>
+
+    <!-- M15 -->
+    <div class="entry" id="m15">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 15</div>
+          <div class="entry-name"><span class="entry-icon">🔁</span>枯燥概念"先铺，3分钟后再折回"</div>
+          <div class="entry-id">PLANT AND RECALL</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">必须讲但无趣的概念，只讲一次记不住，前面就白讲了。<strong>先轻轻铺一次，过几分钟在另一个场景再出现一次</strong>。重复=强化，且第二次有新语境不显重复。</div>
+          <div class="entry-core">间隔重复 > 一次讲透，二次出现要换语境</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>RLHF折回</strong>：开场铺一次，3分钟后讲岗位时再揉进来一次</span></div>
+        <div class="eb-row"><span class="eb-mark m-note">原话</span><span class="eb-text">"如果不再折一次RLHF，前面讲这个就很傻，讲完了没用。"</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>埋词—回收</strong>：开场埋词，中段用它解释新内容，收尾再用它总结，出现三次</span></div>
+        <div class="judge">判断标准：你铺的枯燥概念，后面有没有"第二次出场"？没有→大概率白铺。</div>
+      </div>
+    </div>
+
+    <!-- M16 -->
+    <div class="entry" id="m16">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 16</div>
+          <div class="entry-name"><span class="entry-icon">⚔️</span>跟学员"争论"也要带知识点（现挂能力）</div>
+          <div class="entry-id">EVEN ARGUMENTS CARRY KNOWLEDGE</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">学员当场抬杠时，新手会跳进"形而上辩论"，耽误全班还没讲到知识。<strong>高手把每次争论都拉回知识点</strong>——用争论这个形式让旁边同学顺便吸收新知识。</div>
+          <div class="entry-core">只要在说话，就一定要有知识密度，不水行</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text">学员问"低不低端"→不辩论哲学，<strong>转到"预训练vs后训练"知识点</strong></span></div>
+        <div class="eb-row"><span class="eb-mark m-note">原话</span><span class="eb-text">"我每一个跟他争吵，都是为了让旁边同学通过争吵吸收新知识点。"</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>永远带主线任务</strong>：不因任何现场互动停止知识输出</span></div>
+        <div class="judge">判断标准：你跟学员的每次互动结束时，旁边同学有没有学到新知识点？只是吵赢了→浪费了全班时间。</div>
+      </div>
+    </div>
+
+    <!-- M17 -->
+    <div class="entry" id="m17">
+      <div class="entry-head">
+        <div class="entry-what">
+          <div class="entry-label">方法 17</div>
+          <div class="entry-name"><span class="entry-icon">🐢</span>主动放慢，加验收点</div>
+          <div class="entry-id">SLOW DOWN, CHECKPOINT</div>
+        </div>
+        <div class="entry-why">
+          <div class="entry-label">为什么有效</div>
+          <div class="entry-text">老师"想法太多、怕忘"本能会讲快。但<strong>学员接收速度远低于老师输出速度，讲快=后面记不住</strong>。解法：放慢，关键点插"验收点"逼学员消化。</div>
+          <div class="entry-core">老师的输出速度 ≠ 学员的接收速度</div>
+        </div>
+      </div>
+      <div class="entry-body">
+        <div class="eb-intro">延展方法族</div>
+        <div class="eb-row"><span class="eb-mark m-orig">原始</span><span class="eb-text"><strong>插入验收点</strong>："来，你站起来说一下。"</span></div>
+        <div class="eb-row"><span class="eb-mark m-ext">延展</span><span class="eb-text"><strong>讲完一段停一停</strong>：让学员默写/复述当前框架再进下一段</span></div>
+        <div class="eb-row"><span class="eb-mark m-note">陷阱</span><span class="eb-text"><strong>"热乎乎都想说"是陷阱</strong>：老师想趁热全讲清，但学员吸收不了——说清主线就够，不要贪</span></div>
+        <div class="judge">判断标准：你按自己讲完的速度推进，还是按学员消化的速度推进？后者→节奏对了。</div>
+      </div>
+    </div>
+
+    <!-- ═══════════ 附录 ═══════════ -->
+    <div class="part">
+      <div class="part-num">Appendix</div>
+      <div class="part-title">附录</div>
+      <div class="part-desc">搭课流程 + 素材来源原则。</div>
+    </div>
+
+    <div id="build" style="scroll-margin-top:20px;">
+      <h2 style="font-size:17px;font-weight:700;color:#fff;margin:8px 0 12px;">搭课五步流程</h2>
+      <table class="qtable">
+        <thead><tr><th>步骤</th><th>做什么</th></tr></thead>
+        <tbody>
+          <tr><td>1 · 定目标</td><td>定那张"表"——学员下课带走的唯一东西，先画出来</td></tr>
+          <tr><td>2 · 写Why</td><td>对准学员最关心的（面试/工作/晋升），越简单越激励</td></tr>
+          <tr><td>3 · 设互动</td><td>2-3个判断题，明知会答错的，用来反转+藏枯燥概念</td></tr>
+          <tr><td>4 · 抛主线</td><td>抛那张表 + 填充每个节点的产出物</td></tr>
+          <tr><td>5 · 折返</td><td>3分钟带学员复述，拧干水分，确认笔记只剩那张表</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="source" style="scroll-margin-top:20px;margin-top:28px;">
+      <h2 style="font-size:17px;font-weight:700;color:#fff;margin:8px 0 8px;">素材来源原则</h2>
+      <div class="quote" style="border-left-color:var(--green);">
+        "我们讲的一定不是最好的，但行业里一定有讲最好的。去看那个最好的课程，<strong>改过来就可以，不用有羞愧说一定要原创</strong>。他是被市场筛过的。"
+        <div class="quote-by">—— 泡泡老师</div>
+      </div>
+      <p style="font-size:13px;color:var(--text2);line-height:1.75;">
+        搭课前先搜这个主题<strong>播放量/收藏量最高</strong>的视频，拆它的结构和案例，改成自己的。播放量高=被市场验证过=错不了。这既是备课方法，也是可以教给学员的AI时代学习方法。
+      </p>
+    </div>
+
+    <div class="footer">
+      <span>且曼学院 · 课程研发方法论全集 · 整理自水球泡 / 泡泡老师教研记录</span>
+      <span>v1.0 · 2026.05</span>
+    </div>
+
+  </main>
+</div>
+<script data-aigc-motion src="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/opening.js?v=2"></script>
+<script data-aigc-motion src="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/reading-motion.js?v=2"></script>
+</body>
+</html>

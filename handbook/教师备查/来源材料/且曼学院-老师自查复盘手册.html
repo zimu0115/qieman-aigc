@@ -1,0 +1,250 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>且曼学院 · 老师自查复盘手册</title><style>
+:root{--bg:#0d1117;--fg:#e6edf3;--mut:#8b949e;--card:#161b22;--bd:#30363d;--ac:#58a6ff;--red:#f85149;--amb:#d29922;--grn:#3fb950;--vio:#bc8cff}
+html[data-t=light]{--bg:#fbfbfa;--fg:#1f2328;--mut:#636c76;--card:#fff;--bd:#d8dee4;--ac:#0969da;--red:#cf222e;--amb:#9a6700;--grn:#1a7f37;--vio:#8250df}
+html[data-t=sepia]{--bg:#f5efe3;--fg:#3b3228;--mut:#7a6a55;--card:#fdf9f1;--bd:#ddd0b8;--ac:#9a5b2e;--red:#a6382a;--amb:#8a6516;--grn:#4c7a33;--vio:#7a4f9c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{display:flex;gap:24px;max-width:1460px;margin:0 auto;padding:0 18px 80px}
+.toc{position:sticky;top:0;align-self:flex-start;width:200px;flex:0 0 200px;padding:22px 0;max-height:100vh;overflow:auto}
+.toc a{display:block;color:var(--mut);text-decoration:none;font-size:12.5px;padding:5px 9px;border-left:2px solid transparent;border-radius:0 5px 5px 0}
+.toc a:hover{color:var(--fg);background:var(--card)}
+.toc a.active{color:var(--ac);border-left-color:var(--ac);background:var(--card)}
+.main{flex:1;min-width:0;padding-top:22px}
+h1{font-size:25px;margin:0 0 6px;line-height:1.35}
+.sub{color:var(--mut);font-size:13px;margin-bottom:14px}
+.bar{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 20px}
+button{background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:7px;padding:6px 13px;cursor:pointer;font-size:12.5px;font-family:inherit}
+button:hover{border-color:var(--ac);color:var(--ac)}
+.part{margin:34px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--bd)}
+.part h2{font-size:18px;margin:0;display:flex;align-items:center;gap:10px}
+.part .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:var(--ac);color:#fff;font-size:14px;font-weight:700;flex:0 0 26px}
+section.block{background:var(--card);border:1px solid var(--bd);border-radius:11px;margin:13px 0;overflow:hidden}
+.bh{padding:12px 16px;border-bottom:1px solid var(--bd);font-weight:700;font-size:15px}
+.bd{padding:13px 16px}
+.bd>*:first-child{margin-top:0}.bd>*:last-child{margin-bottom:0}
+.call{border-left:3px solid var(--ac);background:rgba(88,166,255,.07);padding:10px 14px;border-radius:0 7px 7px 0;margin:10px 0;font-size:13.5px}
+.call.red{border-color:var(--red);background:rgba(248,81,73,.08)}
+.call.grn{border-color:var(--grn);background:rgba(63,185,80,.08)}
+.call.amb{border-color:var(--amb);background:rgba(210,153,34,.08)}
+.call.vio{border-color:var(--vio);background:rgba(188,140,255,.08)}
+table{width:100%;border-collapse:collapse;margin:11px 0;font-size:13.5px}
+th,td{border:1px solid var(--bd);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:rgba(127,127,127,.1);font-weight:600}
+.chk{display:flex;gap:10px;align-items:flex-start;padding:8px 4px;border-bottom:1px dashed var(--bd);cursor:pointer}
+.chk:last-child{border-bottom:none}
+.chk input{flex:0 0 17px;height:17px;margin-top:5px;accent-color:var(--grn);cursor:pointer}
+.chk .lbl{flex:1;font-size:13.5px}
+.chk .lbl.done{color:var(--mut);text-decoration:line-through}
+.tag{font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid;white-space:nowrap;font-weight:600}
+.tag.r{color:var(--red);border-color:var(--red)}
+.tag.g{color:var(--grn);border-color:var(--grn)}
+.tag.a{color:var(--amb);border-color:var(--amb)}
+.tag.v{color:var(--vio);border-color:var(--vio)}
+code{background:rgba(127,127,127,.16);padding:1px 6px;border-radius:4px;font-size:12.5px;font-family:ui-monospace,Menlo,Consolas,monospace}
+.progress{position:sticky;top:12px;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:13px 15px;margin-bottom:16px}
+.progress .bar{height:8px;background:rgba(127,127,127,.16);border-radius:4px;overflow:hidden;margin:8px 0 4px}
+.progress .fill{height:100%;background:var(--grn);border-radius:4px;transition:width .3s}
+.progress .txt{font-size:12px;color:var(--mut)}
+.say{border-left:3px solid var(--mut);padding:8px 14px;margin:9px 0;font-size:13.5px;background:rgba(127,127,127,.06);border-radius:0 7px 7px 0}
+@media(max-width:900px){.wrap{flex-direction:column;padding:0 14px 60px}.toc{position:static;width:auto;flex:none;display:flex;flex-wrap:wrap;gap:4px;padding:10px 0;max-height:none}.toc a{border-left:none;border:1px solid var(--bd);border-radius:99px;font-size:11.5px;padding:4px 10px}.toc a.active{border-color:var(--ac)}}
+@media print{.toc,.bar{display:none}body{background:#fff;color:#000}.chk input{display:none}}
+</style><link data-aigc-motion rel="stylesheet" href="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/reading-motion.css?v=2">
+<meta name="robots" content="noindex,nofollow"><script defer src="/qieman-aigc/online-media.js"></script></head><body>
+<div class="wrap">
+<nav class="toc">
+<a href="#top">总览</a>
+<a href="#prep">开工前三件事</a>
+<a href="#s1">第1步 · 算时间结构</a>
+<a href="#s2">第2步 · 转写还原表</a>
+<a href="#s3">第3步 · 按判据评</a>
+<a href="#s4">第4步 · 只改三件</a>
+<a href="#s5">第5步 · 写新教案</a>
+<a href="#boundary">边界速查</a>
+<a href="#cheat">话术卡速查</a>
+</nav>
+<div class="main">
+
+<div id="top">
+<h1>且曼学院 · 老师自查复盘手册</h1>
+<div class="sub">给自己的课做复盘，照着这份手册走一遍。勾选框会记住进度，下次打开还在。<br>什么时候用：你手上有自己某节课的录音转写（或课件、板书、作业），想知道「我讲得怎么样、下一版怎么改」。</div>
+</div>
+
+<div class="bar">
+<button onclick="T('dark')">深色</button><button onclick="T('light')">浅色</button><button onclick="T('sepia')">护眼</button>
+<button onclick="resetAll()">清空进度</button>
+<button onclick="print()">打印</button>
+</div>
+
+<div class="progress">
+<b>复盘进度</b>
+<div class="bar"><div class="fill" id="pfill" style="width:0%"></div></div>
+<div class="txt" id="ptxt">0 / 0 完成</div>
+</div>
+
+<section class="block"><div class="bh">一句话记住自评的本质</div><div class="bd">
+<div class="call red"><b>老师自评最大的风险，不是评得狠或松，是评错了对象。</b></div>
+<p>两条最常见的翻车：</p>
+<table><tr><th style="width:20%">陷阱</th><th style="width:40%">表现</th><th>破解</th></tr>
+<tr><td><b>自我辩护</b></td><td>「我前面讲那么多是为了建立信任」</td><td>意图不是判据。<b>判据是学员有没有产生下一步动作</b>。没导向动作的铺垫，再好的意图也要压缩</td></tr>
+<tr><td><b>自我否定</b></td><td>听完觉得处处是问题，想全盘重做</td><td>先写「做对了什么」，而且要给足。<b>一节课能被推翻的通常不超过三处</b></td></tr></table>
+<div class="call amb"><b>硬要求：做对的条目数，不少于做错的条目数。</b>写不出来说明你没认真听自己的课，不是你真的没做对。</div>
+</div></section>
+
+<!-- 开工前 -->
+<div class="part" id="prep"><h2><span class="num">0</span>开工前 · 三件事没有就别往下走</h2></div>
+<section class="block"><div class="bd">
+<div class="chk"><input type="checkbox" id="c_prep1"><label class="lbl" for="c_prep1"><b>我知道这节课的原定目标</b> —— 不是「我讲了什么」，是排课时打算让学员<b>学会</b>什么。不知道就去问教研，别用自己的印象当基准。</label></div>
+<div class="chk"><input type="checkbox" id="c_prep2"><label class="lbl" for="c_prep2"><b>我知道这节课是 A 类还是 B 类</b> —— 两类判据完全不同（见下方「课型速查」）。</label></div>
+<div class="chk"><input type="checkbox" id="c_prep3"><label class="lbl" for="c_prep3"><b>我知道这节课在 12 天弧线的哪个位置</b> —— 第一次让学员动手的课，和第八天的课，标准不一样。</label></div>
+</div></section>
+
+<section class="block"><div class="bh">课程坐标系（背下来）</div><div class="bd">
+<ul>
+<li><b>结构</b>：12 天授课 + 30 天线上与自习</li>
+<li><b>总目标</b>：打破自我认知边界，遇到问题不害怕，做到<b>敢学、爱学、会学</b></li>
+<li><b>对外承诺</b>：让 0 经验的同学获得 <b>1-3 年工作经验</b></li>
+<li><b>节点检查</b>：第三周看学员<b>是否愿意并擅长用 AI</b></li>
+</ul>
+<div class="call red">脱离弧线位置谈一节课的好坏，没有意义。</div>
+</div></section>
+
+<section class="block"><div class="bh">A / B 两类课型</div><div class="bd">
+<table><tr><th style="width:22%"></th><th>A 类 · 贯口课（专业信任型）</th><th>B 类 · AI 使用课（探索成长型）</th></tr>
+<tr><td><b>目的</b></td><td>建立信任和专业形象</td><td>打破「不会、不敢」的边界</td></tr>
+<tr><td><b>老师</b></td><td>以成熟讲述为主</td><td>讲述只服务起步、挑战、纠偏、复盘</td></tr>
+<tr><td><b>学员</b></td><td>判断、归类、笔记、复述</td><td><b>亲手操作</b></td></tr>
+<tr><td><b>终点</b></td><td>一张地图 / 概念表 / 框架</td><td>一个作品 + 能复述的过程</td></tr>
+<tr><td><b>最大雷</b></td><td>随兴聊天、信息堆砌</td><td><b>变成老师演示、学员围观</b></td></tr></table>
+<div class="call vio"><b>B 类课的三条线（只有线 3 要闭卷验收）：</b><br>
+线 1 进阶使用 → 「能说出自己的」；线 2 实训项目 → 「能说出自己的」；<b>线 3 行业规则 → 闭卷复述</b>（因为它会被面试官原样问出来）。工具没装成不算失败，工具是手段不是目标。</div>
+</div></section>
+
+<!-- 第1步 -->
+<div class="part" id="s1"><h2><span class="num">1</span>算时间结构 · 不要凭感觉</h2></div>
+<section class="block"><div class="bd">
+<p>把全场按时间戳切成连续的块，每块标一个类别，求和。<b>必须用工具算，不要心算</b>——占比一旦被人复核不上，整份复盘的可信度就毁了。</p>
+<p>最少分出这几类：</p>
+<ul>
+<li>老师讲述 / 老师演示</li>
+<li><b>学员动手</b>（B 类课必须单列，且<b>排障时间要单独扣出来</b>）</li>
+<li>学员展示 / 互动 / 答疑</li>
+<li>休息 / 行政 / 设备故障</li>
+</ul>
+<p>然后算两个数：</p>
+<ol>
+<li><b>学员第几分钟第一次动手</b></li>
+<li><b>纯净动手时间</b>（动手总时长 − 排障时长）</li>
+</ol>
+<div class="call amb"><b>这一步几乎每次都能暴露真问题。</b>有节课动手占比 33.7% 看着不低，扣掉 30 分 45 秒的登录排障后，<b>纯净动手只剩 5 分 49 秒</b>。</div>
+<div class="chk"><input type="checkbox" id="c_s1"><label class="lbl" for="c_s1">我算出了时间结构，且能写出一句「讲述 X 分钟 vs 学员动手 Y 分钟」的事实。</label></div>
+</div></section>
+
+<!-- 第2步 -->
+<div class="part" id="s2"><h2><span class="num">2</span>做转写还原表 · 错别字不算你的错</h2></div>
+<section class="block"><div class="bd">
+<p>通义听悟等工具对 AI 术语和人名错得极多。<b>错别字造成的「讲错」不能算在你头上。</b>先列还原表，分三类：</p>
+<table><tr><th style="width:26%">类别</th><th>处理</th></tr>
+<tr><td><span class="tag g">A</span></td><td><b>确定的转写错误</b>：列出来即可，不算问题。如 <code>collect</code>→Codex、<code>long gpt</code>→LangGPT、<code>头寸</code>→Token</td></tr>
+<tr><td><span class="tag a">B</span></td><td><b>分不清是口误还是转写错</b>：<b>单独列出，回听原音再定</b>。不要替自己辩解，也不要直接认错</td></tr>
+<tr><td><span class="tag r">C</span></td><td><b>确实讲错或需收紧</b>：进勘误表，写清「我说的 / 实际是 / 应改成」</td></tr></table>
+<div class="chk"><input type="checkbox" id="c_s2"><label class="lbl" for="c_s2">我做了转写还原表，A/B/C 三类分清了，B 类没有强行定性。</label></div>
+</div></section>
+
+<!-- 第3步 -->
+<div class="part" id="s3"><h2><span class="num">3</span>按判据评 · 每条挂时间戳</h2></div>
+<section class="block"><div class="bd">
+<p><b>不要自创标准。</b>用这几条，每条后面都有一个可操作的判断问题：</p>
+<table><tr><th style="width:22%">判据</th><th>判断问题</th></tr>
+<tr><td><b>有没有那张表</b></td><td>学员只能带走三句话，是不是你最想传的三句？主线超过 3-4 条 = 没有主干</td></tr>
+<tr><td><b>支线服务主干</b></td><td>删掉它，主线受不受损？不受损 → 冗余</td></tr>
+<tr><td><b>概念折回</b></td><td>铺的枯燥概念，3 分钟后有没有换语境再出现？只出现一次 = 白铺</td></tr>
+<tr><td><b>装进容器</b></td><td>面试必问题，是不是收成了一张可背的卡 + 上板 + 当场演练？散着讲完 = 讲错了吗？<b>没有，但装法要改</b></td></tr>
+<tr><td><b>判断题 vs 开放题</b></td><td>能预测 80% 的人怎么答吗？不能 → 别用开放题</td></tr>
+<tr><td><b>代入感</b></td><td>学员能产生「他跟我差不多」吗？<b>太厉害太遥远 = 打击信心</b></td></tr>
+<tr><td><b>验收点</b></td><td>结束前有没有合上笔记复述？「懂了吗」不算验收</td></tr></table>
+<div class="call red"><b>B 类课额外过四关：</b>① 学员第几分钟第一次动手？② 动手段里有多少是排障？③ 动手段<b>有没有设计</b>（节拍/收口/给做完的人下一级任务）？④ 有没有当堂验收（做了什么/卡在哪/最后怎么说通的）？</div>
+<p>硬性要求：</p>
+<ul>
+<li><b>每条评价都要有时间戳</b>，不可追溯的评价等于没评</li>
+<li>做对的条目写清<b>为什么算对</b>（对应哪条判据）</li>
+<li>做错的按严重度排序，最严重的标出来</li>
+<li>改进建议必须<b>可直接执行</b>：给替换后的原话、给重排后的表、给提前到第几分钟。「建议加强互动」这种写了等于没写</li>
+</ul>
+<div class="chk"><input type="checkbox" id="c_s3"><label class="lbl" for="c_s3">我按判据评完了，做对的 ≥ 做错的，每条都挂了时间戳。</label></div>
+</div></section>
+
+<!-- 第4步 -->
+<div class="part" id="s4"><h2><span class="num">4</span>只改三件事 · 不要一次全改</h2></div>
+<section class="block"><div class="bd">
+<p>改进清单可能有十几条，但<b>下一次课只改三件</b>。选择顺序：</p>
+<ol>
+<li>先改<b>结构性</b>的（动手太晚、没有验收、主干超过三条）</li>
+<li>再改<b>可复用</b>的（一句话术、一张卡、一个板书分区）</li>
+<li>最后才改<b>细节</b>（某个案例、某个数据）</li>
+</ol>
+<div class="call amb">一次改太多，下次课会崩，而且你分不清是哪一处起了作用。</div>
+<div class="chk"><input type="checkbox" id="c_s4"><label class="lbl" for="c_s4">我圈出了「下次只改的三件事」，按结构→可复用→细节排序。</label></div>
+</div></section>
+
+<!-- 第5步 -->
+<div class="part" id="s5"><h2><span class="num">5</span>写下一版教案 · 三条必须做到</h2></div>
+<section class="block"><div class="bd">
+<div class="chk"><input type="checkbox" id="c_s5a"><label class="lbl" for="c_s5a"><b>先画终点</b> —— 学员唯一要带走的是什么？A 类一张表/框架，B 类一个作品+过程。先定终点再倒推路径，不是先想「我要讲什么」。</label></div>
+<div class="chk"><input type="checkbox" id="c_s5b"><label class="lbl" for="c_s5b"><b>一课一新</b> —— 每一版至少加一项新的外部参考（论文/数据/真实案例/新工具/失败案例），写清它<b>改变了哪个判断</b>、进哪个环节、用什么学员输出验证。</label></div>
+<div class="chk"><input type="checkbox" id="c_s5c"><label class="lbl" for="c_s5c"><b>只改日期不算新版本</b> —— 教案改了日期但内容没动，等于没改。</label></div>
+<div class="call grn"><b>三段式，不要一口气从录音冲到新教案：</b>① 出复盘（待确认版）→ ② 单开「要确认的 N 件事」→ ③ 确认完再升版、再动教案。没确认就改，等于在误读上盖房子。</div>
+</div></section>
+
+<!-- 边界 -->
+<div class="part" id="boundary"><h2>边界速查 · 讲之前先过一遍</h2></div>
+<section class="block"><div class="bd">
+<div class="call red"><b>最重要的一条：行业规则与个人经历要显式区分。</b><br>学员的判断方式必然是「老师说的就是行业的」。同一堂课、同一个口吻里说出来的「人效按头部值定」（真规则）和「我本科数据是造的」（个人越界），<b>学员分不出来</b>。<br><br>做法很轻：讲<b>规则</b>说「这行就是这么干的，你面试这么答」；讲<b>个人经历</b>说「这是我自己的事，不是标准做法，别学」。</div>
+<table><tr><th style="width:18%">类别</th><th>红线</th></tr>
+<tr><td><b>内容</b></td><td>不讲：学术造假与规避查重、伪造履历/修改证明、规避背调、欺骗团队、接码注册、账号拼车、代收费用、虚拟币规避限制、「套壳」规避管控、给 AI 开完全访问不附目录边界</td></tr>
+<tr><td><b>互动</b></td><td>用判断题，不用「你觉得 X 是什么」；学员答不出<b>不代答</b>；不跟学员做形而上辩论</td></tr>
+<tr><td><b>节奏</b></td><td>动手段必须有设计；老师任务是采集卡点不是闲聊；不播外部视频把学员拉回观看模式</td></tr>
+<tr><td><b>宣传</b></td><td>不说「烧多少 Token 决定你的价值」「有作品就能进大厂」「学完就能接单」</td></tr>
+<tr><td><b>伦理</b></td><td><b>不教「骂 AI / PUA / 压力它」</b>——有实验反证（正向有据、负向有反证），且学员未来要带团队，这套语言会迁移</td></tr>
+<tr><td><b>隐私</b></td><td>公开材料不出现学员真名</td></tr></table>
+<div class="call amb"><b>合规问题处理流程：</b>私下沟通 → 不进公开材料 → 不在教研会点名 → 但建议学院把边界写成明文进培养手册。<br><br><b>⚠️ 老师不能自己判断自己的边界。</b>拿不准就上报，不要自己决定「这个应该没事」。同类问题 24 小时内反复出现 = 从偶发变成稳定模式，要升级处理。</div>
+</div></section>
+
+<!-- 话术卡 -->
+<div class="part" id="cheat"><h2>话术卡速查 · 学员卡住时的标准反应</h2></div>
+<section class="block"><div class="bd">
+<table><tr><th style="width:30%">学员说</th><th>老师答（不代劳）</th></tr>
+<tr><td>「老师这个不行」</td><td>「你跟它说的原话是什么？<b>你念一遍我听听。</b>」</td></tr>
+<tr><td>「它报错了」</td><td>「报错那段你原样贴给它了吗？」</td></tr>
+<tr><td>「做出来不是我想要的」</td><td>「<b>哪一处</b>不是？那一处你想让它变成什么样？」</td></tr>
+<tr><td>「我不知道该说什么」</td><td>「你先跟我说，你想要个什么东西？——好，<b>你刚才跟我说的这句，原样打给它。</b>」</td></tr>
+<tr><td>「太难了做不出来」</td><td>「降一档，先做出一个能跑的。<b>发现太难换个小的，这本身就是会学。</b>」</td></tr>
+<tr><td>「你帮我看看代码哪里错了」</td><td>「我也不看代码。<b>把错误贴给它，让它自己找。</b>」</td></tr>
+<tr><td>（半天没动也不举手）</td><td>主动过去：「你卡在第几步？」指板书，不看屏幕</td></tr></table>
+<div class="call red"><b>老师最容易犯的错：接过鼠标。</b>一旦代劳，学员带走的是「老师帮我弄好了」，而不是「我自己走通了」，这节课的目标就作废了。</div>
+<div class="say"><b>卡壳处理顺序：</b>安静等待 → 问「你试过跟它怎么说」→ 指回板书 → 同伴补充 → 学员二次尝试 → 老师最后纠偏。</div>
+</div></section>
+
+<section class="block"><div class="bh">一条跨课的硬规则（记死）</div><div class="bd">
+<div class="call red"><b>每半天结束前 10 分钟，必须有一次不看笔记的复述验收；下一个半天开场用同一道题回测。</b></div>
+<p>这条来自一次真实事故：某天下午讲完工作流程没做闭卷复述，<b>24 小时后</b>老师问同一套内容，学员答不出，自己说「很明显没做」笔记。</p>
+<p>「讲完就算讲过了」是最常见的自我欺骗。<b>讲完整 ≠ 学员会复述。</b></p>
+<div class="call grn"><b>学员答不出来时，别重讲一遍</b>（等于第二次犯同一个错）。改法：全员默写 2 分钟 → 举手统计让缺口可见 → <b>写得最全的学员讲给全班听</b> → 老师只补漏 → 同桌互查。5 分钟出结果，比重讲 13 分钟有效。</div>
+</div></section>
+
+</div></div>
+<script>
+function T(t){document.documentElement.dataset.t=t;try{localStorage.setItem('srh_t',t)}catch(e){}}
+try{var s=localStorage.getItem('srh_t');if(s)document.documentElement.dataset.t=s}catch(e){}
+var boxes=[].slice.call(document.querySelectorAll('.chk input'));
+function load(){boxes.forEach(function(b){var v=localStorage.getItem('srh_'+b.id);if(v==='1'){b.checked=true;b.parentElement.querySelector('.lbl').classList.add('done')}else{b.checked=false}});update()}
+function update(){var d=0;boxes.forEach(function(b){if(b.checked)d++});var p=boxes.length?Math.round(d/boxes.length*100):0;document.getElementById('pfill').style.width=p+'%';document.getElementById('ptxt').textContent=d+' / '+boxes.length+' 完成'+(d===boxes.length?' ✓ 可以写新教案了':'')}
+boxes.forEach(function(b){b.addEventListener('change',function(){if(b.checked){b.parentElement.querySelector('.lbl').classList.add('done')}else{b.parentElement.querySelector('.lbl').classList.remove('done')}localStorage.setItem('srh_'+b.id,b.checked?'1':'0');update()})});
+function resetAll(){if(confirm('清空所有勾选进度？')){boxes.forEach(function(b){localStorage.removeItem('srh_'+b.id);b.checked=false;b.parentElement.querySelector('.lbl').classList.remove('done')});update()}}
+load();
+document.querySelectorAll('.toc a').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();var el=document.querySelector(a.getAttribute('href'));if(el)el.scrollIntoView({behavior:'smooth',block:'start'})})});
+var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){document.querySelectorAll('.toc a').forEach(function(x){x.classList.toggle('active',x.getAttribute('href')==='#'+en.target.id)})}})},{rootMargin:'-8% 0px -78% 0px'});
+[].forEach.call(document.querySelectorAll('.toc a'),function(a){var el=document.getElementById(a.getAttribute('href').slice(1));if(el)obs.observe(el)});
+</script>
+<script data-aigc-motion src="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/opening.js?v=2"></script>
+<script data-aigc-motion src="/qieman-aigc/content/%E5%85%B1%E4%BA%AB%E4%BA%A4%E4%BA%92/reading-motion.js?v=2"></script>
+</body></html>
