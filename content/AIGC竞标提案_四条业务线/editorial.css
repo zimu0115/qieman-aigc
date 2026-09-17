@@ -542,8 +542,8 @@ body.editorial #career .metrics .metric:nth-child(3) .display-number{font-size:7
 .editorial .interview-feature-copy>p{font-size:13px;line-height:1.9;max-width:640px;color:#d9e8ff;margin:17px 0 0}
 .editorial .interview-evidence{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;color:#d9e8ff;font-size:11px;margin:19px 0 0}
 .editorial .interview-evidence i{font-style:normal;opacity:.65}
-.editorial .interview-cta{display:inline-flex;align-items:center;gap:30px;background:#fff;color:#075bcc;padding:12px 18px;min-height:44px;border-radius:4px;font-size:13px;font-weight:600;margin-top:23px;text-decoration:none;transition:background .25s,transform .35s cubic-bezier(.2,.7,.2,1)}
-.editorial .interview-cta:hover{background:#eaf2ff;transform:translateY(-2px)}
+.editorial .interview-cta{display:inline-flex;align-items:center;gap:30px;background:#fff;color:#111111;padding:12px 18px;min-height:44px;border-radius:4px;font-size:13px;font-weight:600;margin-top:23px;text-decoration:none;transition:background .25s,transform .35s cubic-bezier(.2,.7,.2,1)}
+.editorial .interview-cta:hover{background:#ededed;color:#111111;transform:translateY(-2px)}
 .editorial .interview-cta:focus-visible{outline:2px solid #fff;outline-offset:5px}
 .editorial .interview-feature-number{border-left:1px solid #ffffff40;padding-left:34px;align-self:center}
 .editorial .interview-feature-number>div:first-child{display:flex;align-items:baseline;gap:7px}
@@ -747,4 +747,75 @@ body.editorial .research-proof .evidence-button img{display:block;width:100%;hei
  .editorial:not(.present) .research-step-copy,.editorial:not(.present) .organization-grid .research-step-copy{min-height:0;margin-bottom:21px}
  .editorial:not(.present) .research-proof>.links,.editorial:not(.present) .organization-grid .research-proof>.links{justify-content:center}
  .editorial:not(.present) .research-handoff{justify-content:flex-start;gap:10px 13px;font-size:11px;margin-top:28px;padding-top:23px}
+}
+
+/* Grouped evidence: two manual pages, with an equal-height horizontal track. */
+.editorial .group-carousel{min-width:0;outline:none}
+.editorial .group-carousel:focus-visible{outline:2px solid var(--accent);outline-offset:7px}
+.editorial .group-carousel .group-slide{min-width:0;margin:0 0 28px}
+.editorial .group-carousel.carousel-ready .group-viewport{overflow:hidden;touch-action:pan-y pinch-zoom}
+.editorial .group-carousel.carousel-ready .group-track{display:flex;align-items:stretch;width:100%;transition:transform .52s cubic-bezier(.22,.68,.18,1)}
+.editorial .group-carousel.carousel-ready .group-slide{flex:0 0 100%;width:100%;margin:0;box-sizing:border-box}
+.editorial .group-controls{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:17px;margin-top:22px;border-top:1px solid var(--rule)}
+.editorial .group-tabs{display:flex;align-items:center;gap:25px;min-width:0}
+.editorial .group-tabs button{background:transparent;border:0;border-bottom:2px solid transparent;border-radius:0;color:var(--muted);padding:9px 0;font:inherit;font-size:12px;line-height:1.6;cursor:pointer}
+.editorial .group-tabs button[aria-pressed=true]{color:var(--ink);border-bottom-color:var(--ink)}
+.editorial .group-arrows{display:flex;align-items:center;gap:13px;flex:none}
+.editorial .group-arrows button{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;background:transparent;color:var(--ink);font:inherit;font-size:20px;cursor:pointer;transition:background .2s,color .2s}
+.editorial .group-arrows button:hover:not(:disabled){background:var(--ink);color:var(--paper)}
+.editorial .group-arrows button:disabled{opacity:.3;cursor:default}
+.editorial .group-arrows>span{font-size:11px;font-variant-numeric:tabular-nums;color:var(--muted);min-width:31px;text-align:center}
+.editorial .group-tabs button:focus-visible,.editorial .group-arrows button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.editorial .workbench-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;align-items:start}
+body.editorial #account-workbench .workbench-pair .evidence-button{width:100%;aspect-ratio:var(--image-ratio);border-radius:10px;overflow:hidden;background:transparent}
+body.editorial #account-workbench .workbench-pair .evidence-button img{display:block;width:100%;height:auto;aspect-ratio:var(--image-ratio);border-radius:10px;object-fit:contain}
+body.editorial #account-workbench .workbench-pair figcaption{padding:13px 0 0;color:var(--ink)}
+body.editorial #account-workbench .workbench-pair figcaption h4{color:var(--ink);font-size:14px;font-weight:600;line-height:1.7}
+body.editorial #account-workbench .workbench-pair figcaption p{color:var(--ink);font-size:12px;line-height:1.8;opacity:.75}
+body.editorial #course-extraction .group-carousel .research-proof-grid{margin-top:0;gap:34px;align-items:start}
+body.editorial #course-extraction .group-carousel .extraction-grid{grid-template-columns:1.4fr 1fr}
+body.editorial #course-extraction .group-carousel .organization-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+body.editorial #course-extraction .group-carousel .research-proof{display:block;padding-top:16px}
+body.editorial #course-extraction .group-carousel .research-step-copy{margin:10px 0 19px;min-height:46px}
+body.editorial #course-extraction .group-carousel .evidence-card{--proof-height:min(300px,calc(100cqw / var(--image-ratio)))}
+body.editorial #course-extraction .group-carousel .evidence-button{border-radius:10px}
+body.editorial #course-extraction .group-carousel .research-proof>.links{justify-content:center;margin-top:12px}
+body.editorial #course-extraction .group-carousel .group-controls{margin-top:22px}
+body.editorial #course-extraction .research-handoff{margin-top:21px;padding-top:19px}
+@font-face{font-family:MiSansHeavyContinuous;src:url("/qieman-aigc/media/83de2f8d414eddce60ed3079.woff2") format('woff2');font-weight:900;font-display:swap}
+body.editorial #closing .details-content .metric .value:has(.metric-word){align-items:center;justify-content:center}
+body.editorial #closing .metric-word{font-family:MiSansHeavyContinuous,MiSansBold,var(--font);font-size:56px;font-weight:900;line-height:1.12;letter-spacing:.01em;transform:none;display:block}
+body.editorial.present #course-extraction .group-carousel .evidence-card{--proof-height:min(260px,calc(100cqw / var(--image-ratio)))}
+@media(max-width:850px){
+ .editorial:not(.present) .workbench-pair{gap:22px}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-proof-grid{gap:22px}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-step-title{gap:7px}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-step-title h3{font-size:16px}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-step-copy{font-size:11px}
+}
+@media(max-width:620px){
+ .editorial:not(.present) .workbench-pair{gap:15px}
+ body.editorial:not(.present) #account-workbench .workbench-pair figcaption h4{font-size:12px}
+ body.editorial:not(.present) #account-workbench .workbench-pair figcaption p{font-size:10px}
+ .editorial:not(.present) .group-controls{gap:12px;flex-wrap:wrap;margin-top:17px;padding-top:12px}
+ .editorial:not(.present) .group-tabs{gap:18px}
+ .editorial:not(.present) .group-tabs button{font-size:10px}
+ .editorial:not(.present) .group-arrows{margin-left:auto;gap:9px}
+ .editorial:not(.present) .group-arrows button{width:32px;height:32px;font-size:17px}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-proof-grid{gap:13px}
+ body.editorial:not(.present) #course-extraction .group-carousel .extraction-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-step-title{display:block}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-step-title h3{font-size:13px;line-height:1.65;margin-top:7px}
+ body.editorial:not(.present) #course-extraction .group-carousel .research-step-copy{font-size:10px;line-height:1.8;min-height:0;margin:9px 0 15px}
+ body.editorial:not(.present) #course-extraction .group-carousel .evidence-card h4{font-size:11px}
+ body.editorial:not(.present) #course-extraction .group-carousel .evidence-card p{font-size:10px}
+ body.editorial:not(.present) #course-extraction .group-carousel .links{font-size:10px}
+ body.editorial:not(.present) #closing .metric-word{font-size:48px}
+}
+@media(prefers-reduced-motion:reduce){.editorial .group-carousel.carousel-ready .group-track{transition:none}}
+@media print{
+ .editorial .group-carousel.carousel-ready .group-viewport{overflow:visible}
+ .editorial .group-carousel.carousel-ready .group-track{display:block;transform:none!important}
+ .editorial .group-carousel.carousel-ready .group-slide{margin-bottom:25px}
+ .editorial .group-controls{display:none}
 }

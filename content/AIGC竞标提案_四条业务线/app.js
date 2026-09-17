@@ -96,6 +96,58 @@
     group.querySelector('.showcase figcaption span').textContent = b.dataset.caption;
     group.querySelectorAll('.image-tabs button').forEach(x => x.setAttribute('aria-pressed',String(x===b)));
   });
+  $$('[data-group-carousel]').forEach(carousel => {
+    const track = carousel.querySelector('.group-track');
+    const slides = [...track.children];
+    const tabs = [...carousel.querySelectorAll('[data-carousel-go]')];
+    const previous = carousel.querySelector('[data-carousel-prev]');
+    const next = carousel.querySelector('[data-carousel-next]');
+    const count = carousel.querySelector('[data-carousel-count]');
+    let index = 0, pointer = null, blockClickUntil = 0;
+    function show(n) {
+      index = Math.max(0, Math.min(slides.length - 1, n));
+      track.style.transform = `translate3d(${-index * 100}%,0,0)`;
+      slides.forEach((slide, i) => {
+        slide.inert = i !== index;
+        slide.setAttribute('aria-hidden', String(i !== index));
+      });
+      tabs.forEach((tab, i) => tab.setAttribute('aria-pressed', String(i === index)));
+      previous.disabled = index === 0;
+      next.disabled = index === slides.length - 1;
+      count.textContent = `${index + 1} / ${slides.length}`;
+      requestAnimationFrame(sizeStage);
+    }
+    previous.addEventListener('click', () => show(index - 1));
+    next.addEventListener('click', () => show(index + 1));
+    tabs.forEach(tab => tab.addEventListener('click', () => show(Number(tab.dataset.carouselGo))));
+    carousel.addEventListener('keydown', event => {
+      if (!['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+      event.preventDefault();
+      event.stopPropagation();
+      show(index + (event.key === 'ArrowRight' ? 1 : -1));
+    });
+    carousel.addEventListener('pointerdown', event => {
+      if (event.pointerType !== 'mouse' && event.isPrimary) pointer = {x:event.clientX, y:event.clientY, id:event.pointerId};
+    }, {passive:true});
+    carousel.addEventListener('pointerup', event => {
+      if (!pointer || pointer.id !== event.pointerId) return;
+      const dx = event.clientX - pointer.x, dy = event.clientY - pointer.y;
+      pointer = null;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+        blockClickUntil = performance.now() + 400;
+        show(index + (dx < 0 ? 1 : -1));
+      }
+    }, {passive:true});
+    carousel.addEventListener('pointercancel', () => { pointer = null; }, {passive:true});
+    carousel.addEventListener('click', event => {
+      if (performance.now() < blockClickUntil) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+      }
+    }, true);
+    carousel.classList.add('carousel-ready');
+    show(0);
+  });
   document.addEventListener('keydown', e => {
     if(dialog.open) return;
     if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
