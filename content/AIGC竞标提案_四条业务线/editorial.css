@@ -664,3 +664,13 @@ body.editorial.present #delivery .delivery-entry{margin-top:20px}
 @media(prefers-reduced-motion:reduce){
  body.editorial #delivery .handbook-entry-button,.editorial .dialogue-arrow{transition:none}
 }
+
+/* Primary access to the course knowledge library. */
+body.editorial #course .section-body>.course-library-entry{display:flex;justify-content:center;align-items:center;order:4;width:100%;margin:29px 0 8px;text-align:center}
+body.editorial #course .course-library-button{display:inline-flex;align-items:center;justify-content:center;min-height:49px;padding:14px 25px;border:1px solid #111111;border-radius:5px;background:#111111;color:#fff;font-size:14px;font-weight:550;line-height:1.4;text-decoration:none;transition:background .25s,transform .3s cubic-bezier(.2,.7,.2,1)}
+body.editorial #course .course-library-button::after{content:'↗';margin-left:25px;color:inherit}
+body.editorial #course .course-library-button:hover{background:#292929;border-color:#292929;transform:translateY(-2px)}
+body.editorial #course .course-library-button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+html[data-theme="dark"] body.editorial #course .course-library-button{border-color:#575757}
+@media(max-width:620px){body.editorial:not(.present) #course .course-library-button{font-size:13px;min-height:46px;padding:13px 23px}}
+@media(prefers-reduced-motion:reduce){body.editorial #course .course-library-button{transition:none}}
