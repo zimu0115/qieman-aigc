@@ -611,3 +611,56 @@ body.editorial .job-evidence-pair .evidence-button img{display:block;width:100%;
  .editorial .interview-feature{-webkit-print-color-adjust:exact;print-color-adjust:exact;break-inside:avoid}
  .editorial .job-research{break-inside:avoid}
 }
+
+/* A centered primary doorway to the complete teaching handbook. */
+body.editorial #delivery .delivery-bottom{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;text-align:center;margin-top:37px;padding:16px 0 7px}
+body.editorial #delivery .delivery-bottom .mini-facts{display:flex;justify-content:center;align-items:flex-start;flex-wrap:wrap;gap:28px 54px;margin:0}
+body.editorial #delivery .delivery-bottom .mini-facts>div{min-width:135px;text-align:center}
+body.editorial #delivery .delivery-bottom .mini-facts strong{transform-origin:center bottom}
+body.editorial #delivery .delivery-bottom>.source-note{max-width:790px;text-align:center;margin:20px auto 0;line-height:1.9}
+body.editorial #delivery .delivery-entry{display:flex;justify-content:center;width:100%;margin-top:26px}
+body.editorial #delivery .handbook-entry-button{display:inline-flex;align-items:center;justify-content:center;gap:30px;min-height:49px;padding:14px 25px;border:1px solid #111111;border-radius:5px;background:#111111;color:#fff;font-size:14px;line-height:1.4;font-weight:550;text-decoration:none;transition:background .25s,transform .3s cubic-bezier(.2,.7,.2,1)}
+body.editorial #delivery .handbook-entry-button:hover{background:#292929;border-color:#292929;transform:translateY(-2px)}
+body.editorial #delivery .handbook-entry-button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+html[data-theme="dark"] body.editorial #delivery .handbook-entry-button{border-color:#575757}
+
+/* Conversation sources are visible research links, with a clear heading. */
+.editorial .ai-dialogues{margin-top:37px;padding-top:29px;border-top:1px solid var(--rule)}
+.editorial .dialogue-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin-bottom:24px}
+.editorial .dialogue-heading h3{font-size:24px;line-height:1.5;margin:0;color:var(--ink)}
+.editorial .dialogue-heading p{font-size:12px;line-height:1.8;margin-top:9px;color:var(--muted)}
+.editorial .dialogue-heading>span{font-size:11px;color:var(--muted);white-space:nowrap;padding-top:10px}
+.editorial .dialogue-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.editorial .dialogue-link{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:17px 0 19px;border-top:1px solid var(--rule);color:var(--ink);text-decoration:none;min-width:0}
+.editorial .dialogue-link-copy{display:block;min-width:0}
+.editorial .dialogue-link strong{display:block;font-size:13px;font-weight:550;line-height:1.65;color:var(--ink)}
+.editorial .dialogue-link small{display:block;font-size:11px;line-height:1.7;color:var(--muted);margin-top:5px}
+.editorial .dialogue-arrow{color:var(--accent);font-size:16px;line-height:1.5;transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+.editorial .dialogue-link:hover strong{color:var(--accent)}
+.editorial .dialogue-link:hover .dialogue-arrow{transform:translate(2px,-2px)}
+.editorial .dialogue-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.editorial .dialogue-supplement{margin-top:12px;font-size:12px}
+body.editorial.present #delivery .delivery-bottom{margin-top:24px;padding-top:8px}
+body.editorial.present #delivery .delivery-bottom .mini-facts{gap:42px}
+body.editorial.present #delivery .delivery-entry{margin-top:20px}
+.editorial.present .ai-dialogues{margin-top:26px;padding-top:23px}
+.editorial.present .dialogue-heading{margin-bottom:18px}
+.editorial.present .dialogue-link{padding:13px 0 15px}
+@media(max-width:850px){
+ .editorial:not(.present) .dialogue-links{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 26px}
+}
+@media(max-width:620px){
+ body.editorial:not(.present) #delivery .delivery-bottom{margin-top:26px;padding-top:12px}
+ body.editorial:not(.present) #delivery .delivery-bottom .mini-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;width:100%}
+ body.editorial:not(.present) #delivery .delivery-bottom .mini-facts>div{min-width:0}
+ body.editorial:not(.present) #delivery .delivery-bottom .mini-facts strong{font-size:23px;white-space:nowrap}
+ body.editorial:not(.present) #delivery .delivery-bottom>.source-note{margin-top:18px;font-size:10px}
+ body.editorial:not(.present) #delivery .handbook-entry-button{font-size:13px;padding:13px 23px;min-height:46px}
+ .editorial:not(.present) .dialogue-heading{display:block;margin-bottom:19px}
+ .editorial:not(.present) .dialogue-heading h3{font-size:23px}
+ .editorial:not(.present) .dialogue-heading>span{display:block;padding-top:9px}
+ .editorial:not(.present) .dialogue-links{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+ body.editorial #delivery .handbook-entry-button,.editorial .dialogue-arrow{transition:none}
+}
